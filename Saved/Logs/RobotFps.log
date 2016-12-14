@@ -280,4 +280,534 @@ LogInit: Object subsystem initialized
 [2016.12.14-20.18.07:354][ 56]LogWorld: Bringing up level for play took: 0.009749
 [2016.12.14-20.18.07:356][ 56]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 0.637
 [2016.12.14-20.18.07:356][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
-[2016.12.14-20.19.38:666][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPer
+[2016.12.14-20.19.38:666][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.19.38:726][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.19.41:267][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/map1" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.14-20.19.41:557][296]LogSavePackage: Save=256.38ms
+[2016.12.14-20.19.41:558][296]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/map160088975459594BA1155089FC690D55B.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap'
+[2016.12.14-20.19.41:560][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap
+[2016.12.14-20.19.41:602][296]LogFileHelpers: Saving map 'map1' took 0.383
+[2016.12.14-20.19.41:650][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Monsters/M_Drone/AMonster" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/AMonster.uasset" SILENT=true
+[2016.12.14-20.19.41:761][296]LogSavePackage: Save=104.07ms
+[2016.12.14-20.19.41:761][296]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/AMonsterC58D7A1346989492DBD264844193A032.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/AMonster.uasset'
+[2016.12.14-20.19.41:762][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/AMonster.uasset
+[2016.12.14-20.28.10:236][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Sounds/pickup" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/pickup.uasset" SILENT=true
+[2016.12.14-20.28.10:241][266]LogSavePackage: Save=3.76ms
+[2016.12.14-20.28.10:241][266]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/pickup75146C5B415863BB20B9B581EBA46C67.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/pickup.uasset'
+[2016.12.14-20.28.10:242][266]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/pickup.uasset
+[2016.12.14-20.28.10:435][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Itemz/RepairKit_Item" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Itemz/RepairKit_Item.uasset" SILENT=true
+[2016.12.14-20.28.10:489][266]LogSavePackage: Save=44.31ms
+[2016.12.14-20.28.10:489][266]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/RepairKit_ItemDDDFCE4C4221D4D21BC451BDC3078FEF.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Itemz/RepairKit_Item.uasset'
+[2016.12.14-20.28.10:489][266]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Itemz/RepairKit_Item.uasset
+[2016.12.14-20.28.10:518][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Itemz/StunnerAmmo_Box" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Itemz/StunnerAmmo_Box.uasset" SILENT=true
+[2016.12.14-20.28.10:549][266]LogSavePackage: Save=27.38ms
+[2016.12.14-20.28.10:549][266]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/StunnerAmmo_Box79D393CB4637C5B6B6B9378D48B28A5C.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Itemz/StunnerAmmo_Box.uasset'
+[2016.12.14-20.28.10:550][266]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Itemz/StunnerAmmo_Box.uasset
+[2016.12.14-20.29.25:450][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Sounds/pickup" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/pickup.uasset" SILENT=true
+[2016.12.14-20.29.25:458][510]LogSavePackage: Save=3.87ms
+[2016.12.14-20.29.25:458][510]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/pickup2082836444BED69C033085A5E03C05AA.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/pickup.uasset'
+[2016.12.14-20.29.25:459][510]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/pickup.uasset
+[2016.12.14-20.30.44:569][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Sounds/pickup" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/pickup.uasset" SILENT=true
+[2016.12.14-20.30.44:581][842]LogSavePackage: Save=3.69ms
+[2016.12.14-20.30.44:581][842]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/pickupEBB054F14012A241622FDE98E2C720D9.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/pickup.uasset'
+[2016.12.14-20.30.44:582][842]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/pickup.uasset
+[2016.12.14-20.31.16:959][461]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.31.16:959][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.14-20.31.16:959][461]PIE: New page: PIE session: map1 (Dec 14, 2016, 4:31:16 AM)
+[2016.12.14-20.31.16:959][461]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.14-20.31.16:997][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038136s)
+[2016.12.14-20.31.16:998][461]LogAIModule: Creating AISystem for world map1
+[2016.12.14-20.31.16:998][461]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2016.12.14-20.31.16:999][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.039541s)
+[2016.12.14-20.31.17:020][461]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.14-20.31.17:028][461]LogInit: FAudioDevice initialized.
+[2016.12.14-20.31.17:072][461]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.14-20.31.17:080][461]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.14-12.31.17
+[2016.12.14-20.31.17:082][461]LogWorld: Bringing up level for play took: 0.009272
+[2016.12.14-20.31.17:084][461]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 0.353
+[2016.12.14-20.31.17:084][461]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.31.23:884][833]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.31.23:931][833]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.31.24:918][882]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.31.24:918][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.14-20.31.24:918][882]PIE: New page: PIE session: map1 (Dec 14, 2016, 4:31:24 AM)
+[2016.12.14-20.31.24:918][882]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.14-20.31.24:951][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033029s)
+[2016.12.14-20.31.24:952][882]LogAIModule: Creating AISystem for world map1
+[2016.12.14-20.31.24:952][882]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2016.12.14-20.31.24:953][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.034389s)
+[2016.12.14-20.31.24:970][882]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.14-20.31.24:977][882]LogInit: FAudioDevice initialized.
+[2016.12.14-20.31.25:021][882]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.14-20.31.25:030][882]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.14-12.31.25
+[2016.12.14-20.31.25:033][882]LogWorld: Bringing up level for play took: 0.010635
+[2016.12.14-20.31.25:035][882]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 0.304
+[2016.12.14-20.31.25:035][882]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.31.51:689][349]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.31.51:736][349]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.35.04:592][343]BlueprintLog: New page: Compile P_Drone
+[2016.12.14-20.35.04:720][343]BlueprintEditorCompileResults: Info [1713.11] Compile of P_Drone successful! [in 127 ms] (/Game/RobotFps/Monsters/M_Drone/P_Drone.P_Drone)
+[2016.12.14-20.35.06:780][434]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.35.06:780][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.14-20.35.06:780][434]PIE: New page: PIE session: map1 (Dec 14, 2016, 4:35:06 AM)
+[2016.12.14-20.35.06:780][434]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.14-20.35.06:816][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035538s)
+[2016.12.14-20.35.06:817][434]LogAIModule: Creating AISystem for world map1
+[2016.12.14-20.35.06:817][434]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2016.12.14-20.35.06:817][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.036774s)
+[2016.12.14-20.35.06:840][434]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.14-20.35.06:848][434]LogInit: FAudioDevice initialized.
+[2016.12.14-20.35.06:888][434]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.14-20.35.06:897][434]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.14-12.35.06
+[2016.12.14-20.35.06:899][434]LogWorld: Bringing up level for play took: 0.009801
+[2016.12.14-20.35.06:901][434]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 0.166
+[2016.12.14-20.35.06:901][434]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.35.23:917][360]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.35.23:963][360]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.35.53:888][546]BlueprintLog: New page: Compile P_Drone
+[2016.12.14-20.35.53:999][546]BlueprintEditorCompileResults: Info [1762.39] Compile of P_Drone successful! [in 110 ms] (/Game/RobotFps/Monsters/M_Drone/P_Drone.P_Drone)
+[2016.12.14-20.35.56:346][647]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.35.56:346][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.14-20.35.56:346][647]PIE: New page: PIE session: map1 (Dec 14, 2016, 4:35:56 AM)
+[2016.12.14-20.35.56:346][647]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.14-20.35.56:380][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033589s)
+[2016.12.14-20.35.56:381][647]LogAIModule: Creating AISystem for world map1
+[2016.12.14-20.35.56:381][647]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2016.12.14-20.35.56:381][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.035114s)
+[2016.12.14-20.35.56:400][647]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.14-20.35.56:407][647]LogInit: FAudioDevice initialized.
+[2016.12.14-20.35.56:448][647]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.14-20.35.56:457][647]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.14-12.35.56
+[2016.12.14-20.35.56:458][647]LogWorld: Bringing up level for play took: 0.009304
+[2016.12.14-20.35.56:460][647]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 -0.275
+[2016.12.14-20.35.56:460][647]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.36.01:585][916]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.36.01:628][916]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.36.14:284][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Sounds/Pulseshot" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/Pulseshot.uasset" SILENT=true
+[2016.12.14-20.36.14:296][452]LogSavePackage: Save=3.92ms
+[2016.12.14-20.36.14:296][452]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PulseshotF05146B9449D98846DDCAE9881242A2E.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/Pulseshot.uasset'
+[2016.12.14-20.36.14:297][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Sounds/Pulseshot.uasset
+[2016.12.14-20.36.16:830][566]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.36.16:830][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.14-20.36.16:830][566]PIE: New page: PIE session: map1 (Dec 14, 2016, 4:36:16 AM)
+[2016.12.14-20.36.16:830][566]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.14-20.36.16:864][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034110s)
+[2016.12.14-20.36.16:865][566]LogAIModule: Creating AISystem for world map1
+[2016.12.14-20.36.16:865][566]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2016.12.14-20.36.16:865][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.035466s)
+[2016.12.14-20.36.16:886][566]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.14-20.36.16:895][566]LogInit: FAudioDevice initialized.
+[2016.12.14-20.36.16:939][566]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.14-20.36.16:948][566]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.14-12.36.16
+[2016.12.14-20.36.16:950][566]LogWorld: Bringing up level for play took: 0.009383
+[2016.12.14-20.36.16:951][566]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 0.216
+[2016.12.14-20.36.16:951][566]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.37.33:132][728]LogNet: Browse: /Game/FirstPersonBP/Maps/map1
+[2016.12.14-20.37.33:149][728]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/map1
+[2016.12.14-20.37.33:172][728]Cmd: MEM
+[2016.12.14-20.37.33:262][728]LogMemory: Platform Memory Stats for Windows
+[2016.12.14-20.37.33:262][728]LogMemory: Process Physical Memory: 1248.51 MB used, 1268.95 MB peak
+[2016.12.14-20.37.33:262][728]LogMemory: Process Virtual Memory: 2014.38 MB used, 2070.25 MB peak
+[2016.12.14-20.37.33:262][728]LogMemory: Physical Memory: 6750.49 MB used, 8174.04 MB total
+[2016.12.14-20.37.33:262][728]LogMemory: Virtual Memory: 2660.30 MB used, 8388608.00 MB total
+[2016.12.14-20.37.33:262][728]LogMemory: 
+[2016.12.14-20.37.33:262][728]Allocator Stats for TBB: (not implemented)
+[2016.12.14-20.37.33:274][728]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.14-20.37.33:307][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032603s)
+[2016.12.14-20.37.33:308][728]LogAIModule: Creating AISystem for world map1
+[2016.12.14-20.37.33:309][728]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2016.12.14-20.37.33:309][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.034302s)
+[2016.12.14-20.37.33:309][728]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.14-20.37.33:318][728]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.14-12.37.33
+[2016.12.14-20.37.33:319][728]LogWorld: Bringing up level for play took: 0.009428
+[2016.12.14-20.37.33:321][728]LogLoad: Took 0.171802 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_0_map1)
+[2016.12.14-20.38.04:887][474]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.38.04:928][474]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.38.08:284][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/map1" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.14-20.38.08:548][641]LogSavePackage: Save=234.31ms
+[2016.12.14-20.38.08:548][641]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/map1D8FB5F1D427B13123B38CA83A6CF886C.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap'
+[2016.12.14-20.38.08:551][641]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap
+[2016.12.14-20.38.08:593][641]LogFileHelpers: Saving map 'map1' took 0.356
+[2016.12.14-20.38.08:595][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Monsters/M_Drone/P_Drone" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/P_Drone.uasset" SILENT=true
+[2016.12.14-20.38.08:630][641]LogSavePackage: Save=32.29ms
+[2016.12.14-20.38.08:630][641]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/P_DroneA48A32E34216F1083A252A99F9989C03.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/P_Drone.uasset'
+[2016.12.14-20.38.08:632][641]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/P_Drone.uasset
+[2016.12.14-20.40.37:618][552]LogSavePackage: Save=7.77ms
+[2016.12.14-20.40.37:618][552]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PS_PulseBul86A894A14F3EE98E0A6D74838CAD3EBA.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_PulseBul.uasset'
+[2016.12.14-20.40.37:620][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_PulseBul.uasset
+[2016.12.14-20.49.06:692][270]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Demonic/Desktop/PPulsebl.png)
+[2016.12.14-20.49.06:827][270]LogTexture:Display: Building textures: PPulsebl (AutoDXT)
+[2016.12.14-20.49.20:818][811]LogSavePackage: Save=11.61ms
+[2016.12.14-20.49.20:818][811]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/DronePS_Mat6605EC484F09511BAAE148A3A96CDD05.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/DronePS_Mat.uasset'
+[2016.12.14-20.49.20:819][811]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/DronePS_Mat.uasset
+[2016.12.14-20.49.20:999][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Monsters/M_Drone/PS_Drone" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/PS_Drone.uasset" SILENT=true
+[2016.12.14-20.49.21:012][811]LogSavePackage: Save=7.82ms
+[2016.12.14-20.49.21:012][811]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PS_Drone665F98F54746540910425A8BCDF3B7EA.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/PS_Drone.uasset'
+[2016.12.14-20.49.21:015][811]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/PS_Drone.uasset
+[2016.12.14-20.49.21:024][811]LogSavePackage: Save=4.27ms
+[2016.12.14-20.49.21:024][811]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PS_PulseBul82B9A9CE4B599878868D44953CA60555.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_PulseBul.uasset'
+[2016.12.14-20.49.21:025][811]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_PulseBul.uasset
+[2016.12.14-20.49.39:769][560]LogMaterial: Missing cached shader map for material DronePS_Mat, compiling. 
+[2016.12.14-20.50.01:123][467]LogSavePackage: Save=11.41ms
+[2016.12.14-20.50.01:123][467]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PulseBLPS_Mat7271CF894B9E1EF281C304A5C6D1D6D8.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PulseBLPS_Mat.uasset'
+[2016.12.14-20.50.01:124][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PulseBLPS_Mat.uasset
+[2016.12.14-20.50.01:297][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Monsters/M_Drone/PS_Drone" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/PS_Drone.uasset" SILENT=true
+[2016.12.14-20.50.01:306][467]LogSavePackage: Save=4.27ms
+[2016.12.14-20.50.01:306][467]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PS_Drone77EDFD28431FB44A243283B975A9C0C7.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/PS_Drone.uasset'
+[2016.12.14-20.50.01:307][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/PS_Drone.uasset
+[2016.12.14-20.50.01:317][467]LogSavePackage: Save=4.16ms
+[2016.12.14-20.50.01:317][467]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PS_PulseBul4BE639A049D6196FA440D184408A9B7A.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_PulseBul.uasset'
+[2016.12.14-20.50.01:317][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_PulseBul.uasset
+[2016.12.14-20.50.03:849][547]LogMaterial: Missing cached shader map for material PulseBLPS_Mat, compiling. 
+[2016.12.14-20.50.04:100][547]LogMaterial: Missing cached shader map for material PulseBLPS_Mat, compiling. 
+[2016.12.14-20.50.04:111][547]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.14-20.50.04:135][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.12.14-20.50.06:278][603]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2016.12.14-20.50.06:278][603]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 64 instructions
+[2016.12.14-20.50.06:279][603]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.12.14-20.50.06:279][603]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.12.14-20.50.20:877][ 73]LogMaterial: Missing cached shader map for material PulseBLPS_Mat, compiling. 
+[2016.12.14-20.50.20:887][ 73]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.14-20.50.21:001][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.12.14-20.50.23:073][138]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2016.12.14-20.50.23:073][138]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 64 instructions
+[2016.12.14-20.50.23:073][138]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.12.14-20.50.23:073][138]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.12.14-20.50.37:157][601]LogMaterialEditor: Saving and Compiling material PulseBLPS_Mat
+[2016.12.14-20.50.39:380][601]LogMaterial: Missing cached shader map for material PulseBLPS_Mat, compiling. 
+[2016.12.14-20.50.39:400][601]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.14-20.50.39:483][601]LogMaterial: Missing cached shader map for material PulseBLPS_Mat, compiling. 
+[2016.12.14-20.50.39:518][601]LogMaterial: Missing cached shader map for material PulseBLPS_Mat, compiling. 
+[2016.12.14-20.50.39:548][601]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.14-20.50.50:532][601]LogSavePackage: Save=10.31ms
+[2016.12.14-20.50.50:532][601]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PulseBLPS_MatA72CB6FE468CCDA802009BAD123306A1.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PulseBLPS_Mat.uasset'
+[2016.12.14-20.50.50:534][601]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PulseBLPS_Mat.uasset
+[2016.12.14-20.50.50:537][601]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2016.12.14-20.50.50:537][601]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 88 instructions
+[2016.12.14-20.50.50:537][601]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.12.14-20.50.50:537][601]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.12.14-20.50.58:653][894]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.12.14-20.51.13:204][418]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2016.12.14-20.51.13:953][418]LogRenderer: Reallocating scene render targets to support 776x824 (Frame:77305).
+[2016.12.14-20.52.05:407][103]LogSavePackage: Save=5.60ms
+[2016.12.14-20.52.05:407][103]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PS_PulseBul654B9A034223C6032F3C7DA6D6EB21E1.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_PulseBul.uasset'
+[2016.12.14-20.52.05:408][103]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_PulseBul.uasset
+[2016.12.14-20.52.50:079][424]BlueprintLog: New page: Compile P_Arrow
+[2016.12.14-20.52.50:424][424]BlueprintEditorCompileResults: Info [2778.79] Compile of P_Arrow successful! [in 345 ms] (/Game/FirstPersonBP/Blueprints/Weapons/P_Arrow.P_Arrow)
+[2016.12.14-20.52.53:730][540]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.52.53:730][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.14-20.52.53:730][540]PIE: New page: PIE session: map1 (Dec 14, 2016, 4:52:53 AM)
+[2016.12.14-20.52.53:730][540]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.14-20.52.53:763][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032862s)
+[2016.12.14-20.52.53:764][540]LogAIModule: Creating AISystem for world map1
+[2016.12.14-20.52.53:764][540]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2016.12.14-20.52.53:764][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.034105s)
+[2016.12.14-20.52.53:787][540]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.14-20.52.53:795][540]LogInit: FAudioDevice initialized.
+[2016.12.14-20.52.53:834][540]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.14-20.52.53:843][540]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.14-12.52.53
+[2016.12.14-20.52.53:845][540]LogWorld: Bringing up level for play took: 0.009696
+[2016.12.14-20.52.53:846][540]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 1.095
+[2016.12.14-20.52.53:847][540]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.53.08:485][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.53.08:529][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.53.48:814][681]LogSavePackage: Save=5.68ms
+[2016.12.14-20.53.48:814][681]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PS_PulseBul7F9EAC5D43602EC725D8BD9EFD7E4B62.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_PulseBul.uasset'
+[2016.12.14-20.53.48:815][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_PulseBul.uasset
+[2016.12.14-20.54.01:820][ 44]BlueprintLog: New page: Compile P_Arrow
+[2016.12.14-20.54.01:934][ 44]BlueprintEditorCompileResults: Info [2850.30] Compile of P_Arrow successful! [in 114 ms] (/Game/FirstPersonBP/Blueprints/Weapons/P_Arrow.P_Arrow)
+[2016.12.14-20.54.03:914][112]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.54.03:914][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.14-20.54.03:914][112]PIE: New page: PIE session: map1 (Dec 14, 2016, 4:54:03 AM)
+[2016.12.14-20.54.03:914][112]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.14-20.54.03:948][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034339s)
+[2016.12.14-20.54.03:951][112]LogAIModule: Creating AISystem for world map1
+[2016.12.14-20.54.03:951][112]LogPlayLevel: PIE: World Init took: (0.001982s)
+[2016.12.14-20.54.03:951][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.036816s)
+[2016.12.14-20.54.03:973][112]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.14-20.54.03:980][112]LogInit: FAudioDevice initialized.
+[2016.12.14-20.54.04:020][112]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.14-20.54.04:028][112]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.14-12.54.04
+[2016.12.14-20.54.04:030][112]LogWorld: Bringing up level for play took: 0.009346
+[2016.12.14-20.54.04:032][112]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 -0.721
+[2016.12.14-20.54.04:032][112]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.55.36:097][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.55.36:142][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.55.39:222][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/map1" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.14-20.55.39:543][326]LogSavePackage: Save=228.98ms
+[2016.12.14-20.55.39:543][326]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/map1E79D196246D2CE617402A6AA4BDBCE4E.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap'
+[2016.12.14-20.55.39:546][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap
+[2016.12.14-20.55.39:589][326]LogFileHelpers: Saving map 'map1' took 0.415
+[2016.12.14-20.55.39:622][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Monsters/M_Drone/DronePS_Mat" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/DronePS_Mat.uasset" SILENT=true
+[2016.12.14-20.55.39:635][326]LogSavePackage: Save=11.27ms
+[2016.12.14-20.55.39:635][326]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/DronePS_Mat86E25D0B4741D983115A0CB7ECD1B024.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/DronePS_Mat.uasset'
+[2016.12.14-20.55.39:636][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/DronePS_Mat.uasset
+[2016.12.14-20.55.39:639][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Weapons/P_Arrow" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/P_Arrow.uasset" SILENT=true
+[2016.12.14-20.55.39:666][326]LogSavePackage: Save=23.31ms
+[2016.12.14-20.55.39:666][326]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/P_ArrowDCC44A0E488EA6B82612818F9FCA644E.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/P_Arrow.uasset'
+[2016.12.14-20.55.39:668][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/P_Arrow.uasset
+[2016.12.14-20.55.39:670][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Weapons/PS_Drone" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_Drone.uasset" SILENT=true
+[2016.12.14-20.55.39:672][326]LogSavePackage: Save=0.78ms
+[2016.12.14-20.55.39:672][326]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PS_Drone2A6382B948A0960EF94040BD719592F3.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_Drone.uasset'
+[2016.12.14-20.55.39:673][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PS_Drone.uasset
+[2016.12.14-20.55.39:682][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Weapons/PPulsebl" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PPulsebl.uasset" SILENT=true
+[2016.12.14-20.55.39:699][326]LogSavePackage: Save=1.70ms
+[2016.12.14-20.55.39:699][326]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/PPulseblA702A4954761CF25F54F9F81023EE267.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PPulsebl.uasset'
+[2016.12.14-20.55.39:700][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/Weapons/PPulsebl.uasset
+[2016.12.14-20.56.31:826][395]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.12.14-20.56.32:172][395]BlueprintEditorCompileResults: Info [3000.54] Compile of FirstPersonCharacter successful! [in 346 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2016.12.14-20.57.24:399][550]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.57.24:399][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.14-20.57.24:399][550]PIE: New page: PIE session: map1 (Dec 14, 2016, 4:57:24 AM)
+[2016.12.14-20.57.24:399][550]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.14-20.57.24:436][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036256s)
+[2016.12.14-20.57.24:437][550]LogAIModule: Creating AISystem for world map1
+[2016.12.14-20.57.24:437][550]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2016.12.14-20.57.24:437][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.037466s)
+[2016.12.14-20.57.24:457][550]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.14-20.57.24:465][550]LogInit: FAudioDevice initialized.
+[2016.12.14-20.57.24:505][550]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.14-20.57.24:513][550]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.14-12.57.24
+[2016.12.14-20.57.24:515][550]LogWorld: Bringing up level for play took: 0.009334
+[2016.12.14-20.57.24:517][550]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 -0.238
+[2016.12.14-20.57.24:517][550]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.58.16:576][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.58.16:633][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.14-20.58.19:372][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/map1" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.14-20.58.19:620][543]LogSavePackage: Save=226.95ms
+[2016.12.14-20.58.19:620][543]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/map14026EA4F47AE7903277189A83EFF8F9C.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap'
+[2016.12.14-20.58.19:622][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap
+[2016.12.14-20.58.19:664][543]LogFileHelpers: Saving map 'map1' took 0.340
+[2016.12.14-20.58.19:970][543]LogSavePackage: Save=249.96ms
+[2016.12.14-20.58.19:970][543]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/FirstPersonCharacterAE0CF827410764B2BC25489ADB33EEE0.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.12.14-20.58.19:972][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.12.14-20.58.22:795][677]LogCascade: Quitting Cascade. FXSystem=0x000000009253DE40
+[2016.12.14-20.58.22:898][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.12.14-20.58.23:348][678]Cmd: QUIT_EDITOR
+[2016.12.14-20.58.23:905][678]LogExit: Preparing to exit.
+[2016.12.14-20.58.24:918][678]LogExit: Editor shut down
+[2016.12.14-20.58.24:918][678]LogExit: Transaction tracking system shut down
+[2016.12.14-20.58.27:009][678]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.14-20.58.27:010][678]LogExit: Object subsystem successfully closed.
+[2016.12.14-20.58.27:251][678]LogD3D11RHI: Shutdown
+[2016.12.14-20.58.27:252][678]LogD3D11RHI: CleanupD3DDevice
+[2016.12.14-20.58.27:396][678]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.14-20.58.28:350][678]LogModuleManager: Shutting down and abandoning module DistCurveEditor (218)
+[2016.12.14-20.58.28:350][678]LogModuleManager: Shutting down and abandoning module Cascade (217)
+[2016.12.14-20.58.28:350][678]LogModuleManager: Shutting down and abandoning module MaterialEditor (216)
+[2016.12.14-20.58.28:350][678]LogModuleManager: Shutting down and abandoning module BlueprintGraph (215)
+[2016.12.14-20.58.28:446][678]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2016.12.14-20.58.28:446][678]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.12.14-20.58.28:460][678]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.12.14-20.58.28:460][678]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.12.14-20.58.28:470][678]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.12.14-20.58.28:486][678]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.12.14-20.58.28:514][678]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.12.14-20.58.28:514][678]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.12.14-20.58.28:514][678]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.12.14-20.58.28:540][678]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.12.14-20.58.28:562][678]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.12.14-20.58.28:569][678]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.12.14-20.58.28:626][678]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.12.14-20.58.28:626][678]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.12.14-20.58.28:626][678]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.12.14-20.58.28:626][678]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.12.14-20.58.28:626][678]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.12.14-20.58.28:665][678]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.12.14-20.58.28:679][678]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.12.14-20.58.28:679][678]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.12.14-20.58.28:699][678]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.12.14-20.58.28:699][678]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.12.14-20.58.28:709][678]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.12.14-20.58.28:721][678]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.12.14-20.58.28:749][678]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.12.14-20.58.28:749][678]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.12.14-20.58.28:749][678]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.12.14-20.58.28:749][678]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.12.14-20.58.28:749][678]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.12.14-20.58.28:760][678]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.12.14-20.58.28:777][678]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.12.14-20.58.28:802][678]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.12.14-20.58.28:802][678]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.12.14-20.58.28:849][678]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.12.14-20.58.28:849][678]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.12.14-20.58.29:820][678]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.12.14-20.58.29:832][678]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.12.14-20.58.29:832][678]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.12.14-20.58.29:832][678]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.12.14-20.58.29:839][678]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.12.14-20.58.29:839][678]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.12.14-20.58.29:848][678]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.12.14-20.58.29:854][678]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.12.14-20.58.29:866][678]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.12.14-20.58.29:876][678]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.12.14-20.58.29:886][678]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.12.14-20.58.29:900][678]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.12.14-20.58.29:913][678]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.12.14-20.58.29:913][678]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.12.14-20.58.29:927][678]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.12.14-20.58.29:941][678]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.12.14-20.58.29:948][678]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.12.14-20.58.29:948][678]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.12.14-20.58.29:982][678]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.12.14-20.58.29:982][678]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.12.14-20.58.30:001][678]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.12.14-20.58.30:014][678]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.12.14-20.58.30:033][678]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.12.14-20.58.30:043][678]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.12.14-20.58.30:060][678]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.12.14-20.58.30:128][678]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.12.14-20.58.30:144][678]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.12.14-20.58.30:165][678]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.12.14-20.58.30:185][678]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.12.14-20.58.30:185][678]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.12.14-20.58.30:204][678]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.12.14-20.58.30:205][678]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.12.14-20.58.30:253][678]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.12.14-20.58.30:253][678]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.12.14-20.58.30:253][678]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.12.14-20.58.30:274][678]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.12.14-20.58.30:281][678]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.12.14-20.58.30:299][678]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.12.14-20.58.30:348][678]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.12.14-20.58.30:354][678]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.12.14-20.58.30:367][678]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.12.14-20.58.30:367][678]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.12.14-20.58.30:367][678]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.12.14-20.58.30:368][678]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.12.14-20.58.30:368][678]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.12.14-20.58.30:368][678]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.12.14-20.58.30:368][678]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.12.14-20.58.30:368][678]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.12.14-20.58.30:368][678]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.12.14-20.58.30:409][678]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.12.14-20.58.30:409][678]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.12.14-20.58.30:656][678]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.12.14-20.58.30:679][678]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.12.14-20.58.30:679][678]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.12.14-20.58.30:679][678]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.12.14-20.58.30:679][678]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.12.14-20.58.30:679][678]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.12.14-20.58.30:679][678]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.12.14-20.58.30:679][678]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.12.14-20.58.30:679][678]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.12.14-20.58.30:679][678]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.12.14-20.58.30:679][678]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.12.14-20.58.30:693][678]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.12.14-20.58.30:693][678]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.12.14-20.58.30:693][678]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.12.14-20.58.30:693][678]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.12.14-20.58.30:693][678]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.12.14-20.58.30:701][678]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.12.14-20.58.30:702][678]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.12.14-20.58.30:712][678]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.12.14-20.58.30:729][678]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.12.14-20.58.30:729][678]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.12.14-20.58.30:742][678]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.12.14-20.58.30:750][678]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.12.14-20.58.30:757][678]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.12.14-20.58.30:772][678]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.12.14-20.58.30:772][678]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.12.14-20.58.30:791][678]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.12.14-20.58.30:791][678]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.12.14-20.58.30:798][678]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.12.14-20.58.30:810][678]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.12.14-20.58.30:839][678]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.12.14-20.58.30:842][678]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.12.14-20.58.30:854][678]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.12.14-20.58.30:855][678]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.12.14-20.58.30:873][678]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.12.14-20.58.30:973][678]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.12.14-20.58.30:973][678]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.12.14-20.58.30:982][678]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.12.14-20.58.30:982][678]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.12.14-20.58.30:982][678]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.12.14-20.58.31:006][678]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.12.14-20.58.31:006][678]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.12.14-20.58.31:023][678]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.12.14-20.58.31:023][678]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.12.14-20.58.31:023][678]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.12.14-20.58.31:029][678]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.12.14-20.58.31:029][678]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.12.14-20.58.31:029][678]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.12.14-20.58.31:053][678]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.12.14-20.58.31:053][678]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.12.14-20.58.31:063][678]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.12.14-20.58.31:091][678]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.12.14-20.58.31:091][678]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.12.14-20.58.31:091][678]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.12.14-20.58.31:110][678]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.12.14-20.58.31:126][678]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.12.14-20.58.31:126][678]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.12.14-20.58.31:153][678]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.12.14-20.58.31:153][678]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.12.14-20.58.31:156][678]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.12.14-20.58.31:156][678]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.12.14-20.58.31:156][678]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.12.14-20.58.31:156][678]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.12.14-20.58.31:156][678]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.12.14-20.58.31:156][678]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.12.14-20.58.31:156][678]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.12.14-20.58.31:251][678]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.12.14-20.58.31:251][678]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.12.14-20.58.31:266][678]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.12.14-20.58.31:288][678]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.12.14-20.58.31:372][678]LogDerivedDataCache: Shutdown
+[2016.12.14-20.58.31:372][678]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.12.14-20.58.31:389][678]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.12.14-20.58.31:393][678]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.12.14-20.58.31:412][678]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.12.14-20.58.31:425][678]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.12.14-20.58.31:425][678]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.12.14-20.58.31:432][678]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.12.14-20.58.31:438][678]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.12.14-20.58.31:438][678]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.12.14-20.58.31:438][678]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.12.14-20.58.31:438][678]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.12.14-20.58.31:438][678]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.12.14-20.58.31:448][678]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.12.14-20.58.31:456][678]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.12.14-20.58.31:466][678]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.12.14-20.58.31:466][678]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.12.14-20.58.31:471][678]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.12.14-20.58.31:476][678]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.12.14-20.58.31:476][678]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.12.14-20.58.31:476][678]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.12.14-20.58.31:476][678]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.12.14-20.58.31:476][678]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.12.14-20.58.31:476][678]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.12.14-20.58.31:487][678]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.12.14-20.58.31:487][678]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.12.14-20.58.31:487][678]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.12.14-20.58.31:487][678]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.12.14-20.58.31:487][678]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.12.14-20.58.31:487][678]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.12.14-20.58.31:487][678]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.12.14-20.58.31:487][678]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.12.14-20.58.31:502][678]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.12.14-20.58.31:520][678]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.12.14-20.58.31:524][678]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.12.14-20.58.31:524][678]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.12.14-20.58.31:533][678]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.12.14-20.58.31:533][678]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.12.14-20.58.31:533][678]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.12.14-20.58.31:551][678]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.12.14-20.58.36:057][678]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.12.14-20.58.36:076][678]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.12.14-20.58.36:095][678]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.12.14-20.58.36:095][678]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.14-20.58.36:095][678]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.14-20.58.36:095][678]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.14-20.58.36:095][678]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.14-20.58.36:104][678]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.14-20.58.36:112][678]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.14-20.58.36:112][678]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.14-20.58.36:112][678]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.14-20.58.36:112][678]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.14-20.58.36:112][678]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.14-20.58.36:112][678]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.14-20.58.36:121][678]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.14-20.58.36:135][678]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.14-20.58.36:142][678]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.14-20.58.36:179][678]LogExit: Exiting.
+[2016.12.14-20.58.36:206][678]Log file closed, 12/14/16 12:58:36
