@@ -1,0 +1,996 @@
+﻿Log file open, 12/16/16 12:14:40
+LogInit:Display: Running engine for game: RobotFps
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1451557654) SRandInit(-1451557652).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.588099
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.16-20.14.40:354][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.16-20.14.40:354][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.16-20.14.40:435][  0]LogInit: Computer: GODLIKESYSTEM
+[2016.12.16-20.14.40:435][  0]LogInit: User: Demonic
+[2016.12.16-20.14.40:435][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.16-20.14.40:435][  0]LogInit: High frequency timer resolution =3.312851 MHz
+[2016.12.16-20.14.40:436][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.12.16-20.14.40:436][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.16-20.14.40:436][  0]LogMemory: Process Physical Memory: 191.54 MB used, 191.54 MB peak
+[2016.12.16-20.14.40:436][  0]LogMemory: Process Virtual Memory: 196.96 MB used, 196.96 MB peak
+[2016.12.16-20.14.40:436][  0]LogMemory: Physical Memory: 6096.96 MB used, 8174.04 MB total
+[2016.12.16-20.14.40:436][  0]LogMemory: Virtual Memory: 520.69 MB used, 8388608.00 MB total
+[2016.12.16-20.14.41:859][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.12.16-20.14.43:139][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.16-20.14.43:172][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 440' (Feature Level 11_0)
+[2016.12.16-20.14.43:172][  0]LogD3D11RHI:       1489/0/2559 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.16-20.14.43:172][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.16-20.14.43:176][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.16-20.14.43:176][  0]LogD3D11RHI:     GPU DeviceId: 0xdc0 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.16-20.14.43:176][  0]LogWindows: EnumDisplayDevices:
+[2016.12.16-20.14.43:176][  0]LogWindows:    0. 'NVIDIA GeForce GT 440' (P:1 D:1)
+[2016.12.16-20.14.43:176][  0]LogWindows:    1. 'NVIDIA GeForce GT 440' (P:0 D:0)
+[2016.12.16-20.14.43:176][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
+[2016.12.16-20.14.43:176][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.12.16-20.14.43:177][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.12.16-20.14.43:177][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2016.12.16-20.14.43:177][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 440
+[2016.12.16-20.14.43:177][  0]LogD3D11RHI:   Driver Version: 364.72 (internal:10.18.13.6472, unified:364.72)
+[2016.12.16-20.14.43:177][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2016.12.16-20.14.43:177][  0]LogRHI: Texture pool is 1042 MB (70% of 1489 MB)
+[2016.12.16-20.14.43:185][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.16-20.14.43:253][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.12.16-20.14.43:261][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Users/Demonic/Desktop/RobotFps/Intermediate/Shaders/WorkingDirectory/9480/).
+[2016.12.16-20.14.43:261][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Demonic/AppData/Local/Temp/UnrealShaderWorkingDir/667EA6D04A99AAB31B6047A003B0E430/'.
+[2016.12.16-20.14.43:267][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.16-20.14.50:304][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.16-20.14.50:327][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.16-20.14.50:350][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.16-20.14.50:373][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.16-20.14.50:398][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.16-20.14.50:421][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.16-20.14.50:443][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.16-20.14.50:466][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.16-20.14.50:488][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.16-20.14.50:511][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.16-20.14.50:533][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.16-20.14.50:582][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.16-20.14.50:582][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.16-20.14.50:636][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.16-20.14.50:733][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.16-20.14.50:753][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.16-20.14.50:775][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.16-20.14.50:797][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.16-20.14.50:857][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.16-20.14.50:857][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.16-20.14.51:546][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.16-20.14.52:252][  0]LogDerivedDataCache: Loaded boot cache 0.69s 48MB C:/Users/Demonic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.12.16-20.14.52:253][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Demonic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.12.16-20.14.52:253][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Demonic/Desktop/RobotFps/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.16-20.14.52:253][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.16-20.14.52:253][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Demonic/Desktop/RobotFps/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.16-20.14.52:253][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.16-20.14.52:341][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.16-20.14.52:353][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Demonic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.16-20.14.56:268][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.16-20.14.56:382][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.16-20.14.58:145][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.16-20.14.58:145][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.16-20.14.58:145][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.16-20.15.04:005][  0]LogAssetRegistry: FAssetRegistry took 0.0202 seconds to start up
+[2016.12.16-20.15.04:152][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.102681 seconds
+[2016.12.16-20.15.04:208][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.12.16-20.15.04:208][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.12.16-20.15.04:208][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.16-20.15.04:266][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.16-20.15.09:341][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.16-20.15.09:341][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.16-20.15.31:210][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.16-20.15.32:775][  0]SourceControl: Info Source control is disabled
+[2016.12.16-20.15.32:793][  0]SourceControl: Info Source control is disabled
+[2016.12.16-20.15.32:878][  0]SourceControl: Info Source control is disabled
+[2016.12.16-20.15.32:984][  0]SourceControl: Info Source control is disabled
+[2016.12.16-20.15.33:551][  0]LogLinker:Warning: Can't find file '/Game/TopDownCPP/TopDownOverview'
+[2016.12.16-20.15.33:552][  0]LogLinker:Warning: Can't find file '/Game/TopDownCPP/TopDownOverview'
+[2016.12.16-20.15.33:552][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownCPP/TopDownOverview.TopDownOverview_C'
+[2016.12.16-20.15.34:404][  0]LogEngine: Initializing Engine...
+[2016.12.16-20.15.34:469][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.12.16-20.15.34:480][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.12.16-20.15.35:745][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.12.16-20.15.35:823][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.16-20.15.35:856][  0]LogInit: FAudioDevice initialized.
+[2016.12.16-20.15.35:889][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Demonic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.12.16-20.15.35:897][  0]LogInit: Texture streaming: Enabled
+[2016.12.16-20.15.36:146][  0]LogInit: Transaction tracking system initialized
+[2016.12.16-20.15.36:352][  0]BlueprintLog: New page: Editor Load
+[2016.12.16-20.15.37:560][  0]LocalizationService: Info Localization service is disabled
+[2016.12.16-20.15.38:372][  0]LogConsoleResponse:Display: 
+[2016.12.16-20.15.42:316][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.12.16-20.15.42:316][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.16-20.15.42:489][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/RobotFps/Content/' took 0.06s
+[2016.12.16-20.15.44:797][  0]SourceControl: Info Source control is disabled
+[2016.12.16-20.15.44:797][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.16-20.15.44:912][  0]LightingResults: New page: Lighting Build
+[2016.12.16-20.15.44:916][  0]MapCheck: New page: Map Check
+[2016.12.16-20.15.44:916][  0]LightingResults: New page: Lighting Build
+[2016.12.16-20.15.56:276][  0]LogAIModule: Creating AISystem for world map1
+[2016.12.16-20.15.56:583][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.16-20.15.56:617][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.16-20.15.56:662][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.38ms to complete.
+[2016.12.16-20.15.56:662][  0]LogFileHelpers: Loading map 'map1' took 11.865
+[2016.12.16-20.15.57:145][  0]LogCollectionManager: Loaded 0 collections in 0.017116 seconds
+[2016.12.16-20.15.57:182][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/RobotFps/Saved/Collections/' took 0.01s
+[2016.12.16-20.15.57:182][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/RobotFps/Content/Developers/Demonic/Collections/' took 0.01s
+[2016.12.16-20.15.57:182][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/RobotFps/Content/Collections/' took 0.01s
+[2016.12.16-20.15.57:182][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.12.16-20.15.57:191][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2047 classes and 369 folders.
+[2016.12.16-20.15.57:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.16-20.15.57:196][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.16-20.15.57:197][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.12.16-20.15.57:203][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.12.16-20.15.58:848][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.12.16-20.15.58:904][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.12.16-20.15.59:054][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.16-20.15.59:059][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.16-20.15.59:135][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.12.16-20.15.59:135][  0]LogLoad: Full Startup: 83.39 seconds (BP compile: 0.69 seconds)
+[2016.12.16-20.15.59:135][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.16-20.15.59:135][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.16-20.15.59:485][  0]LogOcInput: OculusInput pre-init called
+[2016.12.16-20.15.59:515][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.16-20.16.00:228][  0]LogRenderer: Reallocating scene render targets to support 704x540 (Frame:2).
+[2016.12.16-20.16.00:729][  2]LogAssetRegistry: Asset discovery search completed in 56.7424 seconds
+[2016.12.16-20.16.00:729][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.16-20.16.00:729][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2016.12.16-20.19.42:095][818]LogEditorViewport: Clicking on Actor (LMB): LightPad_BP_C (LightPad_BP)
+[2016.12.16-20.19.43:272][874]Cmd: DELETE
+[2016.12.16-20.19.43:272][874]Cmd: ACTOR DELETE
+[2016.12.16-20.19.43:312][874]LogEditorActor: Deleted Actor: LightPad_BP_C
+[2016.12.16-20.19.43:362][874]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2016.12.16-20.19.58:900][522]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 111 classes and 0 folders.
+[2016.12.16-20.21.18:607][814]BlueprintLog: New page: Compile AMonster
+[2016.12.16-20.21.18:785][814]BlueprintEditorCompileResults: Info [0403.03] Compile of AMonster successful! [in 178 ms] (/Game/RobotFps/Monsters/M_Drone/AMonster.AMonster)
+[2016.12.16-20.30.58:220][ 27]BlueprintLog: New page: Compile AMonster
+[2016.12.16-20.30.59:018][ 27]BlueprintEditorCompileResults: Info [0983.25] Compile of AMonster successful! [in 798 ms] (/Game/RobotFps/Monsters/M_Drone/AMonster.AMonster)
+[2016.12.16-20.31.18:659][ 77]BlueprintLog: New page: Compile AMonster
+[2016.12.16-20.31.19:498][ 77]BlueprintEditorCompileResults: Info [1003.73] Compile of AMonster successful! [in 839 ms] (/Game/RobotFps/Monsters/M_Drone/AMonster.AMonster)
+[2016.12.16-20.31.24:642][301]BlueprintLog: New page: Compile AMonster
+[2016.12.16-20.31.24:816][301]BlueprintEditorCompileResults: Info [1009.05] Compile of AMonster successful! [in 173 ms] (/Game/RobotFps/Monsters/M_Drone/AMonster.AMonster)
+[2016.12.16-20.32.02:024][859]BlueprintLog: New page: Compile AMonster
+[2016.12.16-20.32.02:200][859]BlueprintEditorCompileResults: Info [1046.43] Compile of AMonster successful! [in 176 ms] (/Game/RobotFps/Monsters/M_Drone/AMonster.AMonster)
+[2016.12.16-20.32.08:949][191]LogEditorViewport: Clicking on Actor (LMB): AMonster_C (AMonster)
+[2016.12.16-20.32.10:465][255]LogEditorViewport: Clicking on Actor (LMB): AMonster_C (AMonster4)
+[2016.12.16-20.32.12:289][339]Cmd: DELETE
+[2016.12.16-20.32.12:289][339]Cmd: ACTOR DELETE
+[2016.12.16-20.32.12:291][339]LogEditorActor: Deleted Actor: AMonster_C
+[2016.12.16-20.32.12:310][339]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.12.16-20.32.12:865][370]LogEditorViewport: Clicking on Actor (LMB): AMonster_C (AMonster3)
+[2016.12.16-20.32.13:149][380]Cmd: DELETE
+[2016.12.16-20.32.13:149][380]Cmd: ACTOR DELETE
+[2016.12.16-20.32.13:150][380]LogEditorActor: Deleted Actor: AMonster_C
+[2016.12.16-20.32.13:170][380]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.12.16-20.32.13:869][419]LogEditorViewport: Clicking on Actor (LMB): AMonster_C (AMonster5)
+[2016.12.16-20.32.14:153][429]Cmd: DELETE
+[2016.12.16-20.32.14:153][429]Cmd: ACTOR DELETE
+[2016.12.16-20.32.14:155][429]LogEditorActor: Deleted Actor: AMonster_C
+[2016.12.16-20.32.14:174][429]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.12.16-20.32.16:556][553]LogEditorViewport: Clicking on Actor (LMB): AMonster_C (AMonster)
+[2016.12.16-20.32.25:496][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/map1" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.16-20.32.26:349][887]LogSavePackage: Save=313.28ms
+[2016.12.16-20.32.26:350][887]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/map13A55C3F9481EC11BC9A46DB206EACE28.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap'
+[2016.12.16-20.32.26:352][887]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap
+[2016.12.16-20.32.28:788][ 17]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-20.32.28:788][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.16-20.32.28:800][ 17]PIE: New page: PIE session: map1 (Dec 16, 2016, 4:32:28 AM)
+[2016.12.16-20.32.28:800][ 17]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-20.32.28:846][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046145s)
+[2016.12.16-20.32.28:848][ 17]LogAIModule: Creating AISystem for world map1
+[2016.12.16-20.32.28:848][ 17]LogPlayLevel: PIE: World Init took: (0.001957s)
+[2016.12.16-20.32.28:849][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.048729s)
+[2016.12.16-20.32.28:882][ 17]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.16-20.32.28:892][ 17]LogInit: FAudioDevice initialized.
+[2016.12.16-20.32.29:023][ 17]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-20.32.29:032][ 17]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-12.32.29
+[2016.12.16-20.32.29:047][ 17]LogWorld: Bringing up level for play took: 0.022875
+[2016.12.16-20.32.29:100][ 17]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2016.12.16-20.32.29:102][ 17]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 -0.46
+[2016.12.16-20.32.29:102][ 17]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-20.33.40:320][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-20.33.40:491][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-20.34.31:964][119]BlueprintLog: New page: Compile AMonster
+[2016.12.16-20.34.32:665][119]BlueprintEditorCompileResults: Info [1196.89] Compile of AMonster successful! [in 700 ms] (/Game/RobotFps/Monsters/M_Drone/AMonster.AMonster)
+[2016.12.16-20.36.47:356][683]BlueprintLog: New page: Compile AMonster
+[2016.12.16-20.36.47:579][683]BlueprintEditorCompileResults: Info [1331.81] Compile of AMonster successful! [in 223 ms] (/Game/RobotFps/Monsters/M_Drone/AMonster.AMonster)
+[2016.12.16-20.37.01:531][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/map1" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.16-20.37.01:809][284]LogSavePackage: Save=249.72ms
+[2016.12.16-20.37.01:809][284]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/map1C26E94EC45F5871124AA9383BDA5A86D.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap'
+[2016.12.16-20.37.01:813][284]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap
+[2016.12.16-20.37.01:859][284]LogFileHelpers: Saving map 'map1' took 0.379
+[2016.12.16-20.37.01:888][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Monsters/M_Drone/AMonster" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/AMonster.uasset" SILENT=true
+[2016.12.16-20.37.02:011][284]LogSavePackage: Save=118.90ms
+[2016.12.16-20.37.02:012][284]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/AMonsterECA3E69D426B52CD6C101F8C49951E11.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/AMonster.uasset'
+[2016.12.16-20.37.02:013][284]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Drone/AMonster.uasset
+[2016.12.16-21.21.29:246][ 13]LogMetaData: Removing '/Game/RobotFps/Monsters/M_Shockurchan/AShocker.SKEL_AShocker_C' ref from Metadata '/Game/RobotFps/Monsters/M_Shockurchan/AMonster.PackageMetaData'
+[2016.12.16-21.21.29:246][ 13]LogMetaData: Removing '/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker_C' ref from Metadata '/Game/RobotFps/Monsters/M_Shockurchan/AMonster.PackageMetaData'
+[2016.12.16-21.21.29:310][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Monsters/M_Shockurchan/AShocker" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset" SILENT=true
+[2016.12.16-21.21.29:449][ 13]LogSavePackage: Save=137.50ms
+[2016.12.16-21.21.29:449][ 13]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/AShocker745B084A460F39877BA81CB575BE1113.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset'
+[2016.12.16-21.21.29:450][ 13]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset
+[2016.12.16-21.21.46:750][308]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Demonic/Desktop/blendatio/DemonGame/monsters/ShockUrchan.fbx)
+[2016.12.16-21.21.46:850][308]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.12.16-21.21.46:850][308]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.12.16-21.21.46:850][308]LogFbx: ItemName: Model, ItemCount : 1
+[2016.12.16-21.21.46:850][308]LogFbx: ItemName: Material, ItemCount : 3
+[2016.12.16-21.21.46:867][308]LogFbx: Loading FBX Scene from ../../../../../../Users/Demonic/Desktop/blendatio/DemonGame/monsters/ShockUrchan.fbx
+[2016.12.16-21.21.46:882][308]LogFbx: FBX Scene Loaded Succesfully
+[2016.12.16-21.21.51:455][308]LogFbx: Loading FBX Scene from ../../../../../../Users/Demonic/Desktop/blendatio/DemonGame/monsters/ShockUrchan.fbx
+[2016.12.16-21.21.51:461][308]LogFbx: FBX Scene Loaded Succesfully
+[2016.12.16-21.21.51:463][308]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_001'
+[2016.12.16-21.21.51:463][308]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_001'
+[2016.12.16-21.21.51:478][308]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.12.16-21.21.51:671][308]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_002'
+[2016.12.16-21.21.51:671][308]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_002'
+[2016.12.16-21.21.51:675][308]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.12.16-21.21.51:688][308]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_003'
+[2016.12.16-21.21.51:688][308]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_003'
+[2016.12.16-21.21.51:698][308]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2016.12.16-21.21.51:750][308]LogFbx:Warning: Triangulating static mesh Icosphere
+[2016.12.16-21.21.51:891][308]LogStaticMesh: Building static mesh ShockUrchan...
+[2016.12.16-21.21.51:905][308]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.12.16-21.21.51:956][308]LogStaticMesh: Built static mesh [0.07s] /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan.ShockUrchan
+[2016.12.16-21.21.52:087][308]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.12.16-21.22.27:497][178]LogRenderer: Reallocating scene render targets to support 952x868 (Frame:50608).
+[2016.12.16-21.23.02:342][ 29]LogSavePackage: Save=8.88ms
+[2016.12.16-21.23.02:342][ 29]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/ShockUrchanDC28C55A46CBBF5C44E17A910CE6C6AA.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/ShockUrchan.uasset'
+[2016.12.16-21.23.02:343][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/ShockUrchan.uasset
+[2016.12.16-21.24.59:651][454]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Demonic/Desktop/blendatio/DemonGame/monsters/ShockUrchan.fbx)
+[2016.12.16-21.24.59:655][454]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.12.16-21.24.59:655][454]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2016.12.16-21.24.59:655][454]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.12.16-21.24.59:655][454]LogFbx: ItemName: Model, ItemCount : 3
+[2016.12.16-21.24.59:655][454]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.12.16-21.24.59:655][454]LogFbx: ItemName: Deformer, ItemCount : 2
+[2016.12.16-21.24.59:655][454]LogFbx: ItemName: Material, ItemCount : 3
+[2016.12.16-21.24.59:660][454]LogFbx: Loading FBX Scene from ../../../../../../Users/Demonic/Desktop/blendatio/DemonGame/monsters/ShockUrchan.fbx
+[2016.12.16-21.24.59:692][454]LogFbx: FBX Scene Loaded Succesfully
+[2016.12.16-21.25.01:236][454]LogFbx: Loading FBX Scene from ../../../../../../Users/Demonic/Desktop/blendatio/DemonGame/monsters/ShockUrchan.fbx
+[2016.12.16-21.25.01:242][454]LogFbx: FBX Scene Loaded Succesfully
+[2016.12.16-21.25.01:244][454]LogFbx: =================================================
+[2016.12.16-21.25.01:244][454]LogFbx: Dumping Node START [Icosphere] 
+[2016.12.16-21.25.01:244][454]LogFbx: 	Total Deformer Count 1876133312.
+[2016.12.16-21.25.01:244][454]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.12.16-21.25.01:244][454]LogFbx: =================================================
+[2016.12.16-21.25.01:244][454]LogFbx: 	Attribute (Icosphere) Type (4).
+[2016.12.16-21.25.01:244][454]LogFbx: 		[Node Attribute Child 1] Icosphere (Type Mesh).
+[2016.12.16-21.25.01:244][454]LogFbx: Dumping Node END [Icosphere]
+[2016.12.16-21.25.01:244][454]LogFbx: =================================================
+[2016.12.16-21.25.01:244][454]LogFbx: Dumping Node START [Icosphere] 
+[2016.12.16-21.25.01:244][454]LogFbx: 	Total Deformer Count 1876133312.
+[2016.12.16-21.25.01:244][454]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.12.16-21.25.01:244][454]LogFbx: =================================================
+[2016.12.16-21.25.01:244][454]LogFbx: 	Attribute (Icosphere) Type (4).
+[2016.12.16-21.25.01:244][454]LogFbx: 		[Node Attribute Child 1] Icosphere (Type Mesh).
+[2016.12.16-21.25.01:244][454]LogFbx: Dumping Node END [Icosphere]
+[2016.12.16-21.25.01:263][454]LogFbx: Valid bind pose for Pose (Icosphere) - Icosphere
+[2016.12.16-21.25.01:277][454]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_001'
+[2016.12.16-21.25.01:277][454]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_001'
+[2016.12.16-21.25.01:299][454]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.12.16-21.25.01:312][454]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_002'
+[2016.12.16-21.25.01:312][454]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_002'
+[2016.12.16-21.25.01:323][454]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.12.16-21.25.01:336][454]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_003'
+[2016.12.16-21.25.01:336][454]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/Material_003'
+[2016.12.16-21.25.01:350][454]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2016.12.16-21.25.01:366][454]LogFbx: Triangulating skeletal mesh Icosphere
+[2016.12.16-21.25.01:413][454]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2016.12.16-21.25.01:481][454]LogSkeletalMesh: Chunk 0: 189 rigid vertices, 0 soft vertices, 1 active bones
+[2016.12.16-21.25.01:481][454]LogSkeletalMesh: Chunk 1: 4 rigid vertices, 0 soft vertices, 1 active bones
+[2016.12.16-21.25.01:481][454]LogSkeletalMesh: Chunk 2: 46 rigid vertices, 0 soft vertices, 1 active bones
+[2016.12.16-21.25.01:482][454]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 318 triangles
+[2016.12.16-21.25.01:482][454]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 2 triangles
+[2016.12.16-21.25.01:482][454]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 62 triangles
+[2016.12.16-21.25.01:502][454]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_PhysicsAsset'
+[2016.12.16-21.25.01:502][454]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_PhysicsAsset'
+[2016.12.16-21.25.01:502][454]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_PhysicsAsset.ShockUrchan_PhysicsAsset'
+[2016.12.16-21.25.01:504][454]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_Skeleton'
+[2016.12.16-21.25.01:504][454]LogLinker:Warning: Can't find file '/Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_Skeleton'
+[2016.12.16-21.25.01:504][454]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_Skeleton.ShockUrchan_Skeleton'
+[2016.12.16-21.25.01:506][454]FBXImport:Warning: Warning Mesh 'Icosphere' has no UV set. Creating a default set. 
+[2016.12.16-21.25.01:564][455]LogMaterial:Warning: Material /Game/RobotFps/Monsters/M_Shockurchan/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.12.16-21.25.01:572][455]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.12.16-21.25.01:615][455]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.16-21.25.01:649][455]LogMaterial:Warning: Material /Game/RobotFps/Monsters/M_Shockurchan/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.12.16-21.25.01:652][455]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.12.16-21.25.01:694][455]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.16-21.25.01:694][455]LogMaterial:Warning: Material /Game/RobotFps/Monsters/M_Shockurchan/Material_003.Material_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.12.16-21.25.01:697][455]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2016.12.16-21.25.01:736][455]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.16-21.25.26:494][991]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.12.16-21.25.54:006][544]LogMaterial:Warning: Material /Game/RobotFps/MapTextures/METAL05_Mat.METAL05_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2016.12.16-21.25.54:028][544]LogMaterial: Missing cached shader map for material METAL05_Mat, compiling. 
+[2016.12.16-21.25.54:144][544]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.16-21.26.07:005][745]LogSavePackage: Save=8.88ms
+[2016.12.16-21.26.07:005][745]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/ShockUrchanD466454A411B9594E2ECF5914A813AEB.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/ShockUrchan.uasset'
+[2016.12.16-21.26.07:007][745]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/ShockUrchan.uasset
+[2016.12.16-21.28.06:251][445]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.28.06:694][445]BlueprintEditorCompileResults: Info [4410.86] Compile of AShocker successful! [in 443 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.28.37:548][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.28.37:548][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.16-21.28.37:548][823]PIE: New page: PIE session: map1 (Dec 16, 2016, 5:28:37 AM)
+[2016.12.16-21.28.37:548][823]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.28.37:764][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.216224s)
+[2016.12.16-21.28.37:765][823]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.28.37:765][823]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2016.12.16-21.28.37:765][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.217429s)
+[2016.12.16-21.28.37:786][823]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.16-21.28.37:795][823]LogInit: FAudioDevice initialized.
+[2016.12.16-21.28.37:835][823]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.28.37:845][823]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.28.37
+[2016.12.16-21.28.37:847][823]LogWorld: Bringing up level for play took: 0.011188
+[2016.12.16-21.28.37:849][823]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 0.221
+[2016.12.16-21.28.37:849][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.29.31:281][816]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.29.31:362][816]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.29.37:568][  6]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2016.12.16-21.29.45:056][130]LogMaterial:Warning: Material /Game/RobotFps/Itemz/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.12.16-21.29.45:059][130]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.12.16-21.29.45:085][130]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.16-21.29.47:332][168]LogSavePackage: Save=14.51ms
+[2016.12.16-21.29.47:332][168]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/ShockUrchanA9D0E2EC48868986E9357FB0A4711A35.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/ShockUrchan.uasset'
+[2016.12.16-21.29.47:334][168]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/ShockUrchan.uasset
+[2016.12.16-21.30.12:038][867]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.30.12:704][867]BlueprintEditorCompileResults: Info [4536.87] Compile of AShocker successful! [in 665 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.30.22:248][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.30.22:248][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.16-21.30.22:248][179]PIE: New page: PIE session: map1 (Dec 16, 2016, 5:30:22 AM)
+[2016.12.16-21.30.22:248][179]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.30.22:284][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036317s)
+[2016.12.16-21.30.22:286][179]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.30.22:286][179]LogPlayLevel: PIE: World Init took: (0.001490s)
+[2016.12.16-21.30.22:286][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.038245s)
+[2016.12.16-21.30.22:308][179]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.16-21.30.22:316][179]LogInit: FAudioDevice initialized.
+[2016.12.16-21.30.22:355][179]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.30.22:364][179]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.30.22
+[2016.12.16-21.30.22:367][179]LogWorld: Bringing up level for play took: 0.010985
+[2016.12.16-21.30.22:386][179]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 0.756
+[2016.12.16-21.30.22:386][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.31.22:522][541]LogNet: Browse: /Game/FirstPersonBP/Maps/map1
+[2016.12.16-21.31.22:541][541]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/map1
+[2016.12.16-21.31.22:604][541]Cmd: MEM
+[2016.12.16-21.31.22:624][541]LogMemory: Platform Memory Stats for Windows
+[2016.12.16-21.31.22:624][541]LogMemory: Process Physical Memory: 1250.26 MB used, 1268.66 MB peak
+[2016.12.16-21.31.22:624][541]LogMemory: Process Virtual Memory: 2081.31 MB used, 2109.77 MB peak
+[2016.12.16-21.31.22:624][541]LogMemory: Physical Memory: 7109.07 MB used, 8174.04 MB total
+[2016.12.16-21.31.22:624][541]LogMemory: Virtual Memory: 2810.37 MB used, 8388608.00 MB total
+[2016.12.16-21.31.22:624][541]LogMemory: 
+[2016.12.16-21.31.22:624][541]Allocator Stats for TBB: (not implemented)
+[2016.12.16-21.31.22:632][541]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.31.22:666][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033753s)
+[2016.12.16-21.31.22:667][541]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.31.22:667][541]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2016.12.16-21.31.22:667][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.035060s)
+[2016.12.16-21.31.22:667][541]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.31.22:677][541]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.31.22
+[2016.12.16-21.31.22:680][541]LogWorld: Bringing up level for play took: 0.011402
+[2016.12.16-21.31.22:702][541]LogLoad: Took 0.161024 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_0_map1)
+[2016.12.16-21.32.10:782][212]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.32.10:859][212]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.32.14:305][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/map1" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.16-21.32.14:809][371]LogSavePackage: Save=275.37ms
+[2016.12.16-21.32.14:810][371]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/map1B1263EBE4C437A08F853D99A4636380D.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap'
+[2016.12.16-21.32.14:812][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap
+[2016.12.16-21.32.14:863][371]LogFileHelpers: Saving map 'map1' took 0.783
+[2016.12.16-21.32.14:895][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/MapTextures/METAL05_Mat" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/MapTextures/METAL05_Mat.uasset" SILENT=true
+[2016.12.16-21.32.14:926][371]LogSavePackage: Save=25.93ms
+[2016.12.16-21.32.14:926][371]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/METAL05_MatD882D09A4F0E31867742DF87BFA78A6F.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/MapTextures/METAL05_Mat.uasset'
+[2016.12.16-21.32.14:927][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/MapTextures/METAL05_Mat.uasset
+[2016.12.16-21.32.14:956][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Itemz/Material_002" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Itemz/Material_002.uasset" SILENT=true
+[2016.12.16-21.32.14:972][371]LogSavePackage: Save=10.73ms
+[2016.12.16-21.32.14:972][371]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/Material_0020CEFA2EA44DF359B00BCFDBAB7D9E943.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Itemz/Material_002.uasset'
+[2016.12.16-21.32.14:973][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Itemz/Material_002.uasset
+[2016.12.16-21.32.14:975][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Monsters/M_Shockurchan/AMonster" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AMonster.uasset" SILENT=true
+[2016.12.16-21.32.14:988][371]LogSavePackage: Save=0.84ms
+[2016.12.16-21.32.14:988][371]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/AMonster735E0A0C4195BB4CD2C9D6A2AE481455.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AMonster.uasset'
+[2016.12.16-21.32.14:989][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AMonster.uasset
+[2016.12.16-21.32.15:020][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Monsters/M_Shockurchan/AShocker" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset" SILENT=true
+[2016.12.16-21.32.15:191][371]LogSavePackage: Save=150.78ms
+[2016.12.16-21.32.15:191][371]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/AShocker54B6BCF741398EF585811CB3FEE1EE4A.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset'
+[2016.12.16-21.32.15:193][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset
+[2016.12.16-21.32.15:200][371]LogSavePackage: Save=1.91ms
+[2016.12.16-21.32.15:200][371]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/ShockUrchan_PhysicsAssetA931432B4395CB107DC861A43C827DDA.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/ShockUrchan_PhysicsAsset.uasset'
+[2016.12.16-21.32.15:202][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/ShockUrchan_PhysicsAsset.uasset
+[2016.12.16-21.32.15:208][371]LogSavePackage: Save=1.11ms
+[2016.12.16-21.32.15:208][371]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/ShockUrchan_SkeletonF79FFA6743D8DC84A1F7C2BD18D4614C.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/ShockUrchan_Skeleton.uasset'
+[2016.12.16-21.32.15:209][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/ShockUrchan_Skeleton.uasset
+[2016.12.16-21.39.14:115][776]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.39.14:315][776]BlueprintEditorCompileResults: Info [5078.47] Compile of AShocker successful! [in 200 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.42.32:283][819]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.42.32:486][819]BlueprintEditorCompileResults: Info [5276.64] Compile of AShocker successful! [in 203 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.42.45:151][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_11298 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_11298
+[2016.12.16-21.42.45:151][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_11298.EdGraphPin_1839) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_MakeArray_1.EdGraphPin_1066).  Import failed...
+[2016.12.16-21.42.45:151][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11298.EdGraphPin_1839''
+[2016.12.16-21.42.45:152][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_101 or K2Node_VariableSet /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_21.PulseRifle.K2Node_VariableSet_101
+[2016.12.16-21.42.45:152][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_101.EdGraphPin_869) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_11298.EdGraphPin_1833).  Import failed...
+[2016.12.16-21.42.45:152][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_101.EdGraphPin_869''
+[2016.12.16-21.42.45:152][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_IfThenElse_1265.EdGraphPin_934) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_11298.EdGraphPin_1834).  Import failed...
+[2016.12.16-21.42.45:152][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1265.EdGraphPin_934''
+[2016.12.16-21.42.45:153][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_4920.EdGraphPin_1781) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_11298.EdGraphPin_1837).  Import failed...
+[2016.12.16-21.42.45:153][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4920.EdGraphPin_1781''
+[2016.12.16-21.42.45:153][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CommutativeAssociativeBinaryOperator_641.EdGraphPin_1793) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_11298.EdGraphPin_1838).  Import failed...
+[2016.12.16-21.42.45:153][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_641.EdGraphPin_1793''
+[2016.12.16-21.42.45:153][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7999.EdGraphPin_1818) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_11298.EdGraphPin_1843).  Import failed...
+[2016.12.16-21.42.45:153][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7999.EdGraphPin_1818''
+[2016.12.16-21.42.45:153][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_IfThenElse_1265.EdGraphPin_935) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_11298.EdGraphPin_1848).  Import failed...
+[2016.12.16-21.42.45:153][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1265.EdGraphPin_935''
+[2016.12.16-21.43.15:919][599]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.43.16:117][599]BlueprintEditorCompileResults: Info [5320.27] Compile of AShocker successful! [in 197 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.44.39:233][974]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.44.39:437][974]BlueprintEditorCompileResults: Info [5403.59] Compile of AShocker successful! [in 203 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.44.56:176][663]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.44.56:375][663]BlueprintEditorCompileResults: Info [5420.52] Compile of AShocker successful! [in 199 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.45.26:459][898]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_749 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_749
+[2016.12.16-21.45.26:459][898]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_749.EdGraphPin_1543''
+[2016.12.16-21.45.26:460][898]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_750 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_750
+[2016.12.16-21.45.26:460][898]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_750.EdGraphPin_1547''
+[2016.12.16-21.45.26:460][898]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_750 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_750
+[2016.12.16-21.45.26:460][898]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_750.EdGraphPin_1547''
+[2016.12.16-21.45.26:460][898]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_750 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_750
+[2016.12.16-21.45.26:460][898]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_750.EdGraphPin_1547''
+[2016.12.16-21.45.46:026][698]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.45.46:229][698]BlueprintEditorCompileResults: Info [5470.38] Compile of AShocker successful! [in 203 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.45.54:796][ 53]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.45.54:997][ 53]BlueprintEditorCompileResults: Info [5479.14] Compile of AShocker successful! [in 200 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.46.12:320][821]LogEditorViewport: Clicking on Actor (LMB): AMonster_C (AMonster2)
+[2016.12.16-21.46.12:857][842]Cmd: DELETE
+[2016.12.16-21.46.12:857][842]Cmd: ACTOR DELETE
+[2016.12.16-21.46.12:859][842]LogEditorActor: Deleted Actor: AMonster_C
+[2016.12.16-21.46.12:879][842]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.12.16-21.46.13:373][869]LogEditorViewport: Clicking on Actor (LMB): AMonster_C (AMonster)
+[2016.12.16-21.46.13:652][879]Cmd: DELETE
+[2016.12.16-21.46.13:652][879]Cmd: ACTOR DELETE
+[2016.12.16-21.46.13:653][879]LogEditorActor: Deleted Actor: AMonster_C
+[2016.12.16-21.46.13:672][879]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.12.16-21.46.14:645][931]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.46.14:645][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.16-21.46.14:645][931]PIE: New page: PIE session: map1 (Dec 16, 2016, 5:46:14 AM)
+[2016.12.16-21.46.14:645][931]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.46.14:683][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037728s)
+[2016.12.16-21.46.14:684][931]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.46.14:684][931]LogPlayLevel: PIE: World Init took: (0.001316s)
+[2016.12.16-21.46.14:684][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.039448s)
+[2016.12.16-21.46.14:705][931]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.16-21.46.14:713][931]LogInit: FAudioDevice initialized.
+[2016.12.16-21.46.14:753][931]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.46.14:762][931]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.46.14
+[2016.12.16-21.46.14:764][931]LogWorld: Bringing up level for play took: 0.010289
+[2016.12.16-21.46.14:766][931]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 1.119
+[2016.12.16-21.46.14:766][931]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.46.42:165][462]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.46.42:246][462]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.47.04:496][353]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.47.04:660][353]BlueprintEditorCompileResults: Info [5548.81] Compile of AShocker successful! [in 164 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.47.07:080][461]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.47.07:080][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.16-21.47.07:080][461]PIE: New page: PIE session: map1 (Dec 16, 2016, 5:47:07 AM)
+[2016.12.16-21.47.07:080][461]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.47.07:117][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036748s)
+[2016.12.16-21.47.07:118][461]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.47.07:118][461]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2016.12.16-21.47.07:118][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.038247s)
+[2016.12.16-21.47.07:137][461]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.16-21.47.07:145][461]LogInit: FAudioDevice initialized.
+[2016.12.16-21.47.07:189][461]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.47.07:197][461]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.47.07
+[2016.12.16-21.47.07:199][461]LogWorld: Bringing up level for play took: 0.009919
+[2016.12.16-21.47.07:201][461]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 -0.447
+[2016.12.16-21.47.07:201][461]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.47.42:360][424]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.47.42:421][424]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.48.16:587][833]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.48.16:754][833]BlueprintEditorCompileResults: Info [5620.90] Compile of AShocker successful! [in 167 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.48.37:488][696]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_11298 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_11298
+[2016.12.16-21.48.37:488][696]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_11298.EdGraphPin_1843) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7999.EdGraphPin_1818).  Import failed...
+[2016.12.16-21.48.37:488][696]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11298.EdGraphPin_1843''
+[2016.12.16-21.48.37:488][696]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_2081.EdGraphPin_945) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7999.EdGraphPin_1822).  Import failed...
+[2016.12.16-21.48.37:488][696]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_2081.EdGraphPin_945''
+[2016.12.16-21.48.37:488][696]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_3343.EdGraphPin_966) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7999.EdGraphPin_1827).  Import failed...
+[2016.12.16-21.48.37:488][696]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_3343.EdGraphPin_966''
+[2016.12.16-21.49.04:233][787]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.49.04:844][787]BlueprintEditorCompileResults: Info [5668.99] Compile of AShocker successful! [in 610 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.49.24:851][630]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.49.25:025][630]BlueprintEditorCompileResults: Info [5689.17] Compile of AShocker successful! [in 173 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.50.12:754][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_11298 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_11298
+[2016.12.16-21.50.12:754][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_11298.EdGraphPin_1843) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7999.EdGraphPin_1818).  Import failed...
+[2016.12.16-21.50.12:754][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11298.EdGraphPin_1843''
+[2016.12.16-21.50.12:754][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_2081 or K2Node_VariableSet /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_VariableSet_2081
+[2016.12.16-21.50.12:754][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_2081.EdGraphPin_945) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7999.EdGraphPin_1822).  Import failed...
+[2016.12.16-21.50.12:754][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_2081.EdGraphPin_945''
+[2016.12.16-21.50.12:755][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_3343 or K2Node_VariableSet /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_VariableSet_3343
+[2016.12.16-21.50.12:755][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_3343.EdGraphPin_966) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7999.EdGraphPin_1827).  Import failed...
+[2016.12.16-21.50.12:755][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_3343.EdGraphPin_966''
+[2016.12.16-21.50.12:755][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_11298 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_11298
+[2016.12.16-21.50.12:755][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_11298.EdGraphPin_1834) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_IfThenElse_1265.EdGraphPin_934).  Import failed...
+[2016.12.16-21.50.12:755][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11298.EdGraphPin_1834''
+[2016.12.16-21.50.12:755][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_11298 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_11298
+[2016.12.16-21.50.12:755][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_11298.EdGraphPin_1848) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_IfThenElse_1265.EdGraphPin_935).  Import failed...
+[2016.12.16-21.50.12:755][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_11298.EdGraphPin_1848''
+[2016.12.16-21.50.12:756][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_2081 or K2Node_VariableSet /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_VariableSet_2081
+[2016.12.16-21.50.12:756][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_2081.EdGraphPin_943) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_IfThenElse_1265.EdGraphPin_936).  Import failed...
+[2016.12.16-21.50.12:756][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_2081.EdGraphPin_943''
+[2016.12.16-21.50.12:756][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_2025.EdGraphPin_938) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_IfThenElse_1265.EdGraphPin_937).  Import failed...
+[2016.12.16-21.50.12:756][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_2025.EdGraphPin_938''
+[2016.12.16-21.50.12:756][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_3343 or K2Node_VariableSet /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_VariableSet_3343
+[2016.12.16-21.50.12:756][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_3343.EdGraphPin_964) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_VariableSet_2081.EdGraphPin_944).  Import failed...
+[2016.12.16-21.50.12:756][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_3343.EdGraphPin_964''
+[2016.12.16-21.50.12:756][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7998 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7998
+[2016.12.16-21.50.12:756][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7998.EdGraphPin_1815) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_VariableSet_2081.EdGraphPin_946).  Import failed...
+[2016.12.16-21.50.12:756][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7998.EdGraphPin_1815''
+[2016.12.16-21.50.12:757][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7521 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7521
+[2016.12.16-21.50.12:757][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7521.EdGraphPin_1794) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_VariableSet_3343.EdGraphPin_965).  Import failed...
+[2016.12.16-21.50.12:757][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7521.EdGraphPin_1794''
+[2016.12.16-21.50.12:758][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7522 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7522
+[2016.12.16-21.50.12:758][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7522.EdGraphPin_1803) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7521.EdGraphPin_1795).  Import failed...
+[2016.12.16-21.50.12:758][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7522.EdGraphPin_1803''
+[2016.12.16-21.50.12:758][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_4920.EdGraphPin_1781) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7521.EdGraphPin_1799).  Import failed...
+[2016.12.16-21.50.12:758][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4920.EdGraphPin_1781''
+[2016.12.16-21.50.12:758][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_4921.EdGraphPin_1783) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7521.EdGraphPin_1800).  Import failed...
+[2016.12.16-21.50.12:758][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4921.EdGraphPin_1783''
+[2016.12.16-21.50.12:758][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7522 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7522
+[2016.12.16-21.50.12:758][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7522.EdGraphPin_1805) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7521.EdGraphPin_1802).  Import failed...
+[2016.12.16-21.50.12:758][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7522.EdGraphPin_1805''
+[2016.12.16-21.50.12:758][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7998 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7998
+[2016.12.16-21.50.12:758][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7998.EdGraphPin_1813) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7521.EdGraphPin_1802).  Import failed...
+[2016.12.16-21.50.12:758][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7998.EdGraphPin_1813''
+[2016.12.16-21.50.12:759][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7998 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7998
+[2016.12.16-21.50.12:759][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7998.EdGraphPin_1811) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7522.EdGraphPin_1804).  Import failed...
+[2016.12.16-21.50.12:759][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7998.EdGraphPin_1811''
+[2016.12.16-21.50.12:759][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_7524.EdGraphPin_1810) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7522.EdGraphPin_1807).  Import failed...
+[2016.12.16-21.50.12:759][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7524.EdGraphPin_1810''
+[2016.12.16-21.50.12:760][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_14089 or K2Node_CallFunction /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_14089
+[2016.12.16-21.50.12:760][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_CallFunction_14089.EdGraphPin_1849) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_7998.EdGraphPin_1812).  Import failed...
+[2016.12.16-21.50.12:760][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_14089.EdGraphPin_1849''
+[2016.12.16-21.50.12:760][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableSet_506.EdGraphPin_1020) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_14089.EdGraphPin_1850).  Import failed...
+[2016.12.16-21.50.12:760][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_506.EdGraphPin_1020''
+[2016.12.16-21.50.12:761][634]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableGet_3543 or K2Node_VariableGet /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_VariableGet_3543
+[2016.12.16-21.50.12:761][634]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter:EventGraph.K2Node_Composite_0.Stunner.K2Node_VariableGet_3543.EdGraphPin_873) from referencer (EdGraphPin /Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker:EventGraph.K2Node_CallFunction_14089.EdGraphPin_1852).  Import failed...
+[2016.12.16-21.50.12:761][634]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_3543.EdGraphPin_873''
+[2016.12.16-21.50.12:797][634]LogBlueprint:Warning: [AShocker] CreatePinForVariable: 'StunnerTarget' variable not found. Base class was probably changed.
+[2016.12.16-21.50.12:797][634]LogBlueprint:Warning: [AShocker] CreatePinForVariable: 'StunnerTarget' variable not found. Base class was probably changed.
+[2016.12.16-21.50.12:797][634]LogBlueprint:Warning: [AShocker] CreatePinForVariable: 'EnemyHit' variable not found. Base class was probably changed.
+[2016.12.16-21.50.12:797][634]LogBlueprint:Warning: [AShocker] CreatePinForVariable: 'EnemyHit' variable not found. Base class was probably changed.
+[2016.12.16-21.50.12:798][634]LogBlueprint:Warning: [AShocker] CreatePinForVariable: 'EnemyHit' variable not found. Base class was probably changed.
+[2016.12.16-21.52.28:027][276]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.52.28:090][276]LogBlueprint:Warning: Compiler Warning Could not find a variable named "StunnerTarget" in 'AShocker_C'.
+Make sure 'AShocker_C' has been compiled for  Set StunnerTarget 
+[2016.12.16-21.52.28:093][276]LogBlueprint:Error: Compiler Error Dependency cycle detected, preventing node  Set Beam Target Point  from being scheduled
+[2016.12.16-21.52.28:114][276]LogBlueprint:Error: Compiler Error The property associated with  Stunner Target  could not be found
+[2016.12.16-21.52.28:706][276]LogBlueprint:Warning: Compiler Warning [5872.84] Compile of AShocker failed. 2 Fatal Issue(s) 1 Warning(s) [in 678 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.52.28:706][276]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "StunnerTarget" in 'AShocker_C'.
+Make sure 'AShocker_C' has been compiled for  Set StunnerTarget 
+[2016.12.16-21.52.28:706][276]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set Beam Target Point  from being scheduled
+[2016.12.16-21.52.28:706][276]BlueprintEditorCompileResults:Error: Error The property associated with  Stunner Target  could not be found
+[2016.12.16-21.52.28:706][276]BlueprintEditorCompileResults:Warning: Warning [5872.84] Compile of AShocker failed. 2 Fatal Issue(s) 1 Warning(s) [in 678 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.53.17:019][274]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.53.17:195][274]BlueprintEditorCompileResults: Info [5921.33] Compile of AShocker successful! [in 176 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.53.25:792][635]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.53.25:970][635]BlueprintEditorCompileResults: Info [5930.11] Compile of AShocker successful! [in 177 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.53.29:002][768]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.53.29:002][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.16-21.53.29:002][768]PIE: New page: PIE session: map1 (Dec 16, 2016, 5:53:29 AM)
+[2016.12.16-21.53.29:002][768]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.53.29:038][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035670s)
+[2016.12.16-21.53.29:039][768]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.53.29:039][768]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2016.12.16-21.53.29:039][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.036955s)
+[2016.12.16-21.53.29:061][768]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.16-21.53.29:069][768]LogInit: FAudioDevice initialized.
+[2016.12.16-21.53.29:111][768]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.53.29:120][768]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.53.29
+[2016.12.16-21.53.29:123][768]LogWorld: Bringing up level for play took: 0.010126
+[2016.12.16-21.53.29:125][768]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 -0.531
+[2016.12.16-21.53.29:125][768]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.54.04:646][730]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.54.04:728][730]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.54.16:950][209]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.54.17:128][209]BlueprintEditorCompileResults: Info [5981.27] Compile of AShocker successful! [in 177 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.54.28:602][686]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.54.28:784][686]BlueprintEditorCompileResults: Info [5992.92] Compile of AShocker successful! [in 181 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.54.51:960][656]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.54.52:140][656]BlueprintEditorCompileResults: Info [6016.28] Compile of AShocker successful! [in 180 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.54.54:490][760]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.54.54:490][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.16-21.54.54:490][760]PIE: New page: PIE session: map1 (Dec 16, 2016, 5:54:54 AM)
+[2016.12.16-21.54.54:490][760]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.54.54:527][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036214s)
+[2016.12.16-21.54.54:527][760]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.54.54:527][760]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2016.12.16-21.54.54:528][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.037369s)
+[2016.12.16-21.54.54:553][760]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.16-21.54.54:561][760]LogInit: FAudioDevice initialized.
+[2016.12.16-21.54.54:601][760]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.54.54:610][760]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.54.54
+[2016.12.16-21.54.54:612][760]LogWorld: Bringing up level for play took: 0.009852
+[2016.12.16-21.54.54:614][760]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 0.956
+[2016.12.16-21.54.54:614][760]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.55.21:109][234]LogNet: Browse: /Game/FirstPersonBP/Maps/map1
+[2016.12.16-21.55.21:127][234]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/map1
+[2016.12.16-21.55.21:160][234]Cmd: MEM
+[2016.12.16-21.55.21:178][234]LogMemory: Platform Memory Stats for Windows
+[2016.12.16-21.55.21:178][234]LogMemory: Process Physical Memory: 1397.83 MB used, 1410.33 MB peak
+[2016.12.16-21.55.21:178][234]LogMemory: Process Virtual Memory: 2239.71 MB used, 2327.65 MB peak
+[2016.12.16-21.55.21:178][234]LogMemory: Physical Memory: 7228.51 MB used, 8174.04 MB total
+[2016.12.16-21.55.21:178][234]LogMemory: Virtual Memory: 2965.38 MB used, 8388608.00 MB total
+[2016.12.16-21.55.21:178][234]LogMemory: 
+[2016.12.16-21.55.21:178][234]Allocator Stats for TBB: (not implemented)
+[2016.12.16-21.55.21:179][234]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.55.21:211][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032592s)
+[2016.12.16-21.55.21:213][234]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.55.21:213][234]LogPlayLevel: PIE: World Init took: (0.002119s)
+[2016.12.16-21.55.21:214][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.035003s)
+[2016.12.16-21.55.21:214][234]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.55.21:222][234]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.55.21
+[2016.12.16-21.55.21:225][234]LogWorld: Bringing up level for play took: 0.010014
+[2016.12.16-21.55.21:226][234]LogLoad: Took 0.099423 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_0_map1)
+[2016.12.16-21.55.49:777][816]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.55.49:818][816]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.56.12:114][716]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.56.12:287][716]BlueprintEditorCompileResults: Info [6096.42] Compile of AShocker successful! [in 172 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.56.15:269][844]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.56.15:269][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.16-21.56.15:270][844]PIE: New page: PIE session: map1 (Dec 16, 2016, 5:56:15 AM)
+[2016.12.16-21.56.15:270][844]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.56.15:303][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033452s)
+[2016.12.16-21.56.15:305][844]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.56.15:305][844]LogPlayLevel: PIE: World Init took: (0.001981s)
+[2016.12.16-21.56.15:305][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.035738s)
+[2016.12.16-21.56.15:324][844]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.16-21.56.15:332][844]LogInit: FAudioDevice initialized.
+[2016.12.16-21.56.15:376][844]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.56.15:385][844]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.56.15
+[2016.12.16-21.56.15:387][844]LogWorld: Bringing up level for play took: 0.009884
+[2016.12.16-21.56.15:389][844]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 -0.271
+[2016.12.16-21.56.15:389][844]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.56.56:235][120]LogNet: Browse: /Game/FirstPersonBP/Maps/map1
+[2016.12.16-21.56.56:252][120]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/map1
+[2016.12.16-21.56.56:276][120]Cmd: MEM
+[2016.12.16-21.56.56:292][120]LogMemory: Platform Memory Stats for Windows
+[2016.12.16-21.56.56:292][120]LogMemory: Process Physical Memory: 1398.18 MB used, 1410.84 MB peak
+[2016.12.16-21.56.56:292][120]LogMemory: Process Virtual Memory: 2239.78 MB used, 2336.27 MB peak
+[2016.12.16-21.56.56:292][120]LogMemory: Physical Memory: 7233.55 MB used, 8174.04 MB total
+[2016.12.16-21.56.56:292][120]LogMemory: Virtual Memory: 2965.38 MB used, 8388608.00 MB total
+[2016.12.16-21.56.56:292][120]LogMemory: 
+[2016.12.16-21.56.56:292][120]Allocator Stats for TBB: (not implemented)
+[2016.12.16-21.56.56:293][120]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.56.56:325][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032003s)
+[2016.12.16-21.56.56:326][120]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.56.56:326][120]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2016.12.16-21.56.56:326][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.033804s)
+[2016.12.16-21.56.56:326][120]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.56.56:335][120]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.56.56
+[2016.12.16-21.56.56:337][120]LogWorld: Bringing up level for play took: 0.009729
+[2016.12.16-21.56.56:339][120]LogLoad: Took 0.087152 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_0_map1)
+[2016.12.16-21.58.15:089][509]LogNet: Browse: /Game/FirstPersonBP/Maps/map1
+[2016.12.16-21.58.15:106][509]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/map1
+[2016.12.16-21.58.15:130][509]Cmd: MEM
+[2016.12.16-21.58.15:149][509]LogMemory: Platform Memory Stats for Windows
+[2016.12.16-21.58.15:149][509]LogMemory: Process Physical Memory: 1390.07 MB used, 1410.97 MB peak
+[2016.12.16-21.58.15:150][509]LogMemory: Process Virtual Memory: 2162.70 MB used, 2336.34 MB peak
+[2016.12.16-21.58.15:150][509]LogMemory: Physical Memory: 7222.21 MB used, 8174.04 MB total
+[2016.12.16-21.58.15:150][509]LogMemory: Virtual Memory: 2883.63 MB used, 8388608.00 MB total
+[2016.12.16-21.58.15:150][509]LogMemory: 
+[2016.12.16-21.58.15:150][509]Allocator Stats for TBB: (not implemented)
+[2016.12.16-21.58.15:150][509]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.58.15:184][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034529s)
+[2016.12.16-21.58.15:185][509]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.58.15:185][509]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2016.12.16-21.58.15:185][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.035804s)
+[2016.12.16-21.58.15:185][509]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.58.15:195][509]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.58.15
+[2016.12.16-21.58.15:197][509]LogWorld: Bringing up level for play took: 0.010163
+[2016.12.16-21.58.15:198][509]LogLoad: Took 0.092588 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_0_map1)
+[2016.12.16-21.58.35:000][599]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.58.35:040][599]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.58.38:014][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/map1" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.16-21.58.38:325][747]LogSavePackage: Save=274.81ms
+[2016.12.16-21.58.38:325][747]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/map1B0A0759B4F87C0A30D3A63977EEAC34F.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap'
+[2016.12.16-21.58.38:328][747]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap
+[2016.12.16-21.58.38:377][747]LogFileHelpers: Saving map 'map1' took 0.416
+[2016.12.16-21.58.38:404][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Monsters/M_Shockurchan/AShocker" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset" SILENT=true
+[2016.12.16-21.58.38:560][747]LogSavePackage: Save=150.62ms
+[2016.12.16-21.58.38:560][747]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/AShockerAF49B697457FEC065A4D58B846D5D370.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset'
+[2016.12.16-21.58.38:562][747]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset
+[2016.12.16-21.59.21:949][499]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.59.22:129][499]BlueprintEditorCompileResults: Info [6286.26] Compile of AShocker successful! [in 179 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.59.43:259][361]BlueprintLog: New page: Compile AShocker
+[2016.12.16-21.59.43:436][361]BlueprintEditorCompileResults: Info [6307.57] Compile of AShocker successful! [in 176 ms] (/Game/RobotFps/Monsters/M_Shockurchan/AShocker.AShocker)
+[2016.12.16-21.59.45:678][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-21.59.45:678][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.16-21.59.45:679][460]PIE: New page: PIE session: map1 (Dec 16, 2016, 5:59:45 AM)
+[2016.12.16-21.59.45:679][460]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_map1
+[2016.12.16-21.59.45:714][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035547s)
+[2016.12.16-21.59.45:715][460]LogAIModule: Creating AISystem for world map1
+[2016.12.16-21.59.45:715][460]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2016.12.16-21.59.45:715][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/map1.map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 (0.036787s)
+[2016.12.16-21.59.45:735][460]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.16-21.59.45:743][460]LogInit: FAudioDevice initialized.
+[2016.12.16-21.59.45:787][460]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.12.16-21.59.45:795][460]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_map1.map1 up for play (max tick rate 0) at 2016.12.16-13.59.45
+[2016.12.16-21.59.45:798][460]LogWorld: Bringing up level for play took: 0.009732
+[2016.12.16-21.59.45:799][460]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_map1 0.136
+[2016.12.16-21.59.45:799][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-22.00.41:327][565]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-22.00.41:377][565]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1' with GeneratedClass '/Game/FirstPersonBP/Maps/map1.map1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.map1'
+[2016.12.16-22.00.43:923][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/map1" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.16-22.00.44:200][690]LogSavePackage: Save=249.95ms
+[2016.12.16-22.00.44:200][690]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/map13F6454254B19B0BC071920A346603858.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap'
+[2016.12.16-22.00.44:202][690]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/FirstPersonBP/Maps/map1.umap
+[2016.12.16-22.00.44:253][690]LogFileHelpers: Saving map 'map1' took 0.383
+[2016.12.16-22.00.44:281][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Monsters/M_Shockurchan/AShocker" FILE="../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset" SILENT=true
+[2016.12.16-22.00.44:429][690]LogSavePackage: Save=144.03ms
+[2016.12.16-22.00.44:429][690]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/RobotFps/Saved/AShockerDF796D954F1953235A3DF18C9EEAC31E.tmp' to '../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset'
+[2016.12.16-22.00.44:431][690]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/RobotFps/Content/RobotFps/Monsters/M_Shockurchan/AShocker.uasset
+[2016.12.16-22.00.47:033][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.12.16-22.00.47:492][816]Cmd: QUIT_EDITOR
+[2016.12.16-22.00.47:982][816]LogExit: Preparing to exit.
+[2016.12.16-22.00.49:037][816]LogExit: Editor shut down
+[2016.12.16-22.00.49:038][816]LogExit: Transaction tracking system shut down
+[2016.12.16-22.00.50:914][816]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.16-22.00.50:914][816]LogExit: Object subsystem successfully closed.
+[2016.12.16-22.00.51:138][816]LogD3D11RHI: Shutdown
+[2016.12.16-22.00.51:139][816]LogD3D11RHI: CleanupD3DDevice
+[2016.12.16-22.00.51:312][816]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.16-22.00.52:095][816]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (216)
+[2016.12.16-22.00.52:095][816]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2016.12.16-22.00.52:095][816]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.12.16-22.00.52:095][816]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.12.16-22.00.52:106][816]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.12.16-22.00.52:106][816]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.12.16-22.00.52:106][816]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.12.16-22.00.52:115][816]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.12.16-22.00.52:176][816]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.12.16-22.00.52:176][816]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.12.16-22.00.52:176][816]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.12.16-22.00.52:202][816]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.12.16-22.00.52:224][816]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.12.16-22.00.52:231][816]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.12.16-22.00.52:279][816]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.12.16-22.00.52:279][816]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.12.16-22.00.52:279][816]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.12.16-22.00.52:279][816]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.12.16-22.00.52:279][816]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.12.16-22.00.52:286][816]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.12.16-22.00.52:333][816]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.12.16-22.00.52:333][816]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.12.16-22.00.52:353][816]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.12.16-22.00.52:353][816]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.12.16-22.00.52:363][816]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.12.16-22.00.52:374][816]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.12.16-22.00.52:435][816]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.12.16-22.00.52:435][816]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.12.16-22.00.52:435][816]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.12.16-22.00.52:435][816]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.12.16-22.00.52:435][816]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.12.16-22.00.52:489][816]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.12.16-22.00.52:506][816]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.12.16-22.00.52:527][816]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.12.16-22.00.52:527][816]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.12.16-22.00.52:545][816]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.12.16-22.00.52:545][816]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.12.16-22.00.53:315][816]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.12.16-22.00.53:327][816]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.12.16-22.00.53:327][816]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.12.16-22.00.53:327][816]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.12.16-22.00.53:335][816]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.12.16-22.00.53:335][816]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.12.16-22.00.53:344][816]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.12.16-22.00.53:350][816]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.12.16-22.00.53:361][816]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.12.16-22.00.53:372][816]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.12.16-22.00.53:381][816]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.12.16-22.00.53:395][816]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.12.16-22.00.53:408][816]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.12.16-22.00.53:408][816]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.12.16-22.00.53:423][816]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.12.16-22.00.53:437][816]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.12.16-22.00.53:443][816]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.12.16-22.00.53:443][816]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.12.16-22.00.53:477][816]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.12.16-22.00.53:477][816]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.12.16-22.00.53:496][816]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.12.16-22.00.53:510][816]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.12.16-22.00.53:528][816]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.12.16-22.00.53:539][816]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.12.16-22.00.53:555][816]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.12.16-22.00.53:624][816]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.12.16-22.00.53:631][816]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.12.16-22.00.53:652][816]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.12.16-22.00.53:672][816]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.12.16-22.00.53:672][816]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.12.16-22.00.53:691][816]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.12.16-22.00.53:691][816]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.12.16-22.00.53:691][816]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.12.16-22.00.53:691][816]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.12.16-22.00.53:691][816]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.12.16-22.00.53:711][816]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.12.16-22.00.53:718][816]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.12.16-22.00.53:736][816]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.12.16-22.00.53:785][816]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.12.16-22.00.53:791][816]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.12.16-22.00.53:805][816]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.12.16-22.00.53:805][816]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.12.16-22.00.53:805][816]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.12.16-22.00.53:805][816]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.12.16-22.00.53:805][816]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.12.16-22.00.53:805][816]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.12.16-22.00.53:805][816]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.12.16-22.00.53:805][816]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.12.16-22.00.53:805][816]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.12.16-22.00.53:821][816]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.12.16-22.00.53:821][816]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.12.16-22.00.54:012][816]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.12.16-22.00.54:144][816]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.12.16-22.00.54:144][816]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.12.16-22.00.54:144][816]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.12.16-22.00.54:144][816]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.12.16-22.00.54:144][816]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.12.16-22.00.54:144][816]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.12.16-22.00.54:144][816]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.12.16-22.00.54:144][816]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.12.16-22.00.54:144][816]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.12.16-22.00.54:144][816]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.12.16-22.00.54:188][816]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.12.16-22.00.54:188][816]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.12.16-22.00.54:188][816]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.12.16-22.00.54:188][816]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.12.16-22.00.54:188][816]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.12.16-22.00.54:197][816]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.12.16-22.00.54:197][816]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.12.16-22.00.54:208][816]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.12.16-22.00.54:216][816]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.12.16-22.00.54:216][816]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.12.16-22.00.54:229][816]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.12.16-22.00.54:237][816]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.12.16-22.00.54:245][816]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.12.16-22.00.54:260][816]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.12.16-22.00.54:260][816]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.12.16-22.00.54:295][816]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.12.16-22.00.54:295][816]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.12.16-22.00.54:310][816]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.12.16-22.00.54:323][816]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.12.16-22.00.54:418][816]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.12.16-22.00.54:421][816]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.12.16-22.00.54:433][816]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.12.16-22.00.54:433][816]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.12.16-22.00.54:477][816]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.12.16-22.00.54:577][816]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.12.16-22.00.54:577][816]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.12.16-22.00.54:619][816]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.12.16-22.00.54:619][816]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.12.16-22.00.54:619][816]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.12.16-22.00.54:693][816]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.12.16-22.00.54:693][816]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.12.16-22.00.54:719][816]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.12.16-22.00.54:719][816]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.12.16-22.00.54:719][816]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.12.16-22.00.54:732][816]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.12.16-22.00.54:732][816]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.12.16-22.00.54:732][816]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.12.16-22.00.54:757][816]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.12.16-22.00.54:757][816]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.12.16-22.00.54:767][816]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.12.16-22.00.54:828][816]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.12.16-22.00.54:828][816]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.12.16-22.00.54:828][816]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.12.16-22.00.54:847][816]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.12.16-22.00.54:871][816]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.12.16-22.00.54:871][816]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.12.16-22.00.54:916][816]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.12.16-22.00.54:916][816]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.12.16-22.00.54:918][816]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.12.16-22.00.54:918][816]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.12.16-22.00.54:918][816]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.12.16-22.00.54:918][816]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.12.16-22.00.54:918][816]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.12.16-22.00.54:918][816]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.12.16-22.00.54:919][816]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.12.16-22.00.55:038][816]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.12.16-22.00.55:038][816]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.12.16-22.00.55:038][816]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.12.16-22.00.55:058][816]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.12.16-22.00.55:117][816]LogDerivedDataCache: Shutdown
+[2016.12.16-22.00.55:117][816]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.12.16-22.00.55:143][816]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.12.16-22.00.55:201][816]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.12.16-22.00.55:241][816]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.12.16-22.00.55:273][816]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.12.16-22.00.55:274][816]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.12.16-22.00.55:294][816]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.12.16-22.00.55:325][816]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.12.16-22.00.55:349][816]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.12.16-22.00.55:349][816]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.12.16-22.00.55:349][816]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.12.16-22.00.55:349][816]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.12.16-22.00.55:377][816]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.12.16-22.00.55:410][816]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.12.16-22.00.55:437][816]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.12.16-22.00.55:437][816]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.12.16-22.00.55:466][816]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.12.16-22.00.55:496][816]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.12.16-22.00.55:497][816]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.12.16-22.00.55:497][816]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.12.16-22.00.55:497][816]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.12.16-22.00.55:497][816]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.12.16-22.00.55:497][816]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+
+[2016.12.16-22.00.55:524][816]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.12.16-22.00.55:524][816]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.12.16-22.00.55:524][816]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.12.16-22.00.55:524][816]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.12.16-22.00.55:524][816]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.12.16-22.00.55:524][816]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.12.16-22.00.55:524][816]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.12.16-22.00.55:524][816]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.12.16-22.00.55:548][816]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.12.16-22.00.55:565][816]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.12.16-22.00.55:578][816]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.12.16-22.00.55:578][816]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.12.16-22.00.55:595][816]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.12.16-22.00.55:596][816]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.12.16-22.00.55:596][816]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.12.16-22.00.55:621][816]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.12.16-22.00.57:121][816]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.12.16-22.00.57:288][816]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.12.16-22.00.57:357][816]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.12.16-22.00.57:357][816]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.16-22.00.57:380][816]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.16-22.00.57:380][816]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.16-22.00.57:380][816]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.16-22.00.57:439][816]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.16-22.00.57:466][816]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.16-22.00.57:466][816]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.16-22.00.57:466][816]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.16-22.00.57:466][816]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.16-22.00.57:466][816]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.16-22.00.57:466][816]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.16-22.00.57:524][816]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.16-22.00.57:554][816]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.16-22.00.57:603][816]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.16-22.00.57:604][816]LogExit: Exiting.
+[2016.12.16-22.00.57:630][816]Log file closed, 12/16/16 14:00:57
