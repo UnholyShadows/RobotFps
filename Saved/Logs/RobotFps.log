@@ -1,9 +1,9 @@
-﻿Log file open, 12/24/16 15:54:35
+﻿Log file open, 01/01/17 17:01:20
 LogInit:Display: Running engine for game: RobotFps
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-878468494) SRandInit(-878468494).
+LogInit:Display: RandInit(1308103426) SRandInit(1308103426).
 LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.209693
+LogStats: Stats thread started at 0.549235
 LogPluginManager: Loaded Plugin Paper2D, From E:/neuUnreal/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From E:/neuUnreal/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From E:/neuUnreal/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -144,1088 +144,338 @@ LogInit: Base directory: E:/neuUnreal/Epic Games/4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.12.24-14.54.36:336][  0]LogInit: Selected Device Profile: [Windows]
-[2016.12.24-14.54.36:336][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.12.24-14.54.36:367][  0]LogInit: Computer: PCT
-[2016.12.24-14.54.36:367][  0]LogInit: User: USRNAM
-[2016.12.24-14.54.36:367][  0]LogInit: CPU Page size=65536, Cores=6
-[2016.12.24-14.54.36:367][  0]LogInit: High frequency timer resolution =2.746982 MHz
-[2016.12.24-14.54.36:367][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2016.12.24-14.54.36:367][  0]LogMemory: Platform Memory Stats for Windows
-[2016.12.24-14.54.36:367][  0]LogMemory: Process Physical Memory: 268.05 MB used, 268.05 MB peak
-[2016.12.24-14.54.36:367][  0]LogMemory: Process Virtual Memory: 267.51 MB used, 267.51 MB peak
-[2016.12.24-14.54.36:367][  0]LogMemory: Physical Memory: 4877.71 MB used,  11502.82 MB free, 16380.53 MB total
-[2016.12.24-14.54.36:367][  0]LogMemory: Virtual Memory: 667.79 MB used,  11502.82 MB free, 8388608.00 MB total
-[2016.12.24-14.54.36:501][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
-[2016.12.24-14.54.38:171][  0]LogD3D11RHI: D3D11 adapters:
-[2016.12.24-14.54.38:209][  0]LogD3D11RHI:    0. 'AMD Radeon HD 5800 Series' (Feature Level 11_0)
-[2016.12.24-14.54.38:209][  0]LogD3D11RHI:       1010/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2016.12.24-14.54.38:209][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.12.24-14.54.38:216][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.12.24-14.54.38:216][  0]LogD3D11RHI:     GPU DeviceId: 0x6898 (for the marketing name, search the web for "GPU Device Id")
-[2016.12.24-14.54.38:216][  0]LogWindows: EnumDisplayDevices:
-[2016.12.24-14.54.38:217][  0]LogWindows:    0. 'AMD Radeon HD 5800 Series' (P:0 D:1)
-[2016.12.24-14.54.38:217][  0]LogWindows:    1. 'AMD Radeon HD 5800 Series' (P:1 D:1)
-[2016.12.24-14.54.38:217][  0]LogWindows:    2. 'AMD Radeon HD 5800 Series' (P:0 D:0)
-[2016.12.24-14.54.38:217][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
-[2016.12.24-14.54.38:217][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2016.12.24-14.54.38:218][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
-[2016.12.24-14.54.38:218][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
-[2016.12.24-14.54.38:218][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 5800 Series
-[2016.12.24-14.54.38:218][  0]LogD3D11RHI:   Driver Version: Catalyst 15.7.1 (internal:15.200.1062.1004, unified:15.200.1062.1004)
-[2016.12.24-14.54.38:218][  0]LogD3D11RHI:      Driver Date: 8-3-2015
-[2016.12.24-14.54.38:218][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
-[2016.12.24-14.54.38:232][  0]LogD3D11RHI: Async texture creation enabled
-[2016.12.24-14.54.38:245][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2016.12.24-14.54.38:245][  0]LogShaderCompilers: Guid format shader working directory is 26 characters bigger than the processId version (I:/Unreal4/FPS-unholy/Intermediate/Shaders/WorkingDirectory/8096/).
-[2016.12.24-14.54.38:246][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/USRNAM/AppData/Local/Temp/UnrealShaderWorkingDir/1EC0E44F45C8498F5FF20CAB42EE9239/'.
-[2016.12.24-14.54.38:246][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.12.24-14.54.41:044][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.12.24-14.54.41:129][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2016.12.24-14.54.41:213][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2016.12.24-14.54.41:297][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2016.12.24-14.54.41:383][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2016.12.24-14.54.41:466][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.12.24-14.54.41:550][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.12.24-14.54.41:634][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.12.24-14.54.41:702][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.12.24-14.54.41:787][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.12.24-14.54.41:870][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.12.24-14.54.41:952][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.12.24-14.54.42:034][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.12.24-14.54.42:118][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.12.24-14.54.42:201][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.12.24-14.54.42:365][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.12.24-14.54.42:365][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.12.24-14.54.42:421][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.12.24-14.54.42:551][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.12.24-14.54.42:604][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.12.24-14.54.42:687][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2016.12.24-14.54.42:770][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.12.24-14.54.42:852][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.12.24-14.54.42:937][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.12.24-14.54.42:937][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.12.24-14.54.43:596][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.12.24-14.54.44:358][  0]LogDerivedDataCache: Loaded boot cache 0.76s 50MB C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2016.12.24-14.54.44:358][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2016.12.24-14.54.44:359][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/Unreal4/FPS-unholy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.12.24-14.54.44:359][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.12.24-14.54.44:359][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/Unreal4/FPS-unholy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.12.24-14.54.44:359][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.12.24-14.54.44:388][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.12.24-14.54.44:401][  0]LogDerivedDataCache: Using Local data cache path C:/Users/USRNAM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.12.24-14.54.44:916][  0]LogInit: Selected Device Profile: [Windows]
-[2016.12.24-14.54.44:922][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.12.24-14.54.45:242][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2016.12.24-14.54.45:321][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2016.12.24-14.54.45:391][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2016.12.24-14.54.45:391][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2016.12.24-14.54.45:391][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.12.24-14.54.46:392][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: robotfps, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1113872776
-[2016.12.24-14.54.46:467][  0]LogAssetRegistry: FAssetRegistry took 0.0199 seconds to start up
-[2016.12.24-14.54.46:542][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.041983 seconds
-[2016.12.24-14.54.46:555][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2016.12.24-14.54.46:555][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
-[2016.12.24-14.54.46:555][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.12.24-14.54.46:642][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.12.24-14.54.47:789][  0]LogSlate: Using Freetype 2.6.0
-[2016.12.24-14.54.47:793][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.12.24-14.54.47:793][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.12.24-14.54.51:213][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.12.24-14.54.51:260][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2016.12.24-14.54.51:311][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.12.24-14.54.51:790][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.12.24-14.54.52:602][  0]SourceControl: Info Source control is disabled
-[2016.12.24-14.55.00:085][  0]LogEngine: Initializing Engine...
-[2016.12.24-14.55.00:086][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.12.24-14.55.00:469][  0]LogAIModule: Creating AISystem for world Untitled
-[2016.12.24-14.55.00:519][  0]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-14.55.00:670][  0]LogInit: FAudioDevice initialized.
-[2016.12.24-14.55.00:723][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2016.12.24-14.55.00:743][  0]LogInit: Texture streaming: Enabled
-[2016.12.24-14.55.01:145][  0]LogInit: Transaction tracking system initialized
-[2016.12.24-14.55.01:678][  0]BlueprintLog: New page: Editor Load
-[2016.12.24-14.55.03:099][  0]LocalizationService: Info Localization service is disabled
-[2016.12.24-14.55.04:186][  0]LogConsoleResponse:Display: 
-[2016.12.24-14.55.04:489][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2016.12.24-14.55.04:489][  0]LogCook:Display: Mobile HDR setting 1
-[2016.12.24-14.55.05:305][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/' took 0.02s
-[2016.12.24-14.55.07:868][  0]Cmd: MAP LOAD FILE="I:/Unreal4/FPS-unholy/Content/FirstPersonBP/Maps/map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.12.24-14.55.07:872][  0]LightingResults: New page: Lighting Build
-[2016.12.24-14.55.07:938][  0]MapCheck: New page: Map Check
-[2016.12.24-14.55.07:938][  0]LightingResults: New page: Lighting Build
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:148][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2016.12.24-14.55.10:775][  0]LogAIModule: Creating AISystem for world map1
-[2016.12.24-14.55.10:777][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.WorldInfo_0.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2016.12.24-14.55.10:828][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.12.24-14.55.10:832][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.12.24-14.55.10:927][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.51ms to complete.
-[2016.12.24-14.55.10:927][  0]LogFileHelpers: Loading map 'map1' took 3.058
-[2016.12.24-14.55.11:336][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.12.24-14.55.11:397][  0]LogCollectionManager: Loaded 0 collections in 0.002553 seconds
-[2016.12.24-14.55.11:522][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Saved/Collections/' took 0.01s
-[2016.12.24-14.55.11:522][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/Developers/USRNAM/Collections/' took 0.01s
-[2016.12.24-14.55.11:523][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/Collections/' took 0.01s
-[2016.12.24-14.55.11:523][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
-[2016.12.24-14.55.11:547][  0]LogContentBrowser: Native class hierarchy populated in 0.0236 seconds. Added 2206 classes and 436 folders.
-[2016.12.24-14.55.11:628][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.12.24-14.55.11:628][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.12.24-14.55.11:629][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 13 classes and 0 folders.
-[2016.12.24-14.55.11:729][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2016.12.24-14.55.11:914][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2016.12.24-14.55.11:920][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.12.24-14.55.12:014][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.12.24-14.55.12:014][  0]LogLoad: (Engine Initialization) Total time: 47.98 seconds
-[2016.12.24-14.55.12:014][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.12 seconds
-[2016.12.24-14.55.12:014][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.12.24-14.55.12:014][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.12.24-14.55.12:026][  0]LogOcInput: OculusInput pre-init called
-[2016.12.24-14.55.12:045][  0]SourceControl: Info On branch master
-[2016.12.24-14.55.12:045][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2016.12.24-14.55.12:045][  0]SourceControl: Info Changes not staged for commit:
-[2016.12.24-14.55.12:045][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
-[2016.12.24-14.55.12:045][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2016.12.24-14.55.12:045][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
-[2016.12.24-14.55.12:045][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
-[2016.12.24-14.55.12:045][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
-[2016.12.24-14.55.12:045][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2016.12.24-14.55.12:045][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
-[2016.12.24-14.55.12:045][  0]SourceControl: Info 	modified:   Saved/Logs/RobotFps.log
-[2016.12.24-14.55.12:045][  0]SourceControl: Info Untracked files:
-[2016.12.24-14.55.12:045][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2016.12.24-14.55.12:045][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-1C625B08450AFCC8824ADBAF778ECB7E/
-[2016.12.24-14.55.12:045][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-E92421E641B560B48D8962B73BE19DD1/
-[2016.12.24-14.55.12:045][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2016.12.24-14.55.12:045][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2016.12.24-14.55.12:324][  0]LogRenderer: Reallocating scene render targets to support 1116x872 NumSamples 1 (Frame:2).
-[2016.12.24-14.55.13:062][  2]LogAssetRegistry: Asset discovery search completed in 26.6151 seconds
-[2016.12.24-14.55.13:062][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.12.24-14.55.13:062][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
-[2016.12.24-14.55.20:323][312]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-14.55.20:445][312]Cmd: MAP LOAD FILE="I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.12.24-14.55.20:445][312]LightingResults: New page: Lighting Build
-[2016.12.24-14.55.20:446][312]LoadErrors: New page: Loading map: A-Palettemap1.umap
-[2016.12.24-14.55.20:449][312]MapCheck: New page: Map Check
-[2016.12.24-14.55.20:449][312]LightingResults: New page: Lighting Build
-[2016.12.24-14.55.20:581][312]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.12.24-14.55.20:636][312]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.12.24-14.55.20:724][312]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.436ms to complete.
-[2016.12.24-14.55.20:724][312]LogFileHelpers: Loading map 'A-Palettemap1' took 0.280
-[2016.12.24-14.55.43:855][ 44]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume2)
-[2016.12.24-14.56.11:873][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
-[2016.12.24-14.57.06:961][677]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2016.12.24-14.57.37:079][697]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume2)
-[2016.12.24-14.57.39:279][842]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight)
-[2016.12.24-14.57.54:004][838]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume2)
-[2016.12.24-14.57.58:960][174]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2016.12.24-14.58.03:605][491]Cmd: DELETE
-[2016.12.24-14.58.03:605][491]Cmd: ACTOR DELETE
-[2016.12.24-14.58.03:611][491]LogEditorActor: Deleted Actor: SpotLight
-[2016.12.24-14.58.03:635][491]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2016.12.24-14.58.06:299][701]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume2)
-[2016.12.24-14.59.16:446][850]LogMaterial: Missing cached shader map for material M_TopDownGlow, compiling. 
-[2016.12.24-14.59.16:612][850]LogMaterial: Missing cached shader map for material M_TopDownGlow, compiling. 
-[2016.12.24-14.59.16:632][850]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-14.59.16:664][850]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2016.12.24-14.59.16:671][850]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2016.12.24-14.59.19:496][949]MaterialEditorStats: Info Base pass shader with static lighting: 55 instructions
-[2016.12.24-14.59.19:496][949]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2016.12.24-14.59.19:496][949]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-14.59.19:497][949]MaterialEditorStats: Info Texture samplers: 4/16
-[2016.12.24-14.59.42:247][811]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.12.24-15.00.01:980][587]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.02:116][587]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.02:136][587]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.00.02:195][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
-[2016.12.24-15.00.02:202][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_0, compiling. 
-[2016.12.24-15.00.02:221][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
-[2016.12.24-15.00.02:228][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
-[2016.12.24-15.00.02:244][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2016.12.24-15.00.02:251][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.00.05:119][687]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.00.05:119][687]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.00.05:119][687]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.00.05:119][687]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.00.11:145][927]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.11:164][927]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.00.11:209][927]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.00.12:497][979]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.12:521][979]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.00.12:565][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.00.13:722][ 18]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.13:745][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.00.13:780][ 18]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.00.16:234][109]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.00.16:234][109]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.00.16:234][109]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.00.16:234][109]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.00.29:550][624]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.29:570][624]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.00.29:596][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.00.31:843][707]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.00.31:843][707]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.00.31:843][707]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.00.31:843][707]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.00.35:487][855]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.35:507][855]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.00.35:530][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.00.37:810][935]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.00.37:810][935]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.00.37:810][935]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.00.37:810][935]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.00.38:749][969]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.38:768][969]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.00.38:791][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.00.41:084][ 54]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.00.41:084][ 54]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.00.41:084][ 54]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.00.41:084][ 54]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.00.44:402][184]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.44:422][184]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.00.44:463][184]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.00.46:671][273]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.00.46:671][273]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.00.46:671][273]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.00.46:671][273]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.00.51:015][460]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.51:034][460]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.00.51:078][460]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.00.53:319][551]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.00.53:319][551]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.00.53:319][551]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.00.53:319][551]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.00.56:934][702]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.56:954][702]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.00.56:988][702]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.00.57:667][726]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.00.57:690][726]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.00.57:714][726]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.01.00:685][839]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.01.00:705][839]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.01.00:733][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.01.02:978][927]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.01.02:978][927]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.01.02:978][927]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.01.02:978][927]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.01.05:958][ 55]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.01.05:977][ 55]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.01.06:001][ 55]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.01.08:234][144]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.01.08:234][144]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.01.08:234][144]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.01.08:234][144]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.01.09:044][178]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.01.09:064][178]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.01.09:105][178]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.01.11:318][268]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.01.11:318][268]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.01.11:318][268]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.01.11:319][268]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.01.13:118][345]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.01.13:137][345]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.01.13:173][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.01.15:399][435]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.01.15:399][435]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.01.15:399][435]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.01.15:399][435]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.01.20:695][662]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.01.20:714][662]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.01.20:749][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.01.23:003][753]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.01.23:003][753]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.01.23:003][753]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.01.23:003][753]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.01.26:170][893]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.01.26:190][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.01.26:215][893]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
-[2016.12.24-15.01.28:478][985]MaterialEditorStats: Info Base pass shader with static lighting: 73 instructions
-[2016.12.24-15.01.28:478][985]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
-[2016.12.24-15.01.28:478][985]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.01.28:478][985]MaterialEditorStats: Info Texture samplers: 6/16
-[2016.12.24-15.01.45:405][743]LogMaterialEditor: Applying material M_TopDownSciFi
-[2016.12.24-15.01.46:410][743]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.01.46:451][743]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.01.46:507][743]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.01.46:572][743]LogMaterial: Missing cached shader map for material M_TopDownSciFi, compiling. 
-[2016.12.24-15.01.46:615][743]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.02.04:364][404]LogStaticMesh: Building static mesh LED_09...
-[2016.12.24-15.02.04:386][404]LogStaticMesh: Built static mesh [0.02s] /Game/TopDownSciFi/Decos/LED_09.LED_09
-[2016.12.24-15.03.01:181][617]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2016.12.24-15.03.01:331][617]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
-[2016.12.24-15.03.01:351][617]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.12.24-15.03.01:391][617]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2016.12.24-15.03.01:401][617]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2016.12.24-15.03.04:323][661]MaterialEditorStats: Info Base pass shader with static lighting: 55 instructions
-[2016.12.24-15.03.04:323][661]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2016.12.24-15.03.04:323][661]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.12.24-15.03.04:323][661]MaterialEditorStats: Info Texture samplers: 4/16
-[2016.12.24-15.04.17:961][510]LogActorFactory: Actor Factory created LED_09
-[2016.12.24-15.04.19:567][605]LogActorFactory: Actor Factory created LED_09
-[2016.12.24-15.04.26:773][ 95]Cmd: DELETE
-[2016.12.24-15.04.26:773][ 95]Cmd: ACTOR DELETE
-[2016.12.24-15.04.26:774][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.12.24-15.04.26:800][ 95]LogEditorActor: Deleted 1 Actors (0.027 secs)
-[2016.12.24-15.04.30:794][407]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume2)
-[2016.12.24-15.04.34:095][637]LogEditorViewport: Clicking on Actor (context menu): TriggerVolume (TriggerVolume2)
-[2016.12.24-15.05.12:700][715]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 111 classes and 0 folders.
-[2016.12.24-15.14.54:656][493]Cmd: TRANSACTION UNDO
-[2016.12.24-15.14.54:656][493]LogEditorTransaction: Undo Delete current selection
-[2016.12.24-15.15.11:874][218]BlueprintLog: New page: Compile Light-OnOverlap
-[2016.12.24-15.15.30:173][898]Cmd: DELETE
-[2016.12.24-15.15.30:173][898]Cmd: ACTOR DELETE
-[2016.12.24-15.15.30:174][898]LogEditorActor: Deleted Actor: Light-OnOverlap_C
-[2016.12.24-15.15.30:222][898]LogEditorActor: Deleted 1 Actors (0.050 secs)
-[2016.12.24-15.16.02:263][ 46]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.16.02:303][ 46]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.16.02:303][ 46]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.12.24-15.16.02:303][ 46]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_Blueprint_0 before play...
-[2016.12.24-15.16.02:464][ 46]LogPlayLevel: PlayLevel: Blueprint regeneration took 160 ms (1 blueprints)
-[2016.12.24-15.16.02:464][ 46]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:16:02 PM)
-[2016.12.24-15.16.02:464][ 46]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.16.02:481][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017023s)
-[2016.12.24-15.16.02:482][ 46]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.16.02:483][ 46]LogPlayLevel: PIE: World Init took: (0.001109s)
-[2016.12.24-15.16.02:483][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.018444s)
-[2016.12.24-15.16.02:522][ 46]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.16.02:528][ 46]LogInit: FAudioDevice initialized.
-[2016.12.24-15.16.02:581][ 46]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.16.02:587][ 46]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.16.02
-[2016.12.24-15.16.02:589][ 46]LogWorld: Bringing up level for play took: 0.005996
-[2016.12.24-15.16.02:654][ 46]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
-[2016.12.24-15.16.02:654][ 46]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.16.02:654][ 46]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.16.02:654][ 46]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.16.02:656][ 46]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.16.02:656][ 46]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.019
-[2016.12.24-15.16.02:657][ 46]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.16.20:512][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.16.20:579][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.16.24:804][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.12.24-15.16.25:881][285]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2016.12.24-15.17.12:761][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maps/A-Palettemap1" FILE="I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.12.24-15.17.13:242][766]LogSavePackage: Save=439.20ms
-[2016.12.24-15.17.13:242][766]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/A-Palettemap184042B3147D0A25349195CB167C59B99.tmp' to 'I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap'
-[2016.12.24-15.17.13:256][766]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap
-[2016.12.24-15.17.13:311][766]LogFileHelpers: Saving map 'A-Palettemap1' took 0.650
-[2016.12.24-15.17.13:502][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownSciFi/Shared/Materials/M_TopDownSciFi" FILE="I:/Unreal4/FPS-unholy/Content/TopDownSciFi/Shared/Materials/M_TopDownSciFi.uasset" SILENT=true
-[2016.12.24-15.17.13:537][766]LogSavePackage: Save=24.61ms
-[2016.12.24-15.17.13:537][766]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/M_TopDownSciFiA710F40C40A5948180FE04AD658DED23.tmp' to 'I:/Unreal4/FPS-unholy/Content/TopDownSciFi/Shared/Materials/M_TopDownSciFi.uasset'
-[2016.12.24-15.17.13:543][766]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/TopDownSciFi/Shared/Materials/M_TopDownSciFi.uasset
-[2016.12.24-15.17.13:706][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/map-mechanics/Light-OnOverlap" FILE="I:/Unreal4/FPS-unholy/Content/Blueprints/map-mechanics/Light-OnOverlap.uasset" SILENT=true
-[2016.12.24-15.17.13:743][766]LogSavePackage: Save=34.29ms
-[2016.12.24-15.17.13:743][766]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Light-OnOverlap3A7E7A1F49F840B9FE440CBD0DAB302E.tmp' to 'I:/Unreal4/FPS-unholy/Content/Blueprints/map-mechanics/Light-OnOverlap.uasset'
-[2016.12.24-15.17.13:749][766]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/Blueprints/map-mechanics/Light-OnOverlap.uasset
-[2016.12.24-15.17.16:750][846]LogEditorViewport: Clicking on Actor (LMB): Light-OnOverlap_C (Light-OnOverlap)
-[2016.12.24-15.17.30:219][391]LogEditorViewport: Clicking on Actor (LMB): Light-OnOverlap_C (Light-OnOverlap2)
-[2016.12.24-15.17.40:652][795]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.17.40:685][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.17.40:685][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-15.17.40:685][795]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:17:40 PM)
-[2016.12.24-15.17.40:685][795]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.17.40:703][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017823s)
-[2016.12.24-15.17.40:704][795]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.17.40:704][795]LogPlayLevel: PIE: World Init took: (0.001009s)
-[2016.12.24-15.17.40:705][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.019160s)
-[2016.12.24-15.17.40:747][795]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.17.40:752][795]LogInit: FAudioDevice initialized.
-[2016.12.24-15.17.40:788][795]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.17.40:794][795]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.17.40
-[2016.12.24-15.17.40:796][795]LogWorld: Bringing up level for play took: 0.005569
-[2016.12.24-15.17.40:797][795]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.17.40:797][795]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.17.40:797][795]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.17.40:798][795]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.17.40:798][795]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 0.12
-[2016.12.24-15.17.40:798][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.17.54:750][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.17.54:819][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.18.02:811][780]LogEditorViewport: Clicking on Actor (LMB): Light-OnOverlap_C (Light-OnOverlap2)
-[2016.12.24-15.18.10:279][107]LogEditorViewport: Clicking on Actor (LMB): Light-OnOverlap_C (Light-OnOverlap2)
-[2016.12.24-15.18.31:543][839]LogEditorViewport: Clicking on Component (LMB): PointLightComponent (PointLight)
-[2016.12.24-15.18.40:491][151]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.18.40:524][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.18.40:524][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-15.18.40:524][151]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:18:40 PM)
-[2016.12.24-15.18.40:524][151]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.18.40:543][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018843s)
-[2016.12.24-15.18.40:544][151]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.18.40:544][151]LogPlayLevel: PIE: World Init took: (0.001052s)
-[2016.12.24-15.18.40:544][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.020223s)
-[2016.12.24-15.18.40:583][151]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.18.40:589][151]LogInit: FAudioDevice initialized.
-[2016.12.24-15.18.40:618][151]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.18.40:624][151]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.18.40
-[2016.12.24-15.18.40:626][151]LogWorld: Bringing up level for play took: 0.005669
-[2016.12.24-15.18.40:627][151]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.18.40:627][151]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.18.40:627][151]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.18.40:628][151]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.18.40:628][151]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.052
-[2016.12.24-15.18.40:628][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.19.33:563][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.19.33:615][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.19.35:870][158]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor19)
-[2016.12.24-15.29.19:285][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maps/A-Palettemap1" FILE="I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.12.24-15.29.19:715][ 37]LogSavePackage: Save=389.32ms
-[2016.12.24-15.29.19:715][ 37]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/A-Palettemap1CF503FA346BA23F1A5EFE788ED936A58.tmp' to 'I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap'
-[2016.12.24-15.29.19:718][ 37]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap
-[2016.12.24-15.29.19:769][ 37]LogFileHelpers: Saving map 'A-Palettemap1' took 0.580
-[2016.12.24-15.29.28:437][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
-[2016.12.24-15.29.38:542][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_02)
-[2016.12.24-15.29.46:894][168]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Clamp_el_01)
-[2016.12.24-15.29.49:236][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Clamp_el_01)
-[2016.12.24-15.30.21:466][551]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume5)
-[2016.12.24-15.30.41:997][322]LogEditorViewport: Clicking on Actor (context menu): TriggerVolume (TriggerVolume5)
-[2016.12.24-15.39.34:061][983]BlueprintLog: New page: Compile wind
-[2016.12.24-15.39.34:071][983]LogBlueprint:Error: [Compiler wind] Error This blueprint (self) is not a PrimitiveComponent, therefore ' self ' must have a connection.
-[2016.12.24-15.39.34:670][983]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' self ' must have a connection.
-[2016.12.24-15.39.34:670][983]LogBlueprint:Warning: [Compiler wind] Warning [2710.55] Compile of wind failed. 1 Fatal Issue(s) 0 Warning(s) [in 608 ms] (/Game/Blueprints/map-mechanics/wind.wind)
-[2016.12.24-15.45.33:749][883]BlueprintLog: New page: Compile wind
-[2016.12.24-15.45.47:344][394]BlueprintLog: New page: Compile wind
-[2016.12.24-15.45.49:393][479]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.45.49:425][479]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.45.49:426][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-15.45.49:426][479]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:45:49 PM)
-[2016.12.24-15.45.49:426][479]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.45.49:531][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.105484s)
-[2016.12.24-15.45.49:532][479]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.45.49:533][479]LogPlayLevel: PIE: World Init took: (0.001102s)
-[2016.12.24-15.45.49:533][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.106927s)
-[2016.12.24-15.45.49:575][479]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.45.49:581][479]LogInit: FAudioDevice initialized.
-[2016.12.24-15.45.49:613][479]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.45.49:619][479]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.45.49
-[2016.12.24-15.45.49:620][479]LogWorld: Bringing up level for play took: 0.005590
-[2016.12.24-15.45.49:621][479]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.45.49:621][479]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.45.49:621][479]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.45.49:622][479]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.45.49:622][479]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 0.891
-[2016.12.24-15.45.49:623][479]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.46.13:507][945]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.46.13:568][945]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.47.16:659][494]BlueprintLog: New page: Compile wind
-[2016.12.24-15.47.19:152][604]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.47.19:184][604]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.47.19:184][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-15.47.19:185][604]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:47:19 PM)
-[2016.12.24-15.47.19:185][604]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.47.19:204][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018909s)
-[2016.12.24-15.47.19:204][604]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.47.19:205][604]LogPlayLevel: PIE: World Init took: (0.001114s)
-[2016.12.24-15.47.19:205][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.020385s)
-[2016.12.24-15.47.19:248][604]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.47.19:254][604]LogInit: FAudioDevice initialized.
-[2016.12.24-15.47.19:289][604]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.47.19:297][604]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.47.19
-[2016.12.24-15.47.19:298][604]LogWorld: Bringing up level for play took: 0.006946
-[2016.12.24-15.47.19:299][604]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.47.19:299][604]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.47.19:299][604]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.47.19:301][604]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.47.19:301][604]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 0.567
-[2016.12.24-15.47.19:301][604]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.47.44:254][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.47.44:314][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.47.58:893][671]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.47.58:926][671]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.47.58:926][671]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.12.24-15.47.58:926][671]LogPlayLevel: [PlayLevel] Compiling wind before play...
-[2016.12.24-15.47.59:110][671]LogPlayLevel: PlayLevel: Blueprint regeneration took 183 ms (1 blueprints)
-[2016.12.24-15.47.59:110][671]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:47:59 PM)
-[2016.12.24-15.47.59:110][671]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.47.59:128][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017360s)
-[2016.12.24-15.47.59:129][671]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.47.59:129][671]LogPlayLevel: PIE: World Init took: (0.001049s)
-[2016.12.24-15.47.59:129][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.018789s)
-[2016.12.24-15.47.59:172][671]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.47.59:177][671]LogInit: FAudioDevice initialized.
-[2016.12.24-15.47.59:210][671]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.47.59:216][671]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.47.59
-[2016.12.24-15.47.59:217][671]LogWorld: Bringing up level for play took: 0.005456
-[2016.12.24-15.47.59:218][671]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.47.59:218][671]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.47.59:218][671]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.47.59:220][671]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.47.59:220][671]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 0.485
-[2016.12.24-15.47.59:220][671]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.48.12:459][422]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.48.12:515][422]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.48.19:827][763]BlueprintLog: New page: Compile wind
-[2016.12.24-15.48.22:077][847]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.48.22:109][847]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.48.22:109][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-15.48.22:109][847]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:48:22 PM)
-[2016.12.24-15.48.22:109][847]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.48.22:127][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017675s)
-[2016.12.24-15.48.22:128][847]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.48.22:128][847]LogPlayLevel: PIE: World Init took: (0.000990s)
-[2016.12.24-15.48.22:128][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.018976s)
-[2016.12.24-15.48.22:169][847]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.48.22:175][847]LogInit: FAudioDevice initialized.
-[2016.12.24-15.48.22:210][847]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.48.22:216][847]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.48.22
-[2016.12.24-15.48.22:217][847]LogWorld: Bringing up level for play took: 0.005498
-[2016.12.24-15.48.22:218][847]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.48.22:218][847]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.48.22:218][847]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.48.22:220][847]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.48.22:220][847]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.516
-[2016.12.24-15.48.22:220][847]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.48.41:306][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.48.41:366][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.49.51:974][858]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.49.52:006][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.49.52:006][858]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.12.24-15.49.52:006][858]LogPlayLevel: [PlayLevel] Compiling wind before play...
-[2016.12.24-15.49.52:194][858]LogPlayLevel: PlayLevel: Blueprint regeneration took 188 ms (1 blueprints)
-[2016.12.24-15.49.52:194][858]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:49:52 PM)
-[2016.12.24-15.49.52:194][858]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.49.52:213][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018013s)
-[2016.12.24-15.49.52:213][858]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.49.52:214][858]LogPlayLevel: PIE: World Init took: (0.001107s)
-[2016.12.24-15.49.52:214][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.019476s)
-[2016.12.24-15.49.52:258][858]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.49.52:264][858]LogInit: FAudioDevice initialized.
-[2016.12.24-15.49.52:295][858]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.49.52:302][858]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.49.52
-[2016.12.24-15.49.52:303][858]LogWorld: Bringing up level for play took: 0.005766
-[2016.12.24-15.49.52:304][858]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.49.52:304][858]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.49.52:304][858]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.49.52:305][858]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.49.52:306][858]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.434
-[2016.12.24-15.49.52:306][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.50.27:654][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.50.27:712][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.50.49:555][ 50]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.50.49:587][ 50]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.50.49:587][ 50]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.12.24-15.50.49:587][ 50]LogPlayLevel: [PlayLevel] Compiling wind before play...
-[2016.12.24-15.50.49:763][ 50]LogPlayLevel: PlayLevel: Blueprint regeneration took 176 ms (1 blueprints)
-[2016.12.24-15.50.49:763][ 50]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:50:49 PM)
-[2016.12.24-15.50.49:764][ 50]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.50.49:781][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017354s)
-[2016.12.24-15.50.49:782][ 50]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.50.49:782][ 50]LogPlayLevel: PIE: World Init took: (0.001038s)
-[2016.12.24-15.50.49:782][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.018688s)
-[2016.12.24-15.50.49:821][ 50]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.50.49:826][ 50]LogInit: FAudioDevice initialized.
-[2016.12.24-15.50.49:858][ 50]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.50.49:864][ 50]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.50.49
-[2016.12.24-15.50.49:866][ 50]LogWorld: Bringing up level for play took: 0.005690
-[2016.12.24-15.50.49:867][ 50]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.50.49:867][ 50]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.50.49:867][ 50]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.50.49:868][ 50]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.50.49:868][ 50]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 1.128
-[2016.12.24-15.50.49:869][ 50]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.51.16:361][690]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.51.16:418][690]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.51.20:339][849]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.51.20:370][849]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.51.20:370][849]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.12.24-15.51.20:370][849]LogPlayLevel: [PlayLevel] Compiling wind before play...
-[2016.12.24-15.51.20:544][849]LogPlayLevel: PlayLevel: Blueprint regeneration took 173 ms (1 blueprints)
-[2016.12.24-15.51.20:544][849]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:51:20 PM)
-[2016.12.24-15.51.20:544][849]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.51.20:561][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016597s)
-[2016.12.24-15.51.20:561][849]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.51.20:562][849]LogPlayLevel: PIE: World Init took: (0.000963s)
-[2016.12.24-15.51.20:562][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.017877s)
-[2016.12.24-15.51.20:602][849]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.51.20:608][849]LogInit: FAudioDevice initialized.
-[2016.12.24-15.51.20:641][849]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.51.20:648][849]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.51.20
-[2016.12.24-15.51.20:649][849]LogWorld: Bringing up level for play took: 0.005688
-[2016.12.24-15.51.20:650][849]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.51.20:650][849]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.51.20:650][849]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.51.20:651][849]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.51.20:651][849]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.091
-[2016.12.24-15.51.20:652][849]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.51.27:087][242]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.51.27:141][242]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.54.08:842][399]BlueprintLog: New page: Compile wind
-[2016.12.24-15.54.08:851][399]LogBlueprint:Warning: [Compiler wind] Warning 'Character' does not inherit from 'Primitive Component' ( K2Node_DynamicCast_0  would always fail).
-[2016.12.24-15.54.09:051][399]BlueprintEditorCompileResults:Warning: Warning 'Character' does not inherit from 'Primitive Component' ( K2Node_DynamicCast_0  would always fail).
-[2016.12.24-15.54.09:051][399]LogBlueprint:Warning: [Compiler wind] Warning [3584.91] Compile of wind successful, but with 1 Warning(s) [in 209 ms] (/Game/Blueprints/map-mechanics/wind.wind)
-[2016.12.24-15.54.23:810][151]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.54.23:842][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.54.23:842][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-15.54.23:842][151]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:54:23 PM)
-[2016.12.24-15.54.23:842][151]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.54.23:860][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017580s)
-[2016.12.24-15.54.23:861][151]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.54.23:861][151]LogPlayLevel: PIE: World Init took: (0.001007s)
-[2016.12.24-15.54.23:861][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.018892s)
-[2016.12.24-15.54.23:904][151]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.54.23:910][151]LogInit: FAudioDevice initialized.
-[2016.12.24-15.54.23:941][151]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.54.23:947][151]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.54.23
-[2016.12.24-15.54.23:948][151]LogWorld: Bringing up level for play took: 0.005574
-[2016.12.24-15.54.23:949][151]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.54.23:949][151]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.54.23:949][151]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.54.23:951][151]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.54.23:951][151]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.796
-[2016.12.24-15.54.23:951][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.54.29:313][478]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.54.29:373][478]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.56.40:607][ 49]BlueprintLog: New page: Compile wind
-[2016.12.24-15.56.45:148][259]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2016.12.24-15.56.57:886][750]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.56.57:920][750]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.56.57:920][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-15.56.57:920][750]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:56:57 PM)
-[2016.12.24-15.56.57:920][750]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.56.57:938][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017968s)
-[2016.12.24-15.56.57:939][750]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.56.57:939][750]LogPlayLevel: PIE: World Init took: (0.001055s)
-[2016.12.24-15.56.57:939][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.019358s)
-[2016.12.24-15.56.58:009][750]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.56.58:016][750]LogInit: FAudioDevice initialized.
-[2016.12.24-15.56.58:048][750]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.56.58:054][750]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.56.58
-[2016.12.24-15.56.58:056][750]LogWorld: Bringing up level for play took: 0.005732
-[2016.12.24-15.56.58:057][750]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.56.58:057][750]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.56.58:057][750]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.56.58:058][750]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.56.58:058][750]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.694
-[2016.12.24-15.56.58:059][750]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.56.59:967][849]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
-[2016.12.24-15.57.02:985][ 15]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
-[2016.12.24-15.57.04:151][ 80]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
-[2016.12.24-15.57.10:383][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.57.10:488][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.57.59:388][971]BlueprintLog: New page: Compile wind
-[2016.12.24-15.58.02:389][ 81]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.58.02:421][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.58.02:421][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-15.58.02:422][ 81]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:58:02 PM)
-[2016.12.24-15.58.02:422][ 81]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.58.02:442][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019915s)
-[2016.12.24-15.58.02:443][ 81]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.58.02:443][ 81]LogPlayLevel: PIE: World Init took: (0.001143s)
-[2016.12.24-15.58.02:443][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.021393s)
-[2016.12.24-15.58.02:515][ 81]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.58.02:520][ 81]LogInit: FAudioDevice initialized.
-[2016.12.24-15.58.02:554][ 81]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.58.02:560][ 81]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.58.02
-[2016.12.24-15.58.02:562][ 81]LogWorld: Bringing up level for play took: 0.005813
-[2016.12.24-15.58.02:563][ 81]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.58.02:563][ 81]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.58.02:563][ 81]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.58.02:564][ 81]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.58.02:564][ 81]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.19
-[2016.12.24-15.58.02:565][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.58.04:724][206]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
-[2016.12.24-15.58.07:846][394]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
-[2016.12.24-15.58.09:758][512]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
-[2016.12.24-15.58.13:275][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.58.13:378][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.58.19:352][874]BlueprintLog: New page: Compile wind
-[2016.12.24-15.58.21:288][922]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-15.58.21:320][922]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.58.21:320][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-15.58.21:320][922]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 5:58:21 PM)
-[2016.12.24-15.58.21:320][922]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-15.58.21:337][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017252s)
-[2016.12.24-15.58.21:338][922]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-15.58.21:338][922]LogPlayLevel: PIE: World Init took: (0.000991s)
-[2016.12.24-15.58.21:338][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.018533s)
-[2016.12.24-15.58.21:403][922]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-15.58.21:408][922]LogInit: FAudioDevice initialized.
-[2016.12.24-15.58.21:443][922]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-15.58.21:449][922]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-16.58.21
-[2016.12.24-15.58.21:450][922]LogWorld: Bringing up level for play took: 0.005442
-[2016.12.24-15.58.21:451][922]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.58.21:451][922]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-15.58.21:451][922]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.58.21:452][922]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-15.58.21:452][922]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 0.697
-[2016.12.24-15.58.21:453][922]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.58.23:010][971]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
-[2016.12.24-15.58.24:711][ 65]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
-[2016.12.24-15.58.25:510][114]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
-[2016.12.24-15.58.27:820][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-15.58.27:924][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.02.41:193][233]BlueprintLog: New page: Compile wind
-[2016.12.24-16.02.45:933][386]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-16.02.45:966][386]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.02.45:966][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-16.02.45:966][386]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 6:02:45 PM)
-[2016.12.24-16.02.45:966][386]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-16.02.46:084][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117778s)
-[2016.12.24-16.02.46:085][386]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-16.02.46:085][386]LogPlayLevel: PIE: World Init took: (0.001084s)
-[2016.12.24-16.02.46:085][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.119205s)
-[2016.12.24-16.02.46:153][386]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-16.02.46:159][386]LogInit: FAudioDevice initialized.
-[2016.12.24-16.02.46:193][386]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-16.02.46:199][386]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-17.02.46
-[2016.12.24-16.02.46:201][386]LogWorld: Bringing up level for play took: 0.005990
-[2016.12.24-16.02.46:202][386]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-16.02.46:202][386]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-16.02.46:202][386]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-16.02.46:204][386]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-16.02.46:204][386]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.56
-[2016.12.24-16.02.46:204][386]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.03.00:321][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.03.00:426][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.08.53:506][878]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube7)
-[2016.12.24-16.08.54:700][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Vents_01)
-[2016.12.24-16.10.11:287][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Vents_01)
-[2016.12.24-16.10.13:392][400]Cmd: DELETE
-[2016.12.24-16.10.13:392][400]Cmd: ACTOR DELETE
-[2016.12.24-16.10.13:393][400]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.12.24-16.10.13:448][400]LogEditorActor: Deleted 1 Actors (0.056 secs)
-[2016.12.24-16.11.59:999][994]BlueprintLog: New page: Compile wind
-[2016.12.24-16.12.02:901][121]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-16.12.02:934][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.12.02:934][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-16.12.02:934][121]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 6:12:02 PM)
-[2016.12.24-16.12.02:934][121]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-16.12.02:953][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018306s)
-[2016.12.24-16.12.02:954][121]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-16.12.02:954][121]LogPlayLevel: PIE: World Init took: (0.001036s)
-[2016.12.24-16.12.02:954][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.019676s)
-[2016.12.24-16.12.02:995][121]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-16.12.03:001][121]LogInit: FAudioDevice initialized.
-[2016.12.24-16.12.03:037][121]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-16.12.03:043][121]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-17.12.03
-[2016.12.24-16.12.03:045][121]LogWorld: Bringing up level for play took: 0.006085
-[2016.12.24-16.12.03:046][121]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-16.12.03:046][121]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-16.12.03:046][121]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-16.12.03:047][121]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-16.12.03:047][121]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 0.267
-[2016.12.24-16.12.03:048][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.12.05:310][259]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
-[2016.12.24-16.12.10:809][635]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
-[2016.12.24-16.12.16:535][ 32]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
-[2016.12.24-16.12.17:962][130]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
-[2016.12.24-16.12.20:172][282]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
-[2016.12.24-16.12.27:798][805]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
-[2016.12.24-16.12.37:465][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.12.37:516][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.13.14:456][963]BlueprintLog: New page: Compile wind
-[2016.12.24-16.13.31:208][813]LogTemp: Repeting last play command: Selected Viewport
-[2016.12.24-16.13.31:239][813]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.13.31:240][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.12.24-16.13.31:240][813]PIE: New page: PIE session: A-Palettemap1 (Dec 24, 2016, 6:13:31 PM)
-[2016.12.24-16.13.31:240][813]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
-[2016.12.24-16.13.31:258][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018580s)
-[2016.12.24-16.13.31:259][813]LogAIModule: Creating AISystem for world A-Palettemap1
-[2016.12.24-16.13.31:260][813]LogPlayLevel: PIE: World Init took: (0.001151s)
-[2016.12.24-16.13.31:260][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.020097s)
-[2016.12.24-16.13.31:299][813]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2016.12.24-16.13.31:304][813]LogInit: FAudioDevice initialized.
-[2016.12.24-16.13.31:334][813]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2016.12.24-16.13.31:340][813]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2016.12.24-17.13.31
-[2016.12.24-16.13.31:341][813]LogWorld: Bringing up level for play took: 0.005819
-[2016.12.24-16.13.31:342][813]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-16.13.31:343][813]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.24-16.13.31:343][813]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-16.13.31:344][813]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.24-16.13.31:344][813]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 0.561
-[2016.12.24-16.13.31:344][813]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.13.35:214][ 56]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
-[2016.12.24-16.13.50:427][ 90]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.13.50:474][ 90]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
-[2016.12.24-16.30.57:162][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maps/A-Palettemap1" FILE="I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.12.24-16.30.57:662][799]LogSavePackage: Save=431.32ms
-[2016.12.24-16.30.57:662][799]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/A-Palettemap1BB7FA9474D5B62ED30C091BB745A0B34.tmp' to 'I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap'
-[2016.12.24-16.30.57:666][799]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap
-[2016.12.24-16.30.57:722][799]LogFileHelpers: Saving map 'A-Palettemap1' took 0.703
-[2016.12.24-16.30.58:022][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/map-mechanics/wind" FILE="I:/Unreal4/FPS-unholy/Content/Blueprints/map-mechanics/wind.uasset" SILENT=true
-[2016.12.24-16.30.58:064][799]LogSavePackage: Save=36.86ms
-[2016.12.24-16.30.58:064][799]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/wind83B73ECE41DE986FCEBE2EBFFD175B61.tmp' to 'I:/Unreal4/FPS-unholy/Content/Blueprints/map-mechanics/wind.uasset'
-[2016.12.24-16.30.58:068][799]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/Blueprints/map-mechanics/wind.uasset
-[2016.12.24-16.31.00:616][847]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.12.24-16.31.00:967][848]Cmd: QUIT_EDITOR
-[2016.12.24-16.31.01:043][848]LogExit: Preparing to exit.
-[2016.12.24-16.31.01:814][848]LogExit: Editor shut down
-[2016.12.24-16.31.01:815][848]LogExit: Transaction tracking system shut down
-[2016.12.24-16.31.01:986][848]LogObj: Freed 0b from 0 cluster array pools.
-[2016.12.24-16.31.01:986][848]LogExit: Object subsystem successfully closed.
-[2016.12.24-16.31.02:008][848]LogD3D11RHI: Shutdown
-[2016.12.24-16.31.02:008][848]LogD3D11RHI: CleanupD3DDevice
-[2016.12.24-16.31.02:383][848]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.12.24-16.31.02:404][848]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2016.12.24-16.31.02:404][848]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B43805326-4019-FB2A-7A61-3AA61A188DE3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.1-3224400%2B%2B%2BUE4%2BRelease-4.14&UserID=4bd512ec4995335f59542d93aa60f715%7C2c286fa30764467599f2405db8e360c9%7C034b009f-32a5-4178-b32e-2ae084d1f049&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2016.12.24-16.31.02:431][848]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (249)
-[2016.12.24-16.31.02:431][848]LogModuleManager: Shutting down and abandoning module BlueprintGraph (248)
-[2016.12.24-16.31.02:431][848]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (247)
-[2016.12.24-16.31.02:431][848]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (246)
-[2016.12.24-16.31.02:432][848]LogModuleManager: Shutting down and abandoning module TextureEditor (245)
-[2016.12.24-16.31.02:432][848]LogModuleManager: Shutting down and abandoning module MaterialEditor (244)
-[2016.12.24-16.31.02:432][848]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (243)
-[2016.12.24-16.31.02:432][848]LogModuleManager: Shutting down and abandoning module WidgetCarousel (242)
-[2016.12.24-16.31.02:432][848]LogModuleManager: Shutting down and abandoning module AddContentDialog (241)
-[2016.12.24-16.31.02:432][848]LogDirectoryWatcher: A directory notification for 'E:/neuUnreal/Epic Games/4.14/FeaturePacks/' was aborted.
-[2016.12.24-16.31.02:434][848]LogModuleManager: Shutting down and abandoning module GameplayTags (240)
-[2016.12.24-16.31.02:434][848]LogModuleManager: Shutting down and abandoning module EditorWidgets (239)
-[2016.12.24-16.31.02:434][848]LogModuleManager: Shutting down and abandoning module CollectionManager (238)
-[2016.12.24-16.31.02:434][848]LogDirectoryWatcher: A directory notification for 'I:/Unreal4/FPS-unholy/Content/Collections/' was aborted.
-[2016.12.24-16.31.02:434][848]LogDirectoryWatcher: A directory notification for 'I:/Unreal4/FPS-unholy/Content/Developers/USRNAM/Collections/' was aborted.
-[2016.12.24-16.31.02:434][848]LogDirectoryWatcher: A directory notification for 'I:/Unreal4/FPS-unholy/Saved/Collections/' was aborted.
-[2016.12.24-16.31.02:434][848]LogModuleManager: Shutting down and abandoning module CrashTracker (237)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module SceneOutliner (236)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module StatsViewer (235)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module FoliageEdit (234)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module LandscapeEditor (233)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (232)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module ActorPickerMode (231)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module GeometryMode (230)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module TextureAlignMode (229)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module BspMode (228)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module HardwareSurvey (227)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (226)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module AutomationWorker (225)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (224)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module PlacementMode (223)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (222)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (221)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (220)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (219)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (218)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module Media (217)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (216)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (215)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module CharacterAI (214)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module SequenceRecorder (213)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module AudioCapture (212)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module SmartSnapping (211)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module SessionServices (210)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module ViewportSnapping (209)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module ViewportInteraction (208)
-[2016.12.24-16.31.02:435][848]LogModuleManager: Shutting down and abandoning module LogVisualizer (207)
-[2016.12.24-16.31.02:436][848]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (206)
-[2016.12.24-16.31.02:436][848]LogModuleManager: Shutting down and abandoning module IntroTutorials (205)
-[2016.12.24-16.31.02:436][848]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (204)
-[2016.12.24-16.31.02:436][848]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (203)
-[2016.12.24-16.31.02:436][848]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (202)
-[2016.12.24-16.31.02:436][848]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (201)
-[2016.12.24-16.31.03:047][848]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (200)
-[2016.12.24-16.31.03:047][848]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (199)
-[2016.12.24-16.31.03:047][848]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (198)
-[2016.12.24-16.31.03:047][848]LogModuleManager: Shutting down and abandoning module InputBindingEditor (197)
-[2016.12.24-16.31.03:047][848]LogModuleManager: Shutting down and abandoning module NiagaraEditor (196)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module MergeActors (195)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module SizeMap (194)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module TreeMap (193)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module ReferenceViewer (192)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module LocalizationService (191)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (190)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module HardwareTargeting (189)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (188)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module UndoHistory (187)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module UserFeedback (186)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module XmlParser (185)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module Blutility (184)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (183)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (182)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (181)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module SettingsEditor (180)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module ProjectLauncher (179)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module SessionFrontend (178)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module ProfilerClient (177)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (176)
-[2016.12.24-16.31.03:048][848]LogModuleManager: Shutting down and abandoning module DeviceManager (175)
-[2016.12.24-16.31.03:098][848]LogModuleManager: Shutting down and abandoning module AutomationController (174)
-[2016.12.24-16.31.03:098][848]LogModuleManager: Shutting down and abandoning module AutomationWindow (173)
-[2016.12.24-16.31.03:098][848]LogModuleManager: Shutting down and abandoning module Layers (172)
-[2016.12.24-16.31.03:098][848]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (171)
-[2016.12.24-16.31.03:098][848]LogModuleManager: Shutting down and abandoning module DetailCustomizations (170)
-[2016.12.24-16.31.03:098][848]LogModuleManager: Shutting down and abandoning module PackagesDialog (169)
-[2016.12.24-16.31.03:098][848]LogModuleManager: Shutting down and abandoning module AnimGraph (168)
-[2016.12.24-16.31.03:098][848]LogModuleManager: Shutting down and abandoning module Persona (167)
-[2016.12.24-16.31.03:098][848]LogModuleManager: Shutting down and abandoning module Kismet (166)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module GraphEditor (165)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module ClassViewer (164)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module Toolbox (163)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module ModuleUI (162)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module MovieSceneTools (161)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module OutputLog (160)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module GammaUI (159)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module Documentation (158)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module Niagara (157)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (156)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module AnalyticsET (155)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module PortalServices (154)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module PortalRpc (153)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module MessagingRpc (152)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module GameplayDebugger (151)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module AITestSuite (150)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module AIModule (149)
-[2016.12.24-16.31.03:114][848]LogModuleManager: Shutting down and abandoning module ProfilerService (148)
-[2016.12.24-16.31.03:174][848]LogModuleManager: Shutting down and abandoning module TaskGraph (147)
-[2016.12.24-16.31.03:174][848]LogModuleManager: Shutting down and abandoning module SubstanceEditor (146)
-[2016.12.24-16.31.03:174][848]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
-[2016.12.24-16.31.03:174][848]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
-[2016.12.24-16.31.03:174][848]LogModuleManager: Shutting down and abandoning module SteamVR (143)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module OculusInput (139)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module CableComponent (136)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module SourceControl (116)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
-[2016.12.24-16.31.03:175][848]LogModuleManager: Shutting down and abandoning module HotReload (109)
-[2016.12.24-16.31.03:176][848]LogModuleManager: Shutting down and abandoning module MainFrame (108)
-[2016.12.24-16.31.03:176][848]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
-[2016.12.24-16.31.03:178][848]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
-[2016.12.24-16.31.03:179][848]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
-[2016.12.24-16.31.03:179][848]LogModuleManager: Shutting down and abandoning module UdpMessaging (104)
-[2016.12.24-16.31.03:279][848]LogModuleManager: Shutting down and abandoning module TcpMessaging (103)
-[2016.12.24-16.31.03:379][848]LogModuleManager: Shutting down and abandoning module SubstanceCore (102)
-[2016.12.24-16.31.03:379][848]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
-[2016.12.24-16.31.03:379][848]LogModuleManager: Shutting down and abandoning module Paper2D (100)
-[2016.12.24-16.31.03:379][848]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
-[2016.12.24-16.31.03:379][848]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module VREditor (94)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module Sequencer (89)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module MessageLog (87)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module AssetTools (86)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module UMG (84)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module Slate (82)
-[2016.12.24-16.31.03:380][848]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
-[2016.12.24-16.31.03:384][848]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
-[2016.12.24-16.31.03:384][848]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
-[2016.12.24-16.31.03:384][848]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
-[2016.12.24-16.31.03:384][848]LogModuleManager: Shutting down and abandoning module Networking (76)
-[2016.12.24-16.31.03:384][848]LogModuleManager: Shutting down and abandoning module Core (75)
-[2016.12.24-16.31.03:384][848]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
-[2016.12.24-16.31.03:384][848]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2016.12.24-16.31.03:384][848]LogDirectoryWatcher: A directory notification for 'I:/Unreal4/FPS-unholy/Content/' was aborted.
-[2016.12.24-16.31.03:384][848]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2016.12.24-16.31.03:385][848]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
-[2016.12.24-16.31.03:515][848]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
-[2016.12.24-16.31.03:515][848]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
-[2016.12.24-16.31.03:515][848]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
-[2016.12.24-16.31.03:515][848]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
-[2016.12.24-16.31.03:515][848]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
-[2016.12.24-16.31.03:515][848]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
-[2016.12.24-16.31.03:515][848]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2016.12.24-16.31.03:515][848]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2016.12.24-16.31.03:548][848]LogDerivedDataCache: Shutdown
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2016.12.24-16.31.03:548][848]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2016.12.24-16.31.03:549][848]LogOnline:Display: Unloading online subsystem: NULL
-[2016.12.24-16.31.03:549][848]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2016.12.24-16.31.03:552][848]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2016.12.24-16.31.03:552][848]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2016.12.24-16.31.03:552][848]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.12.24-16.31.03:552][848]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.12.24-16.31.03:552][848]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.12.24-16.31.03:552][848]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.12.24-16.31.03:556][848]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.12.24-16.31.03:556][848]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.12.24-16.31.03:556][848]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.12.24-16.31.03:556][848]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.12.24-16.31.03:556][848]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.12.24-16.31.03:556][848]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.12.24-16.31.03:556][848]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.12.24-16.31.03:556][848]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.12.24-16.31.03:556][848]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.12.24-16.31.03:556][848]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.12.24-16.31.03:559][848]LogExit: Exiting.
-[2016.12.24-16.31.03:562][848]Log file closed, 12/24/16 17:31:03
+[2017.01.01-16.01.21:068][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.01-16.01.21:068][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.01-16.01.21:105][  0]LogInit: Computer: PCT
+[2017.01.01-16.01.21:105][  0]LogInit: User: USRNAM
+[2017.01.01-16.01.21:105][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.01.01-16.01.21:105][  0]LogInit: High frequency timer resolution =2.746972 MHz
+[2017.01.01-16.01.21:105][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.01.01-16.01.21:105][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.01-16.01.21:105][  0]LogMemory: Process Physical Memory: 268.09 MB used, 268.09 MB peak
+[2017.01.01-16.01.21:105][  0]LogMemory: Process Virtual Memory: 267.29 MB used, 267.29 MB peak
+[2017.01.01-16.01.21:105][  0]LogMemory: Physical Memory: 6145.26 MB used,  10235.27 MB free, 16380.53 MB total
+[2017.01.01-16.01.21:105][  0]LogMemory: Virtual Memory: 667.79 MB used,  10235.27 MB free, 8388608.00 MB total
+[2017.01.01-16.01.21:446][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.01-16.01.23:493][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.01-16.01.23:744][  0]LogD3D11RHI:    0. 'AMD Radeon HD 5800 Series' (Feature Level 11_0)
+[2017.01.01-16.01.23:744][  0]LogD3D11RHI:       1010/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.01.01-16.01.23:744][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.01-16.01.23:751][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.01-16.01.23:751][  0]LogD3D11RHI:     GPU DeviceId: 0x6898 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.01-16.01.23:752][  0]LogWindows: EnumDisplayDevices:
+[2017.01.01-16.01.23:752][  0]LogWindows:    0. 'AMD Radeon HD 5800 Series' (P:0 D:1)
+[2017.01.01-16.01.23:752][  0]LogWindows:    1. 'AMD Radeon HD 5800 Series' (P:1 D:1)
+[2017.01.01-16.01.23:752][  0]LogWindows:    2. 'AMD Radeon HD 5800 Series' (P:0 D:0)
+[2017.01.01-16.01.23:752][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2017.01.01-16.01.23:753][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.01.01-16.01.23:753][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.01.01-16.01.23:753][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2017.01.01-16.01.23:753][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 5800 Series
+[2017.01.01-16.01.23:753][  0]LogD3D11RHI:   Driver Version: Catalyst 15.7.1 (internal:15.200.1062.1004, unified:15.200.1062.1004)
+[2017.01.01-16.01.23:753][  0]LogD3D11RHI:      Driver Date: 8-3-2015
+[2017.01.01-16.01.23:753][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
+[2017.01.01-16.01.23:768][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.01-16.01.23:804][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.01.01-16.01.23:809][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (I:/Unreal4/FPS-unholy/Intermediate/Shaders/WorkingDirectory/31660/).
+[2017.01.01-16.01.23:810][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/USRNAM/AppData/Local/Temp/UnrealShaderWorkingDir/C897BB6F4A1B0231A369F1A350462D87/'.
+[2017.01.01-16.01.23:810][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.01-16.01.29:508][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.01-16.01.29:594][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.01.01-16.01.29:686][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.01.01-16.01.29:772][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.01.01-16.01.29:860][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.01.01-16.01.29:945][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.01-16.01.30:030][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.01-16.01.30:114][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.01-16.01.30:185][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.01-16.01.30:270][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.01-16.01.30:354][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.01-16.01.30:438][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.01-16.01.30:523][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.01-16.01.30:607][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.01-16.01.30:693][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.01-16.01.30:863][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.01-16.01.30:863][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.01-16.01.30:920][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.01-16.01.31:058][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.01-16.01.31:112][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.01-16.01.31:195][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.01-16.01.31:278][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.01-16.01.31:362][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.01-16.01.31:449][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.01-16.01.31:449][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.01-16.01.32:205][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.01-16.01.33:122][  0]LogDerivedDataCache: Loaded boot cache 0.92s 57MB C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.01-16.01.33:122][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.01.01-16.01.33:122][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/Unreal4/FPS-unholy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.01-16.01.33:122][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.01-16.01.33:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/Unreal4/FPS-unholy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.01-16.01.33:123][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.01-16.01.33:154][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.01-16.01.33:178][  0]LogDerivedDataCache: Using Local data cache path C:/Users/USRNAM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.01-16.01.34:122][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.01-16.01.34:221][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.01-16.01.34:995][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.01.01-16.01.35:093][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.01.01-16.01.35:165][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.01.01-16.01.35:165][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.01.01-16.01.35:165][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.01-16.01.38:614][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: robotfps, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1113872776
+[2017.01.01-16.01.38:697][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2017.01.01-16.01.38:756][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.026557 seconds
+[2017.01.01-16.01.38:768][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.01.01-16.01.38:768][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.01.01-16.01.38:768][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.01-16.01.38:866][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.01-16.01.40:216][  0]LogSlate: Using Freetype 2.6.0
+[2017.01.01-16.01.40:221][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.01-16.01.40:221][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.01-16.01.45:038][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.01.01-16.01.45:088][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.01.01-16.01.45:141][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.01-16.01.45:721][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.01-16.01.46:359][  0]SourceControl: Info Source control is disabled
+[2017.01.01-16.01.54:824][  0]LogEngine: Initializing Engine...
+[2017.01.01-16.01.54:826][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.01.01-16.01.55:487][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.01-16.01.55:522][  0]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.01-16.01.55:552][  0]LogInit: FAudioDevice initialized.
+[2017.01.01-16.01.55:606][  0]LogDerivedDataCache: Saved boot cache 0.05s 57MB C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.01-16.01.55:623][  0]LogInit: Texture streaming: Enabled
+[2017.01.01-16.01.56:152][  0]LogInit: Transaction tracking system initialized
+[2017.01.01-16.01.56:713][  0]BlueprintLog: New page: Editor Load
+[2017.01.01-16.01.58:254][  0]LocalizationService: Info Localization service is disabled
+[2017.01.01-16.01.59:362][  0]LogConsoleResponse:Display: 
+[2017.01.01-16.02.01:122][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.01-16.02.01:122][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.01-16.02.01:458][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/' took 0.02s
+[2017.01.01-16.02.04:901][  0]Cmd: MAP LOAD FILE="I:/Unreal4/FPS-unholy/Content/FirstPersonBP/Maps/map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.01-16.02.04:920][  0]LightingResults: New page: Lighting Build
+[2017.01.01-16.02.04:988][  0]MapCheck: New page: Map Check
+[2017.01.01-16.02.04:988][  0]LightingResults: New page: Lighting Build
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.01-16.02.11:162][  0]LogAIModule: Creating AISystem for world map1
+[2017.01.01-16.02.11:167][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.WorldInfo_0.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.01.01-16.02.11:365][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.01-16.02.11:372][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.01-16.02.11:467][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.51ms to complete.
+[2017.01.01-16.02.11:467][  0]LogFileHelpers: Loading map 'map1' took 6.566
+[2017.01.01-16.02.12:004][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.01-16.02.12:055][  0]LogCollectionManager: Loaded 0 collections in 0.002331 seconds
+[2017.01.01-16.02.12:176][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Saved/Collections/' took 0.01s
+[2017.01.01-16.02.12:176][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/Developers/USRNAM/Collections/' took 0.01s
+[2017.01.01-16.02.12:176][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/Collections/' took 0.01s
+[2017.01.01-16.02.12:176][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.01.01-16.02.12:194][  0]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 2206 classes and 436 folders.
+[2017.01.01-16.02.12:259][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.01-16.02.12:259][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.01-16.02.12:260][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 13 classes and 0 folders.
+[2017.01.01-16.02.12:351][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.01.01-16.02.12:613][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.01.01-16.02.12:619][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.01-16.02.12:715][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.01.01-16.02.12:715][  0]LogLoad: (Engine Initialization) Total time: 55.48 seconds
+[2017.01.01-16.02.12:715][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.11 seconds
+[2017.01.01-16.02.12:715][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.01.01-16.02.12:715][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.01.01-16.02.12:727][  0]LogOcInput: OculusInput pre-init called
+[2017.01.01-16.02.12:750][  0]SourceControl: Info On branch master
+[2017.01.01-16.02.12:750][  0]SourceControl: Info Your branch and 'origin/master' have diverged,
+[2017.01.01-16.02.12:750][  0]SourceControl: Info and have 1 and 6 different commits each, respectively.
+[2017.01.01-16.02.12:750][  0]SourceControl: Info   (use "git pull" to merge the remote branch into yours)
+[2017.01.01-16.02.12:750][  0]SourceControl: Info Changes not staged for commit:
+[2017.01.01-16.02.12:750][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.01.01-16.02.12:750][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	modified:   Saved/Logs/RobotFps.log
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-434958064684A20AB5E577A87B8F0220/CrashReportClient.ini
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-760B3B1447D0E2CF27F8FFB041513546/CrashReportClient.ini
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-8FC7CF6E43B9FD287E7D0580434D1B66/CrashReportClient.ini
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-D3B832084C766D0D793774BFBC675A76/CrashReportClient.ini
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-F17C2B7E491C8BC8726741912A945D4E/CrashReportClient.ini
+[2017.01.01-16.02.12:750][  0]SourceControl: Info Untracked files:
+[2017.01.01-16.02.12:750][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Backup/A-Palettemap1_2016-12-24-16-17-12.umap
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Backup/A-Palettemap1_2016-12-24-16-29-19.umap
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Backup/A-Palettemap1_2016-12-24-17-30-57.umap
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Backup/M_TopDownSciFi_2016-12-24-16-17-13.uasset
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Config/WorldState/3391753872.json
+[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-61DF03F74D02E5BB3BEEBA9EDB0E5E32/
+[2017.01.01-16.02.12:750][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.01.01-16.02.12:751][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.01.01-16.02.13:171][  0]LogRenderer: Reallocating scene render targets to support 1124x872 NumSamples 1 (Frame:2).
+[2017.01.01-16.02.13:817][  2]LogAssetRegistry: Asset discovery search completed in 35.1398 seconds
+[2017.01.01-16.02.13:817][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.01-16.02.13:817][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.01.01-16.02.19:820][229]Cmd: MAP LOAD FILE="I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.01-16.02.19:847][229]LightingResults: New page: Lighting Build
+[2017.01.01-16.02.19:848][229]LoadErrors: New page: Loading map: A-Palettemap1.umap
+[2017.01.01-16.02.19:856][229]MapCheck: New page: Map Check
+[2017.01.01-16.02.19:856][229]LightingResults: New page: Lighting Build
+[2017.01.01-16.02.25:460][229]LogAIModule: Creating AISystem for world A-Palettemap1
+[2017.01.01-16.02.25:599][229]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.01-16.02.25:685][229]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.01-16.02.25:776][229]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.282ms to complete.
+[2017.01.01-16.02.25:776][229]LogFileHelpers: Loading map 'A-Palettemap1' took 5.957
+[2017.01.01-16.04.33:403][231]SourceControl:Error: Error error: Cannot pull with rebase: You have unstaged changes.
+[2017.01.01-16.04.33:407][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_AnimBP
+[2017.01.01-16.04.33:457][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_Run
+[2017.01.01-16.04.33:473][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_JumpStart
+[2017.01.01-16.04.33:493][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_JumpLoop
+[2017.01.01-16.04.33:512][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_JumpEnd
+[2017.01.01-16.04.33:535][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_Idle
+[2017.01.01-16.04.33:554][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton
+[2017.01.01-16.04.33:579][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/droidbolt1_Skeleton
+[2017.01.01-16.04.33:602][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Anim_laserRed
+[2017.01.01-16.04.33:628][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/PPulsebl
+[2017.01.01-16.04.33:653][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/PulseBLPS_Mat
+[2017.01.01-16.04.33:685][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/PS_PulseBul
+[2017.01.01-16.04.33:716][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/P_Arrow
+[2017.01.01-16.04.33:749][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/FirstPersonCharacter
+[2017.01.01-16.04.33:954][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/PlayerHud
+[2017.01.01-16.04.33:978][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Material
+[2017.01.01-16.04.34:001][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Material_001
+[2017.01.01-16.04.34:025][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Material_002
+[2017.01.01-16.04.34:049][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/pulselaserrifle_PhysicsAsset
+[2017.01.01-16.04.34:072][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/pulselaserrifle_Skeleton
+[2017.01.01-16.04.34:095][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/pulselaserrifle
+[2017.01.01-16.04.34:118][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/bulletbar
+[2017.01.01-16.04.34:142][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/healthbar
+[2017.01.01-16.04.34:164][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/Stunnerplosion
+[2017.01.01-16.04.34:183][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/StunnerPlo_Mat
+[2017.01.01-16.04.34:204][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/Stunexp_Particle
+[2017.01.01-16.04.34:233][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/BaseBeam
+[2017.01.01-16.04.34:257][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/BeamPulse
+[2017.01.01-16.04.34:281][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/StunnerBeam1
+[2017.01.01-16.04.34:304][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/StunnerParticle
+[2017.01.01-16.04.34:328][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/Stunnersnd
+[2017.01.01-16.04.34:364][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/WeapMesh/Material_001
+[2017.01.01-16.04.34:388][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/WeapMesh/Material_003
+[2017.01.01-16.04.34:411][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/WeapMesh/shockrifle_PhysicsAsset
+[2017.01.01-16.04.34:440][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/WeapMesh/shockrifle_Skeleton
+[2017.01.01-16.04.34:464][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/WeapMesh/shockrifle
+[2017.01.01-16.04.34:483][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/A_Sound
+[2017.01.01-16.04.34:507][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/Pulseshot
+[2017.01.01-16.04.34:531][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/stunexpoz
+[2017.01.01-16.04.34:554][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/D_monster
+[2017.01.01-16.04.34:579][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/TurretPS
+[2017.01.01-16.04.34:604][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/TurretPS_Mat
+[2017.01.01-16.04.34:636][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/PS_Turret
+[2017.01.01-16.04.34:665][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/P_Turret
+[2017.01.01-16.04.34:705][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/WBRICK2
+[2017.01.01-16.04.34:730][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/WBRICK2_Mat
+[2017.01.01-16.04.34:761][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/METAL05
+[2017.01.01-16.04.34:783][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/METAL05_Mat
+[2017.01.01-16.04.34:814][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/Turret
+[2017.01.01-16.04.34:843][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/TurretBase
+[2017.01.01-16.04.34:871][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Redexplode
+[2017.01.01-16.04.34:898][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Explode_Mat
+[2017.01.01-16.04.34:935][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/RedExplode_Particle
+[2017.01.01-16.04.34:964][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/TurretPlasma
+[2017.01.01-16.04.34:990][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/ATurret
+[2017.01.01-16.04.35:176][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/PS_Drone
+[2017.01.01-16.04.35:206][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Walls/Doors_01A
+[2017.01.01-16.04.35:237][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Floors/Clamp_el_02
+[2017.01.01-16.04.35:270][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Floors/Clamp_el_01
+[2017.01.01-16.04.35:298][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Decos/Box_02
+[2017.01.01-16.04.35:330][231]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/testmat2
+[2017.01.01-16.04.35:362][231]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/test-mat2
+[2017.01.01-16.04.35:390][231]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/test-mat
+[2017.01.01-16.04.35:423][231]LoadErrors: New page: Loading package: /Game/maps/A-Palettemap1_BuiltData
+[2017.01.01-16.04.35:457][231]LoadErrors: New page: Loading package: /Game/Blueprints/map-mechanics/wind
+[2017.01.01-16.04.35:495][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Decos/Vents_01
+[2017.01.01-16.04.35:519][231]LoadErrors: New page: Loading package: /Game/Blueprints/map-mechanics/Light-OnOverlap
+[2017.01.01-16.04.35:554][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Decos/LED_09
+[2017.01.01-16.04.35:577][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Materials/M_TopDownGlow
+[2017.01.01-16.04.35:605][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/ScanLines
+[2017.01.01-16.04.35:629][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/Glows
+[2017.01.01-16.04.35:652][231]LoadErrors: New page: Loading package: /Game/Blueprints/map-mechanics/Lift1
+[2017.01.01-16.04.35:684][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Walls/Gate_round_02
+[2017.01.01-16.04.35:708][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Materials/M_TopDownSciFi
+[2017.01.01-16.04.35:731][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/TopDownSciFi_N
+[2017.01.01-16.04.35:751][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/TopDownSciFi_M
+[2017.01.01-16.04.35:775][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/TopDownSciFi_D
+[2017.01.01-16.04.35:803][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/Atlas1_illum
+[2017.01.01-16.04.35:827][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/AShocker
+[2017.01.01-16.04.35:973][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan
+[2017.01.01-16.04.36:002][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_Skeleton
+[2017.01.01-16.04.36:027][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_PhysicsAsset
+[2017.01.01-16.04.36:050][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/Lawls
+[2017.01.01-16.04.36:073][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/AShockerShock
+[2017.01.01-16.04.36:097][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Textures/FirstPersonCrosshair
+[2017.01.01-16.04.36:125][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/FirstPersonHUD
+[2017.01.01-16.04.36:155][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
+[2017.01.01-16.04.36:180][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/Material
+[2017.01.01-16.04.36:210][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/Material_001
+[2017.01.01-16.04.36:240][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/lamppost
+[2017.01.01-16.04.36:269][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/LampPost_BP
+[2017.01.01-16.04.36:311][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/Material
+[2017.01.01-16.04.36:341][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/Material_001
+[2017.01.01-16.04.36:370][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/repairkit
+[2017.01.01-16.04.36:401][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/pickup
+[2017.01.01-16.04.36:427][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/RepairKit_Item
+[2017.01.01-16.04.36:473][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/Material_002
+[2017.01.01-16.04.36:498][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/StunnerAmmo
+[2017.01.01-16.04.36:525][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/StunnerAmmo_Box
+[2017.01.01-16.04.36:565][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/AMonster
+[2017.01.01-16.04.36:672][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/Explosion
+[2017.01.01-16.04.36:693][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/SecurityDroid
+[2017.01.01-16.04.36:719][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/SecurityDroid_Skeleton
+[2017.01.01-16.04.36:747][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/SecurityDroid_PhysicsAsset
+[2017.01.01-16.04.36:771][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material_003
+[2017.01.01-16.04.36:794][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material_002
+[2017.01.01-16.04.36:818][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material_001
+[2017.01.01-16.04.36:846][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material
+[2017.01.01-16.04.36:871][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning4
+[2017.01.01-16.04.36:894][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL1_Sprite
+[2017.01.01-16.04.36:917][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL1
+[2017.01.01-16.04.36:938][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning3
+[2017.01.01-16.04.36:960][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL5_Sprite
+[2017.01.01-16.04.36:983][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL5
+[2017.01.01-16.04.37:007][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning2
+[2017.01.01-16.04.37:037][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL3_Sprite
+[2017.01.01-16.04.37:061][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL3
+[2017.01.01-16.04.37:084][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning1
+[2017.01.01-16.04.37:108][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL2_Sprite
+[2017.01.01-16.04.37:132][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL2
+[2017.01.01-16.04.37:157][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/BigTealLt
+[2017.01.01-16.04.37:182][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/BigTealLt_Mat
+[2017.01.01-16.04.37:208][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/pipe
+[2017.01.01-16.04.37:234][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/support
+[2017.01.01-16.04.37:262][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/P_Drone
+[2017.01.01-16.04.57:484][237]LogCrashTracker: 
+
+
+[2017.01.01-16.04.57:721][237]LogWindows: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2017.01.01-16.04.57:730][237]LogThreadingWindows:Error: Runnable thread RenderThread 2 crashed.
+[2017.01.01-16.04.57:730][237]LogCrashTracker: 
+
+
+[2017.01.01-16.04.57:730][237]LogWindows:Error: === Critical error: ===
+[2017.01.01-16.04.57:730][237]LogWindows:Error: 
+[2017.01.01-16.04.57:730][237]LogWindows:Error: 
+[2017.01.01-16.04.57:730][237]LogWindows:Error: Crash in runnable thread RenderThread 2
+[2017.01.01-16.04.57:750][237]LogWindows: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2017.01.01-16.04.57:750][237]LogWindows:Error: HandleError re-entered.
+[2017.01.01-16.04.57:750][237]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.01.01-16.04.57:750][237]Log file closed, 01/01/17 17:04:57
