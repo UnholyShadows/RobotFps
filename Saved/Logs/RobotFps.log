@@ -1,9 +1,9 @@
-﻿Log file open, 01/01/17 17:01:20
+﻿Log file open, 01/04/17 10:22:45
 LogInit:Display: Running engine for game: RobotFps
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1308103426) SRandInit(1308103426).
+LogInit:Display: RandInit(1173445880) SRandInit(1173445880).
 LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.549235
+LogStats: Stats thread started at 0.233630
 LogPluginManager: Loaded Plugin Paper2D, From E:/neuUnreal/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From E:/neuUnreal/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From E:/neuUnreal/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -144,338 +144,970 @@ LogInit: Base directory: E:/neuUnreal/Epic Games/4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.01.01-16.01.21:068][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.01-16.01.21:068][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.01.01-16.01.21:105][  0]LogInit: Computer: PCT
-[2017.01.01-16.01.21:105][  0]LogInit: User: USRNAM
-[2017.01.01-16.01.21:105][  0]LogInit: CPU Page size=65536, Cores=6
-[2017.01.01-16.01.21:105][  0]LogInit: High frequency timer resolution =2.746972 MHz
-[2017.01.01-16.01.21:105][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.01.01-16.01.21:105][  0]LogMemory: Platform Memory Stats for Windows
-[2017.01.01-16.01.21:105][  0]LogMemory: Process Physical Memory: 268.09 MB used, 268.09 MB peak
-[2017.01.01-16.01.21:105][  0]LogMemory: Process Virtual Memory: 267.29 MB used, 267.29 MB peak
-[2017.01.01-16.01.21:105][  0]LogMemory: Physical Memory: 6145.26 MB used,  10235.27 MB free, 16380.53 MB total
-[2017.01.01-16.01.21:105][  0]LogMemory: Virtual Memory: 667.79 MB used,  10235.27 MB free, 8388608.00 MB total
-[2017.01.01-16.01.21:446][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
-[2017.01.01-16.01.23:493][  0]LogD3D11RHI: D3D11 adapters:
-[2017.01.01-16.01.23:744][  0]LogD3D11RHI:    0. 'AMD Radeon HD 5800 Series' (Feature Level 11_0)
-[2017.01.01-16.01.23:744][  0]LogD3D11RHI:       1010/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2017.01.01-16.01.23:744][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.01.01-16.01.23:751][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.01.01-16.01.23:751][  0]LogD3D11RHI:     GPU DeviceId: 0x6898 (for the marketing name, search the web for "GPU Device Id")
-[2017.01.01-16.01.23:752][  0]LogWindows: EnumDisplayDevices:
-[2017.01.01-16.01.23:752][  0]LogWindows:    0. 'AMD Radeon HD 5800 Series' (P:0 D:1)
-[2017.01.01-16.01.23:752][  0]LogWindows:    1. 'AMD Radeon HD 5800 Series' (P:1 D:1)
-[2017.01.01-16.01.23:752][  0]LogWindows:    2. 'AMD Radeon HD 5800 Series' (P:0 D:0)
-[2017.01.01-16.01.23:752][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
-[2017.01.01-16.01.23:753][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.01.01-16.01.23:753][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.01.01-16.01.23:753][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
-[2017.01.01-16.01.23:753][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 5800 Series
-[2017.01.01-16.01.23:753][  0]LogD3D11RHI:   Driver Version: Catalyst 15.7.1 (internal:15.200.1062.1004, unified:15.200.1062.1004)
-[2017.01.01-16.01.23:753][  0]LogD3D11RHI:      Driver Date: 8-3-2015
-[2017.01.01-16.01.23:753][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
-[2017.01.01-16.01.23:768][  0]LogD3D11RHI: Async texture creation enabled
-[2017.01.01-16.01.23:804][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.01.01-16.01.23:809][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (I:/Unreal4/FPS-unholy/Intermediate/Shaders/WorkingDirectory/31660/).
-[2017.01.01-16.01.23:810][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/USRNAM/AppData/Local/Temp/UnrealShaderWorkingDir/C897BB6F4A1B0231A369F1A350462D87/'.
-[2017.01.01-16.01.23:810][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.01.01-16.01.29:508][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.01.01-16.01.29:594][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.01.01-16.01.29:686][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.01.01-16.01.29:772][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.01.01-16.01.29:860][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.01.01-16.01.29:945][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.01.01-16.01.30:030][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.01.01-16.01.30:114][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.01.01-16.01.30:185][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.01.01-16.01.30:270][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.01.01-16.01.30:354][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.01.01-16.01.30:438][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.01.01-16.01.30:523][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.01.01-16.01.30:607][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.01.01-16.01.30:693][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.01.01-16.01.30:863][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.01.01-16.01.30:863][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.01.01-16.01.30:920][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.01.01-16.01.31:058][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.01.01-16.01.31:112][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.01.01-16.01.31:195][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.01.01-16.01.31:278][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.01.01-16.01.31:362][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.01.01-16.01.31:449][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.01.01-16.01.31:449][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.01.01-16.01.32:205][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.01.01-16.01.33:122][  0]LogDerivedDataCache: Loaded boot cache 0.92s 57MB C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.01.01-16.01.33:122][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.01.01-16.01.33:122][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/Unreal4/FPS-unholy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.01.01-16.01.33:122][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.01.01-16.01.33:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/Unreal4/FPS-unholy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.01.01-16.01.33:123][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.01.01-16.01.33:154][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.01.01-16.01.33:178][  0]LogDerivedDataCache: Using Local data cache path C:/Users/USRNAM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.01.01-16.01.34:122][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.01-16.01.34:221][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.01.01-16.01.34:995][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.01.01-16.01.35:093][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.01.01-16.01.35:165][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.01.01-16.01.35:165][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.01.01-16.01.35:165][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.01.01-16.01.38:614][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: robotfps, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1113872776
-[2017.01.01-16.01.38:697][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
-[2017.01.01-16.01.38:756][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.026557 seconds
-[2017.01.01-16.01.38:768][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.01.01-16.01.38:768][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2017.01.01-16.01.38:768][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.01.01-16.01.38:866][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.01.01-16.01.40:216][  0]LogSlate: Using Freetype 2.6.0
-[2017.01.01-16.01.40:221][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.01-16.01.40:221][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.01-16.01.45:038][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2017.01.01-16.01.45:088][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.01.01-16.01.45:141][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.01.01-16.01.45:721][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.01.01-16.01.46:359][  0]SourceControl: Info Source control is disabled
-[2017.01.01-16.01.54:824][  0]LogEngine: Initializing Engine...
-[2017.01.01-16.01.54:826][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.01.01-16.01.55:487][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.01.01-16.01.55:522][  0]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2017.01.01-16.01.55:552][  0]LogInit: FAudioDevice initialized.
-[2017.01.01-16.01.55:606][  0]LogDerivedDataCache: Saved boot cache 0.05s 57MB C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.01.01-16.01.55:623][  0]LogInit: Texture streaming: Enabled
-[2017.01.01-16.01.56:152][  0]LogInit: Transaction tracking system initialized
-[2017.01.01-16.01.56:713][  0]BlueprintLog: New page: Editor Load
-[2017.01.01-16.01.58:254][  0]LocalizationService: Info Localization service is disabled
-[2017.01.01-16.01.59:362][  0]LogConsoleResponse:Display: 
-[2017.01.01-16.02.01:122][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.01.01-16.02.01:122][  0]LogCook:Display: Mobile HDR setting 1
-[2017.01.01-16.02.01:458][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/' took 0.02s
-[2017.01.01-16.02.04:901][  0]Cmd: MAP LOAD FILE="I:/Unreal4/FPS-unholy/Content/FirstPersonBP/Maps/map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.01.01-16.02.04:920][  0]LightingResults: New page: Lighting Build
-[2017.01.01-16.02.04:988][  0]MapCheck: New page: Map Check
-[2017.01.01-16.02.04:988][  0]LightingResults: New page: Lighting Build
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.09:369][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
-[2017.01.01-16.02.11:162][  0]LogAIModule: Creating AISystem for world map1
-[2017.01.01-16.02.11:167][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.WorldInfo_0.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.01.01-16.02.11:365][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.01.01-16.02.11:372][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.01.01-16.02.11:467][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.51ms to complete.
-[2017.01.01-16.02.11:467][  0]LogFileHelpers: Loading map 'map1' took 6.566
-[2017.01.01-16.02.12:004][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.01.01-16.02.12:055][  0]LogCollectionManager: Loaded 0 collections in 0.002331 seconds
-[2017.01.01-16.02.12:176][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Saved/Collections/' took 0.01s
-[2017.01.01-16.02.12:176][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/Developers/USRNAM/Collections/' took 0.01s
-[2017.01.01-16.02.12:176][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/Collections/' took 0.01s
-[2017.01.01-16.02.12:176][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.01.01-16.02.12:194][  0]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 2206 classes and 436 folders.
-[2017.01.01-16.02.12:259][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.01.01-16.02.12:259][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.01.01-16.02.12:260][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 13 classes and 0 folders.
-[2017.01.01-16.02.12:351][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.01.01-16.02.12:613][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.01.01-16.02.12:619][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.01.01-16.02.12:715][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.01.01-16.02.12:715][  0]LogLoad: (Engine Initialization) Total time: 55.48 seconds
-[2017.01.01-16.02.12:715][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.11 seconds
-[2017.01.01-16.02.12:715][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.01.01-16.02.12:715][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.01.01-16.02.12:727][  0]LogOcInput: OculusInput pre-init called
-[2017.01.01-16.02.12:750][  0]SourceControl: Info On branch master
-[2017.01.01-16.02.12:750][  0]SourceControl: Info Your branch and 'origin/master' have diverged,
-[2017.01.01-16.02.12:750][  0]SourceControl: Info and have 1 and 6 different commits each, respectively.
-[2017.01.01-16.02.12:750][  0]SourceControl: Info   (use "git pull" to merge the remote branch into yours)
-[2017.01.01-16.02.12:750][  0]SourceControl: Info Changes not staged for commit:
-[2017.01.01-16.02.12:750][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2017.01.01-16.02.12:750][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	modified:   Saved/Logs/RobotFps.log
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-434958064684A20AB5E577A87B8F0220/CrashReportClient.ini
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-760B3B1447D0E2CF27F8FFB041513546/CrashReportClient.ini
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-8FC7CF6E43B9FD287E7D0580434D1B66/CrashReportClient.ini
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-D3B832084C766D0D793774BFBC675A76/CrashReportClient.ini
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	deleted:    Saved/Logs/UE4CC-Windows-F17C2B7E491C8BC8726741912A945D4E/CrashReportClient.ini
-[2017.01.01-16.02.12:750][  0]SourceControl: Info Untracked files:
-[2017.01.01-16.02.12:750][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Backup/A-Palettemap1_2016-12-24-16-17-12.umap
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Backup/A-Palettemap1_2016-12-24-16-29-19.umap
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Backup/A-Palettemap1_2016-12-24-17-30-57.umap
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Backup/M_TopDownSciFi_2016-12-24-16-17-13.uasset
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Config/WorldState/3391753872.json
-[2017.01.01-16.02.12:750][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-61DF03F74D02E5BB3BEEBA9EDB0E5E32/
-[2017.01.01-16.02.12:750][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2017.01.01-16.02.12:751][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2017.01.01-16.02.13:171][  0]LogRenderer: Reallocating scene render targets to support 1124x872 NumSamples 1 (Frame:2).
-[2017.01.01-16.02.13:817][  2]LogAssetRegistry: Asset discovery search completed in 35.1398 seconds
-[2017.01.01-16.02.13:817][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.01.01-16.02.13:817][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
-[2017.01.01-16.02.19:820][229]Cmd: MAP LOAD FILE="I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.01.01-16.02.19:847][229]LightingResults: New page: Lighting Build
-[2017.01.01-16.02.19:848][229]LoadErrors: New page: Loading map: A-Palettemap1.umap
-[2017.01.01-16.02.19:856][229]MapCheck: New page: Map Check
-[2017.01.01-16.02.19:856][229]LightingResults: New page: Lighting Build
-[2017.01.01-16.02.25:460][229]LogAIModule: Creating AISystem for world A-Palettemap1
-[2017.01.01-16.02.25:599][229]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.01.01-16.02.25:685][229]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.01.01-16.02.25:776][229]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.282ms to complete.
-[2017.01.01-16.02.25:776][229]LogFileHelpers: Loading map 'A-Palettemap1' took 5.957
-[2017.01.01-16.04.33:403][231]SourceControl:Error: Error error: Cannot pull with rebase: You have unstaged changes.
-[2017.01.01-16.04.33:407][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_AnimBP
-[2017.01.01-16.04.33:457][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_Run
-[2017.01.01-16.04.33:473][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_JumpStart
-[2017.01.01-16.04.33:493][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_JumpLoop
-[2017.01.01-16.04.33:512][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_JumpEnd
-[2017.01.01-16.04.33:535][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Animations/FirstPerson_Idle
-[2017.01.01-16.04.33:554][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton
-[2017.01.01-16.04.33:579][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/droidbolt1_Skeleton
-[2017.01.01-16.04.33:602][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Anim_laserRed
-[2017.01.01-16.04.33:628][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/PPulsebl
-[2017.01.01-16.04.33:653][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/PulseBLPS_Mat
-[2017.01.01-16.04.33:685][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/PS_PulseBul
-[2017.01.01-16.04.33:716][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/P_Arrow
-[2017.01.01-16.04.33:749][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/FirstPersonCharacter
-[2017.01.01-16.04.33:954][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/PlayerHud
-[2017.01.01-16.04.33:978][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Material
-[2017.01.01-16.04.34:001][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Material_001
-[2017.01.01-16.04.34:025][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Material_002
-[2017.01.01-16.04.34:049][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/pulselaserrifle_PhysicsAsset
-[2017.01.01-16.04.34:072][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/pulselaserrifle_Skeleton
-[2017.01.01-16.04.34:095][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/pulselaserrifle
-[2017.01.01-16.04.34:118][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/bulletbar
-[2017.01.01-16.04.34:142][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/healthbar
-[2017.01.01-16.04.34:164][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/Stunnerplosion
-[2017.01.01-16.04.34:183][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/StunnerPlo_Mat
-[2017.01.01-16.04.34:204][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/Stunexp_Particle
-[2017.01.01-16.04.34:233][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/BaseBeam
-[2017.01.01-16.04.34:257][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/BeamPulse
-[2017.01.01-16.04.34:281][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/StunnerBeam1
-[2017.01.01-16.04.34:304][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/StunnerParticle
-[2017.01.01-16.04.34:328][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/Stunnersnd
-[2017.01.01-16.04.34:364][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/WeapMesh/Material_001
-[2017.01.01-16.04.34:388][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/WeapMesh/Material_003
-[2017.01.01-16.04.34:411][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/WeapMesh/shockrifle_PhysicsAsset
-[2017.01.01-16.04.34:440][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/WeapMesh/shockrifle_Skeleton
-[2017.01.01-16.04.34:464][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/WeapMesh/shockrifle
-[2017.01.01-16.04.34:483][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/A_Sound
-[2017.01.01-16.04.34:507][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/Pulseshot
-[2017.01.01-16.04.34:531][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/stunexpoz
-[2017.01.01-16.04.34:554][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/D_monster
-[2017.01.01-16.04.34:579][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/TurretPS
-[2017.01.01-16.04.34:604][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/TurretPS_Mat
-[2017.01.01-16.04.34:636][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/PS_Turret
-[2017.01.01-16.04.34:665][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/P_Turret
-[2017.01.01-16.04.34:705][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/WBRICK2
-[2017.01.01-16.04.34:730][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/WBRICK2_Mat
-[2017.01.01-16.04.34:761][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/METAL05
-[2017.01.01-16.04.34:783][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/METAL05_Mat
-[2017.01.01-16.04.34:814][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/Turret
-[2017.01.01-16.04.34:843][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/TurretBase
-[2017.01.01-16.04.34:871][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Redexplode
-[2017.01.01-16.04.34:898][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Explode_Mat
-[2017.01.01-16.04.34:935][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/RedExplode_Particle
-[2017.01.01-16.04.34:964][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/TurretPlasma
-[2017.01.01-16.04.34:990][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/ATurret
-[2017.01.01-16.04.35:176][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/PS_Drone
-[2017.01.01-16.04.35:206][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Walls/Doors_01A
-[2017.01.01-16.04.35:237][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Floors/Clamp_el_02
-[2017.01.01-16.04.35:270][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Floors/Clamp_el_01
-[2017.01.01-16.04.35:298][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Decos/Box_02
-[2017.01.01-16.04.35:330][231]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/testmat2
-[2017.01.01-16.04.35:362][231]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/test-mat2
-[2017.01.01-16.04.35:390][231]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/test-mat
-[2017.01.01-16.04.35:423][231]LoadErrors: New page: Loading package: /Game/maps/A-Palettemap1_BuiltData
-[2017.01.01-16.04.35:457][231]LoadErrors: New page: Loading package: /Game/Blueprints/map-mechanics/wind
-[2017.01.01-16.04.35:495][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Decos/Vents_01
-[2017.01.01-16.04.35:519][231]LoadErrors: New page: Loading package: /Game/Blueprints/map-mechanics/Light-OnOverlap
-[2017.01.01-16.04.35:554][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Decos/LED_09
-[2017.01.01-16.04.35:577][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Materials/M_TopDownGlow
-[2017.01.01-16.04.35:605][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/ScanLines
-[2017.01.01-16.04.35:629][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/Glows
-[2017.01.01-16.04.35:652][231]LoadErrors: New page: Loading package: /Game/Blueprints/map-mechanics/Lift1
-[2017.01.01-16.04.35:684][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Walls/Gate_round_02
-[2017.01.01-16.04.35:708][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Materials/M_TopDownSciFi
-[2017.01.01-16.04.35:731][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/TopDownSciFi_N
-[2017.01.01-16.04.35:751][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/TopDownSciFi_M
-[2017.01.01-16.04.35:775][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/TopDownSciFi_D
-[2017.01.01-16.04.35:803][231]LoadErrors: New page: Loading package: /Game/TopDownSciFi/Shared/Textures/Atlas1_illum
-[2017.01.01-16.04.35:827][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/AShocker
-[2017.01.01-16.04.35:973][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan
-[2017.01.01-16.04.36:002][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_Skeleton
-[2017.01.01-16.04.36:027][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_PhysicsAsset
-[2017.01.01-16.04.36:050][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/Weapons/Lawls
-[2017.01.01-16.04.36:073][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/AShockerShock
-[2017.01.01-16.04.36:097][231]LoadErrors: New page: Loading package: /Game/FirstPerson/Textures/FirstPersonCrosshair
-[2017.01.01-16.04.36:125][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/FirstPersonHUD
-[2017.01.01-16.04.36:155][231]LoadErrors: New page: Loading package: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode
-[2017.01.01-16.04.36:180][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/Material
-[2017.01.01-16.04.36:210][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/Material_001
-[2017.01.01-16.04.36:240][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/lamppost
-[2017.01.01-16.04.36:269][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/LampPost_BP
-[2017.01.01-16.04.36:311][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/Material
-[2017.01.01-16.04.36:341][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/Material_001
-[2017.01.01-16.04.36:370][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/repairkit
-[2017.01.01-16.04.36:401][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/pickup
-[2017.01.01-16.04.36:427][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/RepairKit_Item
-[2017.01.01-16.04.36:473][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/Material_002
-[2017.01.01-16.04.36:498][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/StunnerAmmo
-[2017.01.01-16.04.36:525][231]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/StunnerAmmo_Box
-[2017.01.01-16.04.36:565][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/AMonster
-[2017.01.01-16.04.36:672][231]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/Explosion
-[2017.01.01-16.04.36:693][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/SecurityDroid
-[2017.01.01-16.04.36:719][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/SecurityDroid_Skeleton
-[2017.01.01-16.04.36:747][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/SecurityDroid_PhysicsAsset
-[2017.01.01-16.04.36:771][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material_003
-[2017.01.01-16.04.36:794][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material_002
-[2017.01.01-16.04.36:818][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material_001
-[2017.01.01-16.04.36:846][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material
-[2017.01.01-16.04.36:871][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning4
-[2017.01.01-16.04.36:894][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL1_Sprite
-[2017.01.01-16.04.36:917][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL1
-[2017.01.01-16.04.36:938][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning3
-[2017.01.01-16.04.36:960][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL5_Sprite
-[2017.01.01-16.04.36:983][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL5
-[2017.01.01-16.04.37:007][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning2
-[2017.01.01-16.04.37:037][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL3_Sprite
-[2017.01.01-16.04.37:061][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL3
-[2017.01.01-16.04.37:084][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning1
-[2017.01.01-16.04.37:108][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL2_Sprite
-[2017.01.01-16.04.37:132][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL2
-[2017.01.01-16.04.37:157][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/BigTealLt
-[2017.01.01-16.04.37:182][231]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/BigTealLt_Mat
-[2017.01.01-16.04.37:208][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/pipe
-[2017.01.01-16.04.37:234][231]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/support
-[2017.01.01-16.04.37:262][231]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/P_Drone
-[2017.01.01-16.04.57:484][237]LogCrashTracker: 
-
-
-[2017.01.01-16.04.57:721][237]LogWindows: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
-[2017.01.01-16.04.57:730][237]LogThreadingWindows:Error: Runnable thread RenderThread 2 crashed.
-[2017.01.01-16.04.57:730][237]LogCrashTracker: 
-
-
-[2017.01.01-16.04.57:730][237]LogWindows:Error: === Critical error: ===
-[2017.01.01-16.04.57:730][237]LogWindows:Error: 
-[2017.01.01-16.04.57:730][237]LogWindows:Error: 
-[2017.01.01-16.04.57:730][237]LogWindows:Error: Crash in runnable thread RenderThread 2
-[2017.01.01-16.04.57:750][237]LogWindows: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
-[2017.01.01-16.04.57:750][237]LogWindows:Error: HandleError re-entered.
-[2017.01.01-16.04.57:750][237]LogWindows: FPlatformMisc::RequestExit(1)
-[2017.01.01-16.04.57:750][237]Log file closed, 01/01/17 17:04:57
+[2017.01.04-09.22.45:845][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.04-09.22.45:845][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.04-09.22.45:885][  0]LogInit: Computer: PCT
+[2017.01.04-09.22.45:885][  0]LogInit: User: USRNAM
+[2017.01.04-09.22.45:885][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.01.04-09.22.45:885][  0]LogInit: High frequency timer resolution =2.746953 MHz
+[2017.01.04-09.22.45:886][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.01.04-09.22.45:886][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.04-09.22.45:886][  0]LogMemory: Process Physical Memory: 268.84 MB used, 268.84 MB peak
+[2017.01.04-09.22.45:886][  0]LogMemory: Process Virtual Memory: 267.30 MB used, 267.30 MB peak
+[2017.01.04-09.22.45:886][  0]LogMemory: Physical Memory: 4515.54 MB used,  11864.98 MB free, 16380.53 MB total
+[2017.01.04-09.22.45:886][  0]LogMemory: Virtual Memory: 667.79 MB used,  11864.98 MB free, 8388608.00 MB total
+[2017.01.04-09.22.46:168][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.04-09.22.47:974][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.04-09.22.48:032][  0]LogD3D11RHI:    0. 'AMD Radeon HD 5800 Series' (Feature Level 11_0)
+[2017.01.04-09.22.48:032][  0]LogD3D11RHI:       1010/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.01.04-09.22.48:032][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.04-09.22.48:039][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.04-09.22.48:039][  0]LogD3D11RHI:     GPU DeviceId: 0x6898 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.04-09.22.48:039][  0]LogWindows: EnumDisplayDevices:
+[2017.01.04-09.22.48:040][  0]LogWindows:    0. 'AMD Radeon HD 5800 Series' (P:0 D:1)
+[2017.01.04-09.22.48:040][  0]LogWindows:    1. 'AMD Radeon HD 5800 Series' (P:1 D:1)
+[2017.01.04-09.22.48:040][  0]LogWindows:    2. 'AMD Radeon HD 5800 Series' (P:0 D:0)
+[2017.01.04-09.22.48:040][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2017.01.04-09.22.48:040][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.01.04-09.22.48:041][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.01.04-09.22.48:041][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2017.01.04-09.22.48:041][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 5800 Series
+[2017.01.04-09.22.48:041][  0]LogD3D11RHI:   Driver Version: Catalyst 15.7.1 (internal:15.200.1062.1004, unified:15.200.1062.1004)
+[2017.01.04-09.22.48:041][  0]LogD3D11RHI:      Driver Date: 8-3-2015
+[2017.01.04-09.22.48:041][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
+[2017.01.04-09.22.48:068][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.04-09.22.48:106][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.01.04-09.22.48:113][  0]LogShaderCompilers: Guid format shader working directory is 26 characters bigger than the processId version (I:/Unreal4/FPS-unholy/Intermediate/Shaders/WorkingDirectory/7032/).
+[2017.01.04-09.22.48:113][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/USRNAM/AppData/Local/Temp/UnrealShaderWorkingDir/EFC7F16743C786B7D6718D91C0449B03/'.
+[2017.01.04-09.22.48:113][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.04-09.22.52:007][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.04-09.22.52:091][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.01.04-09.22.52:177][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.01.04-09.22.52:263][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.01.04-09.22.52:354][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.01.04-09.22.52:439][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.04-09.22.52:524][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.04-09.22.52:609][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.04-09.22.52:677][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.04-09.22.52:764][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.04-09.22.52:849][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.04-09.22.52:933][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.04-09.22.53:018][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.04-09.22.53:102][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.04-09.22.53:186][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.04-09.22.53:355][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.04-09.22.53:355][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.04-09.22.53:412][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.04-09.22.53:547][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.04-09.22.53:601][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.04-09.22.53:686][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.04-09.22.53:768][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.04-09.22.53:853][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.04-09.22.53:941][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.04-09.22.53:941][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.04-09.22.54:639][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.04-09.22.55:573][  0]LogDerivedDataCache: Loaded boot cache 0.93s 50MB C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.04-09.22.55:573][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.01.04-09.22.55:573][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/Unreal4/FPS-unholy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.04-09.22.55:573][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.04-09.22.55:573][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/Unreal4/FPS-unholy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.04-09.22.55:573][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.04-09.22.55:605][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.04-09.22.55:618][  0]LogDerivedDataCache: Using Local data cache path C:/Users/USRNAM/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.04-09.22.56:527][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.04-09.22.56:714][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.04-09.22.57:585][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.01.04-09.22.57:681][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.01.04-09.22.57:751][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.01.04-09.22.57:751][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.01.04-09.22.57:751][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.04-09.23.02:265][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: robotfps, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1113872776
+[2017.01.04-09.23.02:347][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2017.01.04-09.23.02:477][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.098770 seconds
+[2017.01.04-09.23.02:488][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.01.04-09.23.02:488][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.01.04-09.23.02:488][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.04-09.23.02:586][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.04-09.23.03:885][  0]LogSlate: Using Freetype 2.6.0
+[2017.01.04-09.23.03:891][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.04-09.23.03:891][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.04-09.23.07:972][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.01.04-09.23.08:021][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.01.04-09.23.08:076][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.04-09.23.08:633][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.04-09.23.09:252][  0]SourceControl: Info Source control is disabled
+[2017.01.04-09.23.17:318][  0]LogEngine: Initializing Engine...
+[2017.01.04-09.23.17:319][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.01.04-09.23.18:133][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.04-09.23.18:189][  0]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.04-09.23.18:205][  0]LogInit: FAudioDevice initialized.
+[2017.01.04-09.23.18:248][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/USRNAM/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.04-09.23.18:264][  0]LogInit: Texture streaming: Enabled
+[2017.01.04-09.23.18:696][  0]LogInit: Transaction tracking system initialized
+[2017.01.04-09.23.19:388][  0]BlueprintLog: New page: Editor Load
+[2017.01.04-09.23.20:902][  0]LocalizationService: Info Localization service is disabled
+[2017.01.04-09.23.21:983][  0]LogConsoleResponse:Display: 
+[2017.01.04-09.23.24:706][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.04-09.23.24:706][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.04-09.23.24:748][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/' took 0.02s
+[2017.01.04-09.23.28:184][  0]Cmd: MAP LOAD FILE="I:/Unreal4/FPS-unholy/Content/FirstPersonBP/Maps/map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.04-09.23.28:213][  0]LightingResults: New page: Lighting Build
+[2017.01.04-09.23.28:290][  0]MapCheck: New page: Map Check
+[2017.01.04-09.23.28:290][  0]LightingResults: New page: Lighting Build
+[2017.01.04-09.23.35:760][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.35:761][  0]LogBrush: Model_2 had invalid poly normals which have been fixed. Resave the level 'map1' to remove this warning.
+[2017.01.04-09.23.36:404][  0]LogAIModule: Creating AISystem for world map1
+[2017.01.04-09.23.36:409][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonBP/Maps/map1.map1:PersistentLevel.WorldInfo_0.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.01.04-09.23.36:584][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.04-09.23.36:588][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.04-09.23.36:669][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.29ms to complete.
+[2017.01.04-09.23.36:669][  0]LogFileHelpers: Loading map 'map1' took 8.486
+[2017.01.04-09.23.37:231][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.04-09.23.37:294][  0]LogCollectionManager: Loaded 0 collections in 0.002796 seconds
+[2017.01.04-09.23.37:416][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Saved/Collections/' took 0.01s
+[2017.01.04-09.23.37:416][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/Developers/USRNAM/Collections/' took 0.01s
+[2017.01.04-09.23.37:416][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal4/FPS-unholy/Content/Collections/' took 0.01s
+[2017.01.04-09.23.37:416][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.01.04-09.23.37:435][  0]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 2206 classes and 436 folders.
+[2017.01.04-09.23.37:509][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.04-09.23.37:509][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.04-09.23.37:510][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 13 classes and 0 folders.
+[2017.01.04-09.23.37:612][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.01.04-09.23.37:874][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.01.04-09.23.37:880][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.04-09.23.37:982][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.01.04-09.23.37:982][  0]LogLoad: (Engine Initialization) Total time: 55.95 seconds
+[2017.01.04-09.23.37:982][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.15 seconds
+[2017.01.04-09.23.37:982][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.01.04-09.23.37:982][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.01.04-09.23.37:992][  0]LogOcInput: OculusInput pre-init called
+[2017.01.04-09.23.38:014][  0]SourceControl: Info On branch master
+[2017.01.04-09.23.38:014][  0]SourceControl: Info Your branch and 'origin/master' have diverged,
+[2017.01.04-09.23.38:014][  0]SourceControl: Info and have 2 and 6 different commits each, respectively.
+[2017.01.04-09.23.38:015][  0]SourceControl: Info   (use "git pull" to merge the remote branch into yours)
+[2017.01.04-09.23.38:015][  0]SourceControl: Info Changes not staged for commit:
+[2017.01.04-09.23.38:015][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.01.04-09.23.38:015][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.01.04-09.23.38:015][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.01.04-09.23.38:015][  0]SourceControl: Info 	modified:   Saved/Logs/RobotFps.log
+[2017.01.04-09.23.38:015][  0]SourceControl: Info Untracked files:
+[2017.01.04-09.23.38:015][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.01.04-09.23.38:015][  0]SourceControl: Info 	Saved/Backup/A-Palettemap1_2016-12-24-16-17-12.umap
+[2017.01.04-09.23.38:015][  0]SourceControl: Info 	Saved/Backup/A-Palettemap1_2016-12-24-16-29-19.umap
+[2017.01.04-09.23.38:015][  0]SourceControl: Info 	Saved/Backup/A-Palettemap1_2016-12-24-17-30-57.umap
+[2017.01.04-09.23.38:015][  0]SourceControl: Info 	Saved/Backup/M_TopDownSciFi_2016-12-24-16-17-13.uasset
+[2017.01.04-09.23.38:015][  0]SourceControl: Info 	Saved/Config/WorldState/3391753872.json
+[2017.01.04-09.23.38:015][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-5AF1D99E42879216FE7A32B3DB16156F/
+[2017.01.04-09.23.38:015][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-61DF03F74D02E5BB3BEEBA9EDB0E5E32/
+[2017.01.04-09.23.38:015][  0]SourceControl: Info 	Saved/Logs/UE4CC-Windows-61DF03F74D02E5BB3BEEBA9EDB0E5E32_0000/
+[2017.01.04-09.23.38:015][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.01.04-09.23.38:015][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.01.04-09.23.38:497][  0]LogRenderer: Reallocating scene render targets to support 1124x876 NumSamples 1 (Frame:2).
+[2017.01.04-09.23.39:160][  2]LogAssetRegistry: Asset discovery search completed in 36.8333 seconds
+[2017.01.04-09.23.39:160][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.04-09.23.39:160][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2017.01.04-09.24.21:284][ 85]LogBlueprint:Warning: Node '/Game/SciFiRobots/MechBiped/BP_MechBiped.BP_MechBiped:EdGraph_0.K2Node_FunctionEntry_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.24.21:436][ 85]LogBlueprint:Warning: Node '/Game/SciFiRobots/MechBiped/Anims/AnimBP_MechBiped.AnimBP_MechBiped:AnimGraph.AnimGraphNode_Root_0' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.24.21:436][ 85]LogBlueprint:Warning: Node '/Game/SciFiRobots/MechBiped/Anims/AnimBP_MechBiped.AnimBP_MechBiped:AnimGraph.AnimGraphNode_SequencePlayer_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.24.21:436][ 85]LogBlueprint:Warning: Node '/Game/SciFiRobots/MechBiped/Anims/AnimBP_MechBiped.AnimBP_MechBiped:EventGraph.K2Node_CallFunction_12701' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.24.21:437][ 85]LogBlueprint:Warning: Node '/Game/SciFiRobots/MechBiped/Anims/AnimBP_MechBiped.AnimBP_MechBiped:EventGraph.K2Node_Event_270' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.24.21:438][ 85]LogBlueprint:Warning: Node '/Game/SciFiRobots/MechBiped/BP_MechBiped.BP_MechBiped:UserConstructionScript.K2Node_FunctionEntry_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.24.22:695][ 85]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 111 classes and 0 folders.
+[2017.01.04-09.24.44:458][521]LogBlueprint:Warning: Node '/Game/SciFiRobots/POD/BP_POD.BP_POD:EdGraph_0.K2Node_FunctionEntry_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.24.45:201][521]LogBlueprint:Warning: Node '/Game/SciFiRobots/POD/BP_POD.BP_POD:UserConstructionScript.K2Node_FunctionEntry_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.24.45:238][521]LogBlueprint:Warning: Node '/Game/SciFiRobots/POD/Anims/AnimBP_POD.AnimBP_POD:AnimGraph.AnimGraphNode_Root_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.24.45:238][521]LogBlueprint:Warning: Node '/Game/SciFiRobots/POD/Anims/AnimBP_POD.AnimBP_POD:AnimGraph.AnimGraphNode_SequencePlayer_34' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.24.45:238][521]LogBlueprint:Warning: Node '/Game/SciFiRobots/POD/Anims/AnimBP_POD.AnimBP_POD:EventGraph.K2Node_CallFunction_33867' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.24.45:238][521]LogBlueprint:Warning: Node '/Game/SciFiRobots/POD/Anims/AnimBP_POD.AnimBP_POD:EventGraph.K2Node_Event_478' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2017.01.04-09.25.05:142][355]Cmd: MAP LOAD FILE="I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.04-09.25.05:162][355]LightingResults: New page: Lighting Build
+[2017.01.04-09.25.05:163][355]LoadErrors: New page: Loading map: A-Palettemap1.umap
+[2017.01.04-09.25.05:169][355]MapCheck: New page: Map Check
+[2017.01.04-09.25.05:169][355]LightingResults: New page: Lighting Build
+[2017.01.04-09.25.12:172][355]LogAIModule: Creating AISystem for world A-Palettemap1
+[2017.01.04-09.25.12:310][355]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.04-09.25.12:373][355]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.04-09.25.12:466][355]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.613ms to complete.
+[2017.01.04-09.25.12:466][355]LogFileHelpers: Loading map 'A-Palettemap1' took 7.325
+[2017.01.04-09.25.49:958][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2017.01.04-09.25.51:336][ 66]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube16)
+[2017.01.04-09.25.56:098][404]LogEditorViewport: Clicking on Actor (CTRL LMB): TextRenderActor (TextRenderActor19)
+[2017.01.04-09.26.03:362][905]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor20)
+[2017.01.04-09.26.37:553][703]SourceControl: Info fatal: E:/neuUnreal/Epic Games/4.14/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'E:/neuUnreal/Epic Games/4.14/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2017.01.04-09.26.37:553][703]SourceControl: Info fatal: E:/neuUnreal/Epic Games/4.14/Engine/Content/EngineLightProfiles/180Degree_IES.uasset: 'E:/neuUnreal/Epic Games/4.14/Engine/Content/EngineLightProfiles/180Degree_IES.uasset' is outside repository
+[2017.01.04-09.26.37:553][703]SourceControl: Info fatal: E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto2DIndex.uasset: 'E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto2DIndex.uasset' is outside repository
+[2017.01.04-09.26.37:553][703]SourceControl: Info fatal: E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2017.01.04-09.26.37:553][703]SourceControl: Info fatal: E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset: 'E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset' is outside repository
+[2017.01.04-09.26.37:553][703]SourceControl: Info fatal: E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset: 'E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset' is outside repository
+[2017.01.04-09.26.37:553][703]SourceControl: Info fatal: E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/3dParticleOpacity.uasset: 'E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/3dParticleOpacity.uasset' is outside repository
+[2017.01.04-09.26.37:553][703]SourceControl: Info fatal: E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.uasset: 'E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.uasset' is outside repository
+[2017.01.04-09.26.37:553][703]SourceControl: Info fatal: E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset: 'E:/neuUnreal/Epic Games/4.14/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset' is outside repository
+[2017.01.04-09.28.20:080][652]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 I:/Textures/Substance_Database_2.1/UE4Substance_Database_2.1_Procedural_Sbsar/Classic_Materials/Concrete/concrete_062.sbsar)
+[2017.01.04-09.28.25:534][652]LogMaterial: Missing cached shader map for material concrete_062_MAT, compiling. 
+[2017.01.04-09.28.26:146][652]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 I:/Textures/Substance_Database_2.1/UE4Substance_Database_2.1_Procedural_Sbsar/Classic_Materials/Concrete/grunge_001.sbsar)
+[2017.01.04-09.28.27:399][652]LogMaterial: Missing cached shader map for material grunge_001_MAT, compiling. 
+[2017.01.04-09.28.27:950][652]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 I:/Textures/Substance_Database_2.1/UE4Substance_Database_2.1_Procedural_Sbsar/Classic_Materials/Concrete/Modern_Concrete_01.sbsar)
+[2017.01.04-09.28.28:626][652]LogMaterial: Missing cached shader map for material Modern_Concrete_01_MAT, compiling. 
+[2017.01.04-09.28.29:172][652]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 I:/Textures/Substance_Database_2.1/UE4Substance_Database_2.1_Procedural_Sbsar/Classic_Materials/Concrete/Modern_Concrete_02.sbsar)
+[2017.01.04-09.28.29:925][652]LogMaterial: Missing cached shader map for material Modern_Concrete_02_MAT, compiling. 
+[2017.01.04-09.28.30:500][652]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 I:/Textures/Substance_Database_2.1/UE4Substance_Database_2.1_Procedural_Sbsar/Classic_Materials/Concrete/Poured_Concrete.sbsar)
+[2017.01.04-09.28.31:211][652]LogMaterial: Missing cached shader map for material Poured_Concrete_MAT, compiling. 
+[2017.01.04-09.28.31:778][652]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 I:/Textures/Substance_Database_2.1/UE4Substance_Database_2.1_Procedural_Sbsar/Classic_Materials/Concrete/Rusty_Paint.sbsar)
+[2017.01.04-09.28.32:468][652]LogMaterial: Missing cached shader map for material Rusty_Paint_MAT, compiling. 
+[2017.01.04-09.28.33:051][652]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 I:/Textures/Substance_Database_2.1/UE4Substance_Database_2.1_Procedural_Sbsar/Classic_Materials/Concrete/Scratched_Concrete.sbsar)
+[2017.01.04-09.28.33:703][652]LogMaterial: Missing cached shader map for material Scratched_Concrete_MAT, compiling. 
+[2017.01.04-09.29.03:113][803]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.01.04-09.29.23:847][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2017.01.04-09.29.45:126][353]Cmd: POLY TEXMULT UU=-0.000000 VV=-0.000000 UV=-1.000000 VU=1.000000
+[2017.01.04-09.30.22:713][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2017.01.04-09.30.31:294][212]Cmd: POLY SELECT MATCHING BRUSH
+[2017.01.04-09.31.36:396][476]LogStaticMesh: Building static mesh destr-wall-sm...
+[2017.01.04-09.31.36:397][476]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.01.04-09.31.36:400][476]LogStaticMesh: Built static mesh [0.01s] /Game/RobotFps/Decorationz/destr-wall-sm.destr-wall-sm
+[2017.01.04-09.31.36:468][476]LogActorFactory: Actor Factory created destr-wall-sm
+[2017.01.04-09.31.36:714][476]EditorErrors: New page: Actor Reattachment
+[2017.01.04-09.31.50:161][ 90]LogContentBrowser: Native class hierarchy updated for 'DestructibleMeshEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.01.04-09.31.50:583][ 90]LogDestructible:Warning: MainMesh Tris: 12
+[2017.01.04-09.31.50:591][ 90]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2017.01.04-09.31.50:592][ 90]LogApexDestructibleAssetImport:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2017.01.04-09.31.50:605][ 90]LogSkeletalMesh: Section 0: 24 vertices, 1 active bones
+[2017.01.04-09.31.50:612][ 90]LogSkeletalMesh: Section 0: Material=0, 12 triangles
+[2017.01.04-09.31.50:639][ 90]LogMaterial:Warning: Material /Game/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_MAT.Modern_Concrete_01_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2017.01.04-09.31.50:657][ 90]LogMaterial: Missing cached shader map for material Modern_Concrete_01_MAT, compiling. 
+[2017.01.04-09.31.50:714][ 90]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.04-09.31.50:913][ 90]LogRenderer: Reallocating scene render targets to support 1188x896 NumSamples 1 (Frame:20588).
+[2017.01.04-09.32.33:230][376]LogDestructible:Warning: MainMesh Tris: 12
+[2017.01.04-09.32.33:257][376]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2017.01.04-09.32.33:257][376]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.01.04-09.32.33:276][376]LogSkeletalMesh: Section 0: 412 vertices, 26 active bones
+[2017.01.04-09.32.33:276][376]LogSkeletalMesh: Section 1: 626 vertices, 25 active bones
+[2017.01.04-09.32.33:280][376]LogSkeletalMesh: Section 0: Material=0, 270 triangles
+[2017.01.04-09.32.33:280][376]LogSkeletalMesh: Section 1: Material=1, 338 triangles
+[2017.01.04-09.33.54:441][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Decorationz/destr-wall-sm_DM" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset" SILENT=true
+[2017.01.04-09.33.54:529][760]LogSavePackage: Save=84.70ms
+[2017.01.04-09.33.54:529][760]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/destr-wall-sm_DMD5CF12BE48DEC19001FBC28221E289BF.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset'
+[2017.01.04-09.33.54:532][760]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset
+[2017.01.04-09.34.12:869][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (destr-wall-sm)
+[2017.01.04-09.34.14:168][907]Cmd: DELETE
+[2017.01.04-09.34.14:168][907]Cmd: ACTOR DELETE
+[2017.01.04-09.34.14:176][907]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.04-09.34.14:211][907]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2017.01.04-09.34.19:812][182]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.04-09.34.19:850][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.34.19:850][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.04-09.34.19:851][182]PIE: New page: PIE session: A-Palettemap1 (Jan 4, 2017, 11:34:19 AM)
+[2017.01.04-09.34.19:851][182]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
+[2017.01.04-09.34.19:883][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031299s)
+[2017.01.04-09.34.19:883][182]LogAIModule: Creating AISystem for world A-Palettemap1
+[2017.01.04-09.34.19:884][182]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2017.01.04-09.34.19:884][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.032719s)
+[2017.01.04-09.34.19:920][182]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.04-09.34.19:926][182]LogInit: FAudioDevice initialized.
+[2017.01.04-09.34.19:995][182]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.01.04-09.34.20:005][182]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2017.01.04-10.34.20
+[2017.01.04-09.34.20:010][182]LogWorld: Bringing up level for play took: 0.011764
+[2017.01.04-09.34.20:075][182]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.01.04-09.34.20:076][182]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.04-09.34.20:076][182]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.04-09.34.20:076][182]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.01.04-09.34.20:081][182]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.01.04-09.34.20:082][182]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 0.588
+[2017.01.04-09.34.20:082][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.34.23:847][362]PIE:Warning: Warning FirstPersonCharacter_C_1.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForceAtLocation. 
+[2017.01.04-09.34.40:705][929]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-61.37 Y=94.24 Z=0.00 Location: X=-104.11 Y=-5484.16 Z=147.04 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:43.043 Actor:Cube14_3 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2017.01.04-09.35.03:008][ 44]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.35.03:070][ 44]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.35.29:848][310]LogDestructible:Warning: MainMesh Tris: 12
+[2017.01.04-09.35.29:874][310]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2017.01.04-09.35.29:874][310]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.01.04-09.35.29:893][310]LogSkeletalMesh: Section 0: 412 vertices, 26 active bones
+[2017.01.04-09.35.29:893][310]LogSkeletalMesh: Section 1: 626 vertices, 25 active bones
+[2017.01.04-09.35.29:897][310]LogSkeletalMesh: Section 0: Material=0, 270 triangles
+[2017.01.04-09.35.29:897][310]LogSkeletalMesh: Section 1: Material=1, 338 triangles
+[2017.01.04-09.36.21:725][439]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (destr-wall-sm_DM)
+[2017.01.04-09.36.41:502][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maps/A-Palettemap1" FILE="I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.04-09.36.42:230][892]LogSavePackage: Save=608.46ms
+[2017.01.04-09.36.42:230][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/A-Palettemap163509D7242F08807C295B1AA5085ABB8.tmp' to 'I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap'
+[2017.01.04-09.36.42:256][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap
+[2017.01.04-09.36.42:333][892]LogFileHelpers: Saving map 'A-Palettemap1' took 0.953
+[2017.01.04-09.36.42:337][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/concrete_062" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062.uasset" SILENT=true
+[2017.01.04-09.36.42:359][892]LogSavePackage: Save=1.76ms
+[2017.01.04-09.36.42:360][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/concrete_0627664DB2845BBD61715D1C7B2267442B8.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062.uasset'
+[2017.01.04-09.36.42:364][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062.uasset
+[2017.01.04-09.36.43:292][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/concrete_062_INST" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_INST.uasset" SILENT=true
+[2017.01.04-09.36.43:298][892]LogSavePackage: Save=1.96ms
+[2017.01.04-09.36.43:298][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/concrete_062_INST6A8DA69A406EB237FB9CC983C213878C.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_INST.uasset'
+[2017.01.04-09.36.43:300][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_INST.uasset
+[2017.01.04-09.36.44:290][892]LogSavePackage: Save=33.53ms
+[2017.01.04-09.36.44:291][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/concrete_062_INST_Specular088E51F044E2F18D1A8DCABC60F3AF0D.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_INST_Specular.uasset'
+[2017.01.04-09.36.44:294][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_INST_Specular.uasset
+[2017.01.04-09.36.45:296][892]LogSavePackage: Save=54.01ms
+[2017.01.04-09.36.45:296][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/concrete_062_INST_NormalB4C1A9EC46C42920E7EF4EAC1E43D1D5.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_INST_Normal.uasset'
+[2017.01.04-09.36.45:300][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_INST_Normal.uasset
+[2017.01.04-09.36.46:341][892]LogSavePackage: Save=22.73ms
+[2017.01.04-09.36.46:341][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/concrete_062_INST_DiffuseC8EFB17B45EB00C3953D3CB17E5F7E21.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_INST_Diffuse.uasset'
+[2017.01.04-09.36.46:344][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_INST_Diffuse.uasset
+[2017.01.04-09.36.47:599][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/concrete_062_MAT" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_MAT.uasset" SILENT=true
+[2017.01.04-09.36.47:624][892]LogSavePackage: Save=21.78ms
+[2017.01.04-09.36.47:624][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/concrete_062_MAT01177A7F4315D7E9D1BE35A80E7BBD96.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_MAT.uasset'
+[2017.01.04-09.36.47:627][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/concrete_062_MAT.uasset
+[2017.01.04-09.36.48:692][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/grunge_001" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001.uasset" SILENT=true
+[2017.01.04-09.36.48:699][892]LogSavePackage: Save=1.99ms
+[2017.01.04-09.36.48:699][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/grunge_0010B642F5B4B48D54675B849ACBD04ABB0.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001.uasset'
+[2017.01.04-09.36.48:703][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001.uasset
+[2017.01.04-09.36.49:647][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/grunge_001_INST" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_INST.uasset" SILENT=true
+[2017.01.04-09.36.49:651][892]LogSavePackage: Save=1.69ms
+[2017.01.04-09.36.49:652][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/grunge_001_INSTB4F2C4EE48A5B25C266FFA86BD85F5EA.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_INST.uasset'
+[2017.01.04-09.36.49:654][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_INST.uasset
+[2017.01.04-09.36.50:764][892]LogSavePackage: Save=45.66ms
+[2017.01.04-09.36.50:764][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/grunge_001_INST_Specular366566BE4A871F55265BF1BE89F208BD.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_INST_Specular.uasset'
+[2017.01.04-09.36.50:767][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_INST_Specular.uasset
+[2017.01.04-09.36.51:845][892]LogSavePackage: Save=23.30ms
+[2017.01.04-09.36.51:845][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/grunge_001_INST_Normal34B4736A4B07D3EC1471A0A6B7300048.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_INST_Normal.uasset'
+[2017.01.04-09.36.51:850][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_INST_Normal.uasset
+[2017.01.04-09.36.52:928][892]LogSavePackage: Save=44.92ms
+[2017.01.04-09.36.52:928][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/grunge_001_INST_Diffuse09996CE2457808E12A823C8CC655774B.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_INST_Diffuse.uasset'
+[2017.01.04-09.36.52:931][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_INST_Diffuse.uasset
+[2017.01.04-09.36.54:061][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/grunge_001_MAT" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_MAT.uasset" SILENT=true
+[2017.01.04-09.36.54:085][892]LogSavePackage: Save=20.92ms
+[2017.01.04-09.36.54:085][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/grunge_001_MAT6FF890934968BF9915FBC7AF0E9BFD99.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_MAT.uasset'
+[2017.01.04-09.36.54:088][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/grunge_001_MAT.uasset
+[2017.01.04-09.36.55:100][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/Modern_Concrete_01" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01.uasset" SILENT=true
+[2017.01.04-09.36.55:122][892]LogSavePackage: Save=18.88ms
+[2017.01.04-09.36.55:122][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_01F4A7259147CF9F4D1C3AAA897EE2E4A9.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01.uasset'
+[2017.01.04-09.36.55:125][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01.uasset
+[2017.01.04-09.36.56:073][892]LogSavePackage: Save=1.73ms
+[2017.01.04-09.36.56:073][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_01_INSTC94A20844CBE230E91BA238608AD3BF2.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST.uasset'
+[2017.01.04-09.36.56:076][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST.uasset
+[2017.01.04-09.36.57:125][892]LogSavePackage: Save=41.51ms
+[2017.01.04-09.36.57:125][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_01_INST_Specular3DA5A58B42E3DC055D40D28CF4C2FA68.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Specular.uasset'
+[2017.01.04-09.36.57:128][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Specular.uasset
+[2017.01.04-09.36.58:125][892]LogSavePackage: Save=16.98ms
+[2017.01.04-09.36.58:125][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_01_INST_Normal684C338142798EC7EFBD08AEC01B66ED.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Normal.uasset'
+[2017.01.04-09.36.58:128][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Normal.uasset
+[2017.01.04-09.36.59:157][892]LogSavePackage: Save=17.19ms
+[2017.01.04-09.36.59:157][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_01_INST_Diffuse23D3990149A26F7548FC289503F84E30.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Diffuse.uasset'
+[2017.01.04-09.36.59:160][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Diffuse.uasset
+[2017.01.04-09.37.00:237][892]LogSavePackage: Save=17.61ms
+[2017.01.04-09.37.00:237][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_01_MAT828CFF0D4A795E65C23D0D82FD6E81A8.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_MAT.uasset'
+[2017.01.04-09.37.00:240][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_MAT.uasset
+[2017.01.04-09.37.01:180][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/Modern_Concrete_02" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02.uasset" SILENT=true
+[2017.01.04-09.37.01:185][892]LogSavePackage: Save=1.63ms
+[2017.01.04-09.37.01:185][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_02AA28AC6A4B86126AFF72F49022E09628.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02.uasset'
+[2017.01.04-09.37.01:188][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02.uasset
+[2017.01.04-09.37.02:113][892]LogSavePackage: Save=1.73ms
+[2017.01.04-09.37.02:113][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_02_INST8681096E4A94CD4D76277AB1638A4806.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST.uasset'
+[2017.01.04-09.37.02:117][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST.uasset
+[2017.01.04-09.37.03:044][892]LogSavePackage: Save=44.17ms
+[2017.01.04-09.37.03:044][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_02_INST_Specular9F50468645CA82BE5131728BFC6A0859.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST_Specular.uasset'
+[2017.01.04-09.37.03:047][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST_Specular.uasset
+[2017.01.04-09.37.04:099][892]LogSavePackage: Save=27.95ms
+[2017.01.04-09.37.04:099][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_02_INST_NormalD72925FD4AAC096D87FE6983C7A29C42.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST_Normal.uasset'
+[2017.01.04-09.37.04:102][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST_Normal.uasset
+[2017.01.04-09.37.05:110][892]LogSavePackage: Save=19.46ms
+[2017.01.04-09.37.05:110][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_02_INST_DiffuseB2AC38EB4754301609EFB083B7182FDD.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST_Diffuse.uasset'
+[2017.01.04-09.37.05:113][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST_Diffuse.uasset
+[2017.01.04-09.37.06:135][892]LogSavePackage: Save=50.15ms
+[2017.01.04-09.37.06:135][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Modern_Concrete_02_MATA1361F8943120455186F31841F7201AD.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_MAT.uasset'
+[2017.01.04-09.37.06:138][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_MAT.uasset
+[2017.01.04-09.37.07:072][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/Poured_Concrete" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete.uasset" SILENT=true
+[2017.01.04-09.37.07:077][892]LogSavePackage: Save=1.93ms
+[2017.01.04-09.37.07:077][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Poured_Concrete6D937CBD45019888B47F85934ABA87FD.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete.uasset'
+[2017.01.04-09.37.07:080][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete.uasset
+[2017.01.04-09.37.07:962][892]LogSavePackage: Save=1.65ms
+[2017.01.04-09.37.07:962][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Poured_Concrete_INST926A10AC4BB2CD04C100CDA33F1D0E9C.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST.uasset'
+[2017.01.04-09.37.07:964][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST.uasset
+[2017.01.04-09.37.08:888][892]LogSavePackage: Save=15.01ms
+[2017.01.04-09.37.08:888][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Poured_Concrete_INST_SpecularA8AF6F084DF50DFE7CC8F3A30440359E.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST_Specular.uasset'
+[2017.01.04-09.37.08:891][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST_Specular.uasset
+[2017.01.04-09.37.09:842][892]LogSavePackage: Save=19.64ms
+[2017.01.04-09.37.09:842][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Poured_Concrete_INST_Normal5C8FDB724BF5EB04066A368BA3AD2FF1.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST_Normal.uasset'
+[2017.01.04-09.37.09:845][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST_Normal.uasset
+[2017.01.04-09.37.10:852][892]LogSavePackage: Save=37.05ms
+[2017.01.04-09.37.10:852][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Poured_Concrete_INST_Diffuse82AD3D5B410999737EC02984612FE140.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST_Diffuse.uasset'
+[2017.01.04-09.37.10:855][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST_Diffuse.uasset
+[2017.01.04-09.37.11:806][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/Poured_Concrete_MAT" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_MAT.uasset" SILENT=true
+[2017.01.04-09.37.11:828][892]LogSavePackage: Save=18.72ms
+[2017.01.04-09.37.11:828][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Poured_Concrete_MAT58AA27F340ABB0260E760890005EABC4.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_MAT.uasset'
+[2017.01.04-09.37.11:831][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_MAT.uasset
+[2017.01.04-09.37.12:788][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/Rusty_Paint" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint.uasset" SILENT=true
+[2017.01.04-09.37.12:799][892]LogSavePackage: Save=8.14ms
+[2017.01.04-09.37.12:799][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Rusty_Paint3DF32DBE4DA155C5CD468EA95C87503B.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint.uasset'
+[2017.01.04-09.37.12:802][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint.uasset
+[2017.01.04-09.37.13:680][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST.uasset" SILENT=true
+[2017.01.04-09.37.13:684][892]LogSavePackage: Save=1.59ms
+[2017.01.04-09.37.13:684][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Rusty_Paint_INST28EF869A406E21BB6CABDA84185B293E.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST.uasset'
+[2017.01.04-09.37.13:687][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST.uasset
+[2017.01.04-09.37.14:653][892]LogSavePackage: Save=36.93ms
+[2017.01.04-09.37.14:653][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Rusty_Paint_INST_Specular68FD3CE9429E6D2A81AF839B2C6EC76C.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST_Specular.uasset'
+[2017.01.04-09.37.14:656][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST_Specular.uasset
+[2017.01.04-09.37.15:608][892]LogSavePackage: Save=22.28ms
+[2017.01.04-09.37.15:608][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Rusty_Paint_INST_NormalF13332D74E846E07E3BB42BCBF5FD9B0.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST_Normal.uasset'
+[2017.01.04-09.37.15:611][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST_Normal.uasset
+[2017.01.04-09.37.16:594][892]LogSavePackage: Save=33.86ms
+[2017.01.04-09.37.16:594][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Rusty_Paint_INST_DiffuseE342CAB944E8A4769BBB3CB883E11E1A.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST_Diffuse.uasset'
+[2017.01.04-09.37.16:598][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST_Diffuse.uasset
+[2017.01.04-09.37.17:644][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/Rusty_Paint_MAT" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_MAT.uasset" SILENT=true
+[2017.01.04-09.37.17:698][892]LogSavePackage: Save=50.73ms
+[2017.01.04-09.37.17:698][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Rusty_Paint_MAT57ED176C465C5C19807A2BA2D140FA79.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_MAT.uasset'
+[2017.01.04-09.37.17:701][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_MAT.uasset
+[2017.01.04-09.37.18:624][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Meterials-generic/concrete/Scratched_Concrete" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete.uasset" SILENT=true
+[2017.01.04-09.37.18:630][892]LogSavePackage: Save=1.97ms
+[2017.01.04-09.37.18:630][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Scratched_Concrete37479FA5451CB7DD5683B2ABD9797E00.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete.uasset'
+[2017.01.04-09.37.18:633][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete.uasset
+[2017.01.04-09.37.19:550][892]LogSavePackage: Save=1.82ms
+[2017.01.04-09.37.19:550][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Scratched_Concrete_INST5E75BBD648E6ED1D0CCDB388CB1C635E.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST.uasset'
+[2017.01.04-09.37.19:553][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST.uasset
+[2017.01.04-09.37.20:504][892]LogSavePackage: Save=37.94ms
+[2017.01.04-09.37.20:504][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Scratched_Concrete_INST_SpecularCE4C104F4F4ECB5FA20EDDB09BF4892D.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST_Specular.uasset'
+[2017.01.04-09.37.20:507][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST_Specular.uasset
+[2017.01.04-09.37.21:511][892]LogSavePackage: Save=52.83ms
+[2017.01.04-09.37.21:511][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Scratched_Concrete_INST_Normal81A2872C42E3DD9E39BE789E7A66951B.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST_Normal.uasset'
+[2017.01.04-09.37.21:515][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST_Normal.uasset
+[2017.01.04-09.37.22:630][892]LogSavePackage: Save=16.37ms
+[2017.01.04-09.37.22:630][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Scratched_Concrete_INST_Diffuse80D41A4544134C485012889716E43620.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST_Diffuse.uasset'
+[2017.01.04-09.37.22:633][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST_Diffuse.uasset
+[2017.01.04-09.37.23:761][892]LogSavePackage: Save=37.06ms
+[2017.01.04-09.37.23:761][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/Scratched_Concrete_MAT8CB2FB09422E2D8E1C2516A3F6EF7359.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_MAT.uasset'
+[2017.01.04-09.37.23:764][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_MAT.uasset
+[2017.01.04-09.37.24:763][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Decorationz/destr-wall-sm" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm.uasset" SILENT=true
+[2017.01.04-09.37.24:780][892]LogSavePackage: Save=14.55ms
+[2017.01.04-09.37.24:780][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/destr-wall-smCD3377084D0368A69AFC3AA84A75A9D5.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm.uasset'
+[2017.01.04-09.37.24:784][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm.uasset
+[2017.01.04-09.37.25:781][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Decorationz/destr-wall-sm_DM" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset" SILENT=true
+[2017.01.04-09.37.25:879][892]LogSavePackage: Save=58.50ms
+[2017.01.04-09.37.25:879][892]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/destr-wall-sm_DM9780114D4E38D2309459D7B42B9F42E6.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset'
+[2017.01.04-09.37.25:882][892]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset
+[2017.01.04-09.38.08:224][181]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.04-09.38.08:258][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.38.08:258][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.04-09.38.08:258][181]PIE: New page: PIE session: A-Palettemap1 (Jan 4, 2017, 11:38:08 AM)
+[2017.01.04-09.38.08:258][181]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
+[2017.01.04-09.38.08:276][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017854s)
+[2017.01.04-09.38.08:277][181]LogAIModule: Creating AISystem for world A-Palettemap1
+[2017.01.04-09.38.08:277][181]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2017.01.04-09.38.08:277][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.019149s)
+[2017.01.04-09.38.08:317][181]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.04-09.38.08:323][181]LogInit: FAudioDevice initialized.
+[2017.01.04-09.38.08:357][181]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.01.04-09.38.08:364][181]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2017.01.04-10.38.08
+[2017.01.04-09.38.08:365][181]LogWorld: Bringing up level for play took: 0.006392
+[2017.01.04-09.38.08:366][181]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.04-09.38.08:366][181]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.04-09.38.08:366][181]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.01.04-09.38.08:367][181]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.01.04-09.38.08:368][181]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 0.87
+[2017.01.04-09.38.08:368][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.38.09:886][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.38.09:968][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.38.14:656][555]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.01.04-09.38.36:766][918]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (destr-wall-sm_DM)
+[2017.01.04-09.38.40:571][210]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.04-09.38.40:605][210]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.38.40:605][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.04-09.38.40:605][210]PIE: New page: PIE session: A-Palettemap1 (Jan 4, 2017, 11:38:40 AM)
+[2017.01.04-09.38.40:606][210]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
+[2017.01.04-09.38.40:624][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018437s)
+[2017.01.04-09.38.40:625][210]LogAIModule: Creating AISystem for world A-Palettemap1
+[2017.01.04-09.38.40:625][210]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2017.01.04-09.38.40:625][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.019843s)
+[2017.01.04-09.38.40:665][210]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.04-09.38.40:670][210]LogInit: FAudioDevice initialized.
+[2017.01.04-09.38.40:706][210]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.01.04-09.38.40:713][210]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2017.01.04-10.38.40
+[2017.01.04-09.38.40:715][210]LogWorld: Bringing up level for play took: 0.006440
+[2017.01.04-09.38.40:715][210]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.04-09.38.40:715][210]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.04-09.38.40:715][210]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.01.04-09.38.40:717][210]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.01.04-09.38.40:717][210]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.782
+[2017.01.04-09.38.40:717][210]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.39.00:468][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.39.00:529][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.40.17:341][440]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (destr-wall-sm_DM)
+[2017.01.04-09.41.36:348][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Decorationz/destr-wall-sm_DM" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset" SILENT=true
+[2017.01.04-09.41.36:389][575]LogSavePackage: Save=31.00ms
+[2017.01.04-09.41.36:389][575]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/destr-wall-sm_DM0B2322514AF15621E5CB49936B4097A2.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset'
+[2017.01.04-09.41.36:392][575]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset
+[2017.01.04-09.42.20:841][ 57]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.04-09.42.20:874][ 57]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.42.20:874][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.04-09.42.20:875][ 57]PIE: New page: PIE session: A-Palettemap1 (Jan 4, 2017, 11:42:20 AM)
+[2017.01.04-09.42.20:875][ 57]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
+[2017.01.04-09.42.20:892][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017521s)
+[2017.01.04-09.42.20:893][ 57]LogAIModule: Creating AISystem for world A-Palettemap1
+[2017.01.04-09.42.20:893][ 57]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2017.01.04-09.42.20:894][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.018824s)
+[2017.01.04-09.42.20:929][ 57]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.04-09.42.20:934][ 57]LogInit: FAudioDevice initialized.
+[2017.01.04-09.42.20:965][ 57]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.01.04-09.42.20:972][ 57]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2017.01.04-10.42.20
+[2017.01.04-09.42.20:973][ 57]LogWorld: Bringing up level for play took: 0.006157
+[2017.01.04-09.42.20:974][ 57]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.04-09.42.20:974][ 57]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.04-09.42.20:974][ 57]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.01.04-09.42.20:976][ 57]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.01.04-09.42.20:976][ 57]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.528
+[2017.01.04-09.42.20:976][ 57]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.42.35:057][ 59]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.42.35:130][ 59]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.42.47:324][635]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.04-09.42.47:357][635]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.42.47:357][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.04-09.42.47:357][635]PIE: New page: PIE session: A-Palettemap1 (Jan 4, 2017, 11:42:47 AM)
+[2017.01.04-09.42.47:357][635]LogPlayLevel: Creating play world package: /Game/maps/UEDPIE_0_A-Palettemap1
+[2017.01.04-09.42.47:375][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017839s)
+[2017.01.04-09.42.47:376][635]LogAIModule: Creating AISystem for world A-Palettemap1
+[2017.01.04-09.42.47:376][635]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2017.01.04-09.42.47:376][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maps/A-Palettemap1.A-Palettemap1 to /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 (0.019095s)
+[2017.01.04-09.42.47:414][635]LogInit: XAudio2 using 'Line 1/2 (M-Audio FW Solo)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.04-09.42.47:419][635]LogInit: FAudioDevice initialized.
+[2017.01.04-09.42.47:452][635]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.01.04-09.42.47:459][635]LogWorld: Bringing World /Game/maps/UEDPIE_0_A-Palettemap1.A-Palettemap1 up for play (max tick rate 0) at 2017.01.04-10.42.47
+[2017.01.04-09.42.47:460][635]LogWorld: Bringing up level for play took: 0.006342
+[2017.01.04-09.42.47:461][635]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.04-09.42.47:461][635]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.01.04-09.42.47:461][635]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.01.04-09.42.47:463][635]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.01.04-09.42.47:463][635]PIE: Info Play in editor start time for /Game/maps/UEDPIE_0_A-Palettemap1 -0.041
+[2017.01.04-09.42.47:463][635]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.43.16:674][717]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.43.16:738][717]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel' has LevelScriptBlueprint '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1' with GeneratedClass '/Game/maps/A-Palettemap1.A-Palettemap1_C' with ClassGeneratedBy '/Game/maps/A-Palettemap1.A-Palettemap1:PersistentLevel.A-Palettemap1'
+[2017.01.04-09.46.44:788][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maps/A-Palettemap1" FILE="I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.04-09.46.45:309][127]LogSavePackage: Save=465.03ms
+[2017.01.04-09.46.45:309][127]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/A-Palettemap1FB57F1464D77697735A620A8E70087DE.tmp' to 'I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap'
+[2017.01.04-09.46.45:313][127]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/maps/A-Palettemap1.umap
+[2017.01.04-09.46.45:369][127]LogFileHelpers: Saving map 'A-Palettemap1' took 0.677
+[2017.01.04-09.46.45:418][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RobotFps/Decorationz/destr-wall-sm_DM" FILE="I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset" SILENT=true
+[2017.01.04-09.46.45:460][127]LogSavePackage: Save=32.54ms
+[2017.01.04-09.46.45:460][127]LogSavePackage: Moving 'I:/Unreal4/FPS-unholy/Saved/destr-wall-sm_DM2CAFFC344FF332DBE484A98020CEE79E.tmp' to 'I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset'
+[2017.01.04-09.46.45:464][127]LogSavePackage:Display: Finished SavePackage I:/Unreal4/FPS-unholy/Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset
+[2017.01.04-09.46.50:187][296]LogMaterial: Missing cached shader map for material grunge_001_MAT, compiling. 
+[2017.01.04-09.46.50:369][296]LogMaterial: Missing cached shader map for material grunge_001_MAT, compiling. 
+[2017.01.04-09.46.50:387][296]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.04-09.46.50:418][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.01.04-09.46.50:431][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2017.01.04-09.46.50:447][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.01.04-09.46.52:911][378]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2017.01.04-09.46.52:911][378]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.01.04-09.46.52:911][378]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.01.04-09.47.44:593][564]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.01.04-09.47.44:993][564]SourceControl: Info [master 2cee848] substance mats
+[2017.01.04-09.47.44:993][564]SourceControl: Info  42 files changed, 0 insertions(+), 0 deletions(-)
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Diffuse.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Normal.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Specular.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_MAT.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST_Diffuse.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST_Normal.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_INST_Specular.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Modern_Concrete_02_MAT.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Poured_Concrete.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST_Diffuse.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST_Normal.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_INST_Specular.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Poured_Concrete_MAT.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Rusty_Paint.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST_Diffuse.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST_Normal.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_INST_Specular.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Rusty_Paint_MAT.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST_Diffuse.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST_Normal.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_INST_Specular.uasset
+[2017.01.04-09.47.44:993][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/Scratched_Concrete_MAT.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/concrete_062.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/concrete_062_INST.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/concrete_062_INST_Diffuse.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/concrete_062_INST_Normal.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/concrete_062_INST_Specular.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/concrete_062_MAT.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/grunge_001.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/grunge_001_INST.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/grunge_001_INST_Diffuse.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/grunge_001_INST_Normal.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/grunge_001_INST_Specular.uasset
+[2017.01.04-09.47.44:994][564]SourceControl: Info  create mode 100644 Content/RobotFps/Meterials-generic/concrete/grunge_001_MAT.uasset
+[2017.01.04-09.47.45:005][564]SourceControl: Info Commited [master 2cee848] substance mats.
+[2017.01.04-09.48.21:693][429]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.01.04-09.48.22:073][429]SourceControl: Info [master 59c545e] fg
+[2017.01.04-09.48.22:073][429]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
+[2017.01.04-09.48.22:073][429]SourceControl: Info  create mode 100644 Content/RobotFps/Decorationz/destr-wall-sm.uasset
+[2017.01.04-09.48.22:073][429]SourceControl: Info  create mode 100644 Content/RobotFps/Decorationz/destr-wall-sm_DM.uasset
+[2017.01.04-09.48.22:084][429]SourceControl: Info Commited [master 59c545e] fg.
+[2017.01.04-09.48.31:882][562]SourceControl:Error: Error error: Cannot pull with rebase: You have unstaged changes.
+[2017.01.04-09.48.31:887][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/droidbolt1_Skeleton
+[2017.01.04-09.48.31:910][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Anim_laserRed
+[2017.01.04-09.48.31:931][562]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/A_Sound
+[2017.01.04-09.48.31:956][562]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/Pulseshot
+[2017.01.04-09.48.31:981][562]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/stunexpoz
+[2017.01.04-09.48.32:006][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/D_monster
+[2017.01.04-09.48.32:031][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/TurretPS
+[2017.01.04-09.48.32:057][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/TurretPS_Mat
+[2017.01.04-09.48.32:088][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/PS_Turret
+[2017.01.04-09.48.32:117][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/P_Turret
+[2017.01.04-09.48.32:156][562]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/WBRICK2
+[2017.01.04-09.48.32:186][562]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/WBRICK2_Mat
+[2017.01.04-09.48.32:222][562]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/METAL05
+[2017.01.04-09.48.32:253][562]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/METAL05_Mat
+[2017.01.04-09.48.32:292][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/Turret
+[2017.01.04-09.48.32:325][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/TurretBase
+[2017.01.04-09.48.32:356][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Redexplode
+[2017.01.04-09.48.32:387][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Explode_Mat
+[2017.01.04-09.48.32:435][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/RedExplode_Particle
+[2017.01.04-09.48.32:467][562]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/TurretPlasma
+[2017.01.04-09.48.32:493][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Turret/ATurret
+[2017.01.04-09.48.32:683][562]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/destr-wall-sm
+[2017.01.04-09.48.32:722][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_MAT
+[2017.01.04-09.48.32:761][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Diffuse
+[2017.01.04-09.48.32:787][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Normal
+[2017.01.04-09.48.32:814][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST_Specular
+[2017.01.04-09.48.32:841][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/Modern_Concrete_01_INST
+[2017.01.04-09.48.32:868][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/Modern_Concrete_01
+[2017.01.04-09.48.32:895][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/testmat2
+[2017.01.04-09.48.32:927][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/test-mat2
+[2017.01.04-09.48.32:963][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/test-mat
+[2017.01.04-09.48.32:998][562]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/Material
+[2017.01.04-09.48.33:033][562]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/Material_001
+[2017.01.04-09.48.33:068][562]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/lamppost
+[2017.01.04-09.48.33:100][562]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/LampPost_BP
+[2017.01.04-09.48.33:132][562]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/Material
+[2017.01.04-09.48.33:169][562]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/Material_001
+[2017.01.04-09.48.33:204][562]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/repairkit
+[2017.01.04-09.48.33:238][562]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/pickup
+[2017.01.04-09.48.33:263][562]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/RepairKit_Item
+[2017.01.04-09.48.33:509][562]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/Material_002
+[2017.01.04-09.48.33:550][562]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/StunnerAmmo
+[2017.01.04-09.48.33:581][562]LoadErrors: New page: Loading package: /Game/RobotFps/Itemz/StunnerAmmo_Box
+[2017.01.04-09.48.33:624][562]LoadErrors: New page: Loading package: /Game/RobotFps/MapTextures/BigTealLt
+[2017.01.04-09.48.33:656][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/P_Drone
+[2017.01.04-09.48.33:702][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/PS_Drone
+[2017.01.04-09.48.33:728][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/AShocker
+[2017.01.04-09.48.33:880][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan
+[2017.01.04-09.48.33:903][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_Skeleton
+[2017.01.04-09.48.33:934][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/ShockUrchan_PhysicsAsset
+[2017.01.04-09.48.33:961][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Shockurchan/AShockerShock
+[2017.01.04-09.48.33:991][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/concrete_062_INST_Specular
+[2017.01.04-09.48.34:025][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/concrete_062_INST_Normal
+[2017.01.04-09.48.34:061][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/concrete_062_INST_Diffuse
+[2017.01.04-09.48.34:087][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/concrete_062_INST
+[2017.01.04-09.48.34:114][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/concrete_062
+[2017.01.04-09.48.34:140][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/AMonster
+[2017.01.04-09.48.34:242][562]LoadErrors: New page: Loading package: /Game/RobotFps/Sounds/Explosion
+[2017.01.04-09.48.34:272][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/SecurityDroid
+[2017.01.04-09.48.34:298][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/SecurityDroid_Skeleton
+[2017.01.04-09.48.34:328][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/SecurityDroid_PhysicsAsset
+[2017.01.04-09.48.34:355][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material_003
+[2017.01.04-09.48.34:386][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material_002
+[2017.01.04-09.48.34:412][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material_001
+[2017.01.04-09.48.34:438][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/Material
+[2017.01.04-09.48.34:465][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning4
+[2017.01.04-09.48.34:495][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL1_Sprite
+[2017.01.04-09.48.34:522][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL1
+[2017.01.04-09.48.34:548][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning3
+[2017.01.04-09.48.34:578][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL5_Sprite
+[2017.01.04-09.48.34:605][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL5
+[2017.01.04-09.48.34:635][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning2
+[2017.01.04-09.48.34:657][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL3_Sprite
+[2017.01.04-09.48.34:685][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL3
+[2017.01.04-09.48.34:712][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/FB_TLightning1
+[2017.01.04-09.48.34:742][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL2_Sprite
+[2017.01.04-09.48.34:769][562]LoadErrors: New page: Loading package: /Game/RobotFps/Monsters/M_Drone/TealL2
+[2017.01.04-09.48.34:795][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/grunge_001_MAT
+[2017.01.04-09.48.34:840][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/grunge_001_INST_Specular
+[2017.01.04-09.48.34:872][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/grunge_001_INST_Normal
+[2017.01.04-09.48.34:903][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/grunge_001_INST_Diffuse
+[2017.01.04-09.48.34:925][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/grunge_001_INST
+[2017.01.04-09.48.34:956][562]LoadErrors: New page: Loading package: /Game/RobotFps/Meterials-generic/concrete/grunge_001
+[2017.01.04-09.48.34:983][562]LoadErrors: New page: Loading package: /Game/RobotFps/Decorationz/destr-wall-sm_DM
+[2017.01.04-09.48.38:772][812]Cmd: QUIT_EDITOR
+[2017.01.04-09.48.38:861][812]LogExit: Preparing to exit.
+[2017.01.04-09.48.39:310][812]LogExit: Editor shut down
+[2017.01.04-09.48.39:311][812]LogExit: Transaction tracking system shut down
+[2017.01.04-09.48.39:534][812]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.04-09.48.39:535][812]LogExit: Object subsystem successfully closed.
+[2017.01.04-09.48.39:561][812]LogD3D11RHI: Shutdown
+[2017.01.04-09.48.39:561][812]LogD3D11RHI: CleanupD3DDevice
+[2017.01.04-09.48.40:375][812]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.04-09.48.40:403][812]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.01.04-09.48.40:403][812]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B979A6C16-4804-D34E-91A4-EBB14D1C60E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.1-3224400%2B%2B%2BUE4%2BRelease-4.14&UserID=4bd512ec4995335f59542d93aa60f715%7C2c286fa30764467599f2405db8e360c9%7C034b009f-32a5-4178-b32e-2ae084d1f049&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.04-09.48.40:424][812]LogModuleManager: Shutting down and abandoning module MaterialEditor (248)
+[2017.01.04-09.48.40:424][812]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (247)
+[2017.01.04-09.48.40:424][812]LogModuleManager: Shutting down and abandoning module DestructibleMeshEditor (246)
+[2017.01.04-09.48.40:424][812]LogModuleManager: Shutting down and abandoning module BlueprintGraph (245)
+[2017.01.04-09.48.40:424][812]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (244)
+[2017.01.04-09.48.40:425][812]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (243)
+[2017.01.04-09.48.40:425][812]LogModuleManager: Shutting down and abandoning module WidgetCarousel (242)
+[2017.01.04-09.48.40:425][812]LogModuleManager: Shutting down and abandoning module AddContentDialog (241)
+[2017.01.04-09.48.40:425][812]LogDirectoryWatcher: A directory notification for 'E:/neuUnreal/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.01.04-09.48.40:427][812]LogModuleManager: Shutting down and abandoning module GameplayTags (240)
+[2017.01.04-09.48.40:427][812]LogModuleManager: Shutting down and abandoning module EditorWidgets (239)
+[2017.01.04-09.48.40:427][812]LogModuleManager: Shutting down and abandoning module CollectionManager (238)
+[2017.01.04-09.48.40:427][812]LogDirectoryWatcher: A directory notification for 'I:/Unreal4/FPS-unholy/Content/Collections/' was aborted.
+[2017.01.04-09.48.40:427][812]LogDirectoryWatcher: A directory notification for 'I:/Unreal4/FPS-unholy/Content/Developers/USRNAM/Collections/' was aborted.
+[2017.01.04-09.48.40:427][812]LogDirectoryWatcher: A directory notification for 'I:/Unreal4/FPS-unholy/Saved/Collections/' was aborted.
+[2017.01.04-09.48.40:427][812]LogModuleManager: Shutting down and abandoning module CrashTracker (237)
+[2017.01.04-09.48.40:427][812]LogModuleManager: Shutting down and abandoning module SceneOutliner (236)
+[2017.01.04-09.48.40:427][812]LogModuleManager: Shutting down and abandoning module StatsViewer (235)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module FoliageEdit (234)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module LandscapeEditor (233)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (232)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module ActorPickerMode (231)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module GeometryMode (230)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module TextureAlignMode (229)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module BspMode (228)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module HardwareSurvey (227)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (226)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module AutomationWorker (225)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (224)
+[2017.01.04-09.48.40:428][812]LogModuleManager: Shutting down and abandoning module PlacementMode (223)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (222)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (221)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (220)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (219)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (218)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module Media (217)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (216)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (215)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module CharacterAI (214)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module SequenceRecorder (213)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module AudioCapture (212)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module SmartSnapping (211)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module SessionServices (210)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module ViewportSnapping (209)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module ViewportInteraction (208)
+[2017.01.04-09.48.40:429][812]LogModuleManager: Shutting down and abandoning module LogVisualizer (207)
+[2017.01.04-09.48.40:430][812]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (206)
+[2017.01.04-09.48.40:430][812]LogModuleManager: Shutting down and abandoning module IntroTutorials (205)
+[2017.01.04-09.48.40:430][812]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (204)
+[2017.01.04-09.48.40:430][812]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (203)
+[2017.01.04-09.48.40:430][812]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (202)
+[2017.01.04-09.48.40:430][812]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (201)
+[2017.01.04-09.48.40:561][812]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (200)
+[2017.01.04-09.48.40:561][812]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (199)
+[2017.01.04-09.48.40:561][812]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (198)
+[2017.01.04-09.48.40:561][812]LogModuleManager: Shutting down and abandoning module InputBindingEditor (197)
+[2017.01.04-09.48.40:561][812]LogModuleManager: Shutting down and abandoning module NiagaraEditor (196)
+[2017.01.04-09.48.40:562][812]LogModuleManager: Shutting down and abandoning module MergeActors (195)
+[2017.01.04-09.48.40:562][812]LogModuleManager: Shutting down and abandoning module SizeMap (194)
+[2017.01.04-09.48.40:562][812]LogModuleManager: Shutting down and abandoning module TreeMap (193)
+[2017.01.04-09.48.40:562][812]LogModuleManager: Shutting down and abandoning module ReferenceViewer (192)
+[2017.01.04-09.48.40:562][812]LogModuleManager: Shutting down and abandoning module LocalizationService (191)
+[2017.01.04-09.48.40:562][812]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (190)
+[2017.01.04-09.48.40:563][812]LogModuleManager: Shutting down and abandoning module HardwareTargeting (189)
+[2017.01.04-09.48.40:563][812]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (188)
+[2017.01.04-09.48.40:563][812]LogModuleManager: Shutting down and abandoning module UndoHistory (187)
+[2017.01.04-09.48.40:563][812]LogModuleManager: Shutting down and abandoning module UserFeedback (186)
+[2017.01.04-09.48.40:563][812]LogModuleManager: Shutting down and abandoning module XmlParser (185)
+[2017.01.04-09.48.40:563][812]LogModuleManager: Shutting down and abandoning module Blutility (184)
+[2017.01.04-09.48.40:563][812]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (183)
+[2017.01.04-09.48.40:563][812]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (182)
+[2017.01.04-09.48.40:563][812]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (181)
+[2017.01.04-09.48.40:563][812]LogModuleManager: Shutting down and abandoning module SettingsEditor (180)
+[2017.01.04-09.48.40:564][812]LogModuleManager: Shutting down and abandoning module ProjectLauncher (179)
+[2017.01.04-09.48.40:564][812]LogModuleManager: Shutting down and abandoning module SessionFrontend (178)
+[2017.01.04-09.48.40:565][812]LogModuleManager: Shutting down and abandoning module ProfilerClient (177)
+[2017.01.04-09.48.40:565][812]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (176)
+[2017.01.04-09.48.40:565][812]LogModuleManager: Shutting down and abandoning module DeviceManager (175)
+[2017.01.04-09.48.40:615][812]LogModuleManager: Shutting down and abandoning module AutomationController (174)
+[2017.01.04-09.48.40:615][812]LogModuleManager: Shutting down and abandoning module AutomationWindow (173)
+[2017.01.04-09.48.40:615][812]LogModuleManager: Shutting down and abandoning module Layers (172)
+[2017.01.04-09.48.40:615][812]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (171)
+[2017.01.04-09.48.40:615][812]LogModuleManager: Shutting down and abandoning module DetailCustomizations (170)
+[2017.01.04-09.48.40:615][812]LogModuleManager: Shutting down and abandoning module PackagesDialog (169)
+[2017.01.04-09.48.40:616][812]LogModuleManager: Shutting down and abandoning module AnimGraph (168)
+[2017.01.04-09.48.40:616][812]LogModuleManager: Shutting down and abandoning module Persona (167)
+[2017.01.04-09.48.40:616][812]LogModuleManager: Shutting down and abandoning module Kismet (166)
+[2017.01.04-09.48.40:632][812]LogModuleManager: Shutting down and abandoning module GraphEditor (165)
+[2017.01.04-09.48.40:632][812]LogModuleManager: Shutting down and abandoning module ClassViewer (164)
+[2017.01.04-09.48.40:632][812]LogModuleManager: Shutting down and abandoning module Toolbox (163)
+[2017.01.04-09.48.40:632][812]LogModuleManager: Shutting down and abandoning module ModuleUI (162)
+[2017.01.04-09.48.40:633][812]LogModuleManager: Shutting down and abandoning module MovieSceneTools (161)
+[2017.01.04-09.48.40:633][812]LogModuleManager: Shutting down and abandoning module OutputLog (160)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module GammaUI (159)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module Documentation (158)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module Niagara (157)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (156)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module AnalyticsET (155)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module PortalServices (154)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module PortalRpc (153)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module MessagingRpc (152)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module GameplayDebugger (151)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module AITestSuite (150)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module AIModule (149)
+[2017.01.04-09.48.40:634][812]LogModuleManager: Shutting down and abandoning module ProfilerService (148)
+[2017.01.04-09.48.40:845][812]LogModuleManager: Shutting down and abandoning module TaskGraph (147)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module SubstanceEditor (146)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.01.04-09.48.40:846][812]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.01.04-09.48.40:847][812]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.01.04-09.48.40:847][812]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.01.04-09.48.40:847][812]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.01.04-09.48.40:847][812]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.01.04-09.48.40:847][812]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.01.04-09.48.40:847][812]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.01.04-09.48.40:847][812]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.01.04-09.48.40:847][812]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.01.04-09.48.40:847][812]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.01.04-09.48.40:847][812]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.01.04-09.48.40:848][812]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.01.04-09.48.40:849][812]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.01.04-09.48.40:849][812]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.01.04-09.48.40:850][812]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.01.04-09.48.40:851][812]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.01.04-09.48.40:851][812]LogModuleManager: Shutting down and abandoning module UdpMessaging (104)
+[2017.01.04-09.48.40:951][812]LogModuleManager: Shutting down and abandoning module TcpMessaging (103)
+[2017.01.04-09.48.41:051][812]LogModuleManager: Shutting down and abandoning module SubstanceCore (102)
+[2017.01.04-09.48.41:062][812]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.01.04-09.48.41:062][812]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.01.04-09.48.41:062][812]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.01.04-09.48.41:062][812]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.01.04-09.48.41:081][812]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.01.04-09.48.41:081][812]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.01.04-09.48.41:081][812]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.01.04-09.48.41:081][812]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.01.04-09.48.41:081][812]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.01.04-09.48.41:081][812]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.01.04-09.48.41:081][812]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.01.04-09.48.41:081][812]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.01.04-09.48.41:082][812]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.01.04-09.48.41:082][812]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.01.04-09.48.41:082][812]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.01.04-09.48.41:082][812]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.01.04-09.48.41:082][812]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.01.04-09.48.41:082][812]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.01.04-09.48.41:082][812]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.01.04-09.48.41:082][812]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.01.04-09.48.41:083][812]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.01.04-09.48.41:086][812]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.01.04-09.48.41:086][812]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.01.04-09.48.41:086][812]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.01.04-09.48.41:086][812]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.01.04-09.48.41:086][812]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.01.04-09.48.41:086][812]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.01.04-09.48.41:086][812]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.01.04-09.48.41:086][812]LogDirectoryWatcher: A directory notification for 'I:/Unreal4/FPS-unholy/Content/' was aborted.
+[2017.01.04-09.48.41:086][812]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.01.04-09.48.41:087][812]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.01.04-09.48.41:205][812]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.01.04-09.48.41:205][812]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.01.04-09.48.41:205][812]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.01.04-09.48.41:206][812]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.01.04-09.48.41:206][812]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.01.04-09.48.41:206][812]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.01.04-09.48.41:206][812]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.01.04-09.48.41:206][812]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.01.04-09.48.41:288][812]LogDerivedDataCache: Shutdown
+[2017.01.04-09.48.41:288][812]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.01.04-09.48.41:288][812]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.01.04-09.48.41:289][812]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.01.04-09.48.41:289][812]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.01.04-09.48.41:289][812]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.01.04-09.48.41:289][812]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.01.04-09.48.41:289][812]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.01.04-09.48.41:289][812]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.01.04-09.48.41:290][812]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.01.04-09.48.41:290][812]LogOnline:Display: Unloading online subsystem: NULL
+[2017.01.04-09.48.41:291][812]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.01.04-09.48.41:293][812]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.01.04-09.48.41:293][812]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.01.04-09.48.41:294][812]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.04-09.48.41:294][812]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.04-09.48.41:294][812]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.04-09.48.41:294][812]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.04-09.48.41:297][812]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.04-09.48.41:298][812]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.04-09.48.41:298][812]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.04-09.48.41:298][812]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.04-09.48.41:298][812]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.04-09.48.41:298][812]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.04-09.48.41:298][812]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.04-09.48.41:298][812]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.04-09.48.41:298][812]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.04-09.48.41:298][812]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.04-09.48.41:302][812]LogExit: Exiting.
+[2017.01.04-09.48.41:330][812]Log file closed, 01/04/17 10:48:41
